@@ -1,0 +1,18 @@
+Package: remmina
+Version: 1.0.0-4+deb7u3
+Architecture: amd64
+Maintainer: Luca Falavigna <dktrkranz@debian.org>
+Installed-Size: 365
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgcrypt11 (>= 1.4.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgtk-3-0 (>= 3.0.0), libpango1.0-0 (>= 1.14.0), libssh-4 (>= 0.3.91), libvte-2.90-9 (>= 1:0.27.2), libx11-6, remmina-common (= 1.0.0-4+deb7u1), dbus-x11
+Recommends: remmina-plugin-rdp, remmina-plugin-vnc
+Breaks: remmina-plugin-data (<= 0.9)
+Replaces: remmina-gnome, remmina-xfce
+Section: gnome
+Priority: optional
+Homepage: http://remmina.sourceforge.net/
+Description: remote desktop client for GNOME desktop environment
+ Remmina is a remote desktop connection client able to display and control a
+ remote desktop session.
+ .
+ It supports multiple network protocols in an integrated and consistant user
+ interface. Currently RDP, VNC, NX, XDMCP and SSH protocols are supported.

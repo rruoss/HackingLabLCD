@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Edit Landing Page Webserver Configuration
+Exec=gksu gedit /opt/apache_but/httpd/conf/httpd.conf
+Terminal=false
+Type=Application
+Actions=
+Categories=X-LandingPage;

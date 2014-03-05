@@ -1,0 +1,8 @@
+Package: hackinglab-userhome
+Priority: optional
+Section: misc
+Version: 0.4a
+Architecture: i386
+Maintainer: Philipp Promeuschel <philipp.promeuschel@csnc.ch>
+Description: Default /home Directory for HackingLab Live CD
+

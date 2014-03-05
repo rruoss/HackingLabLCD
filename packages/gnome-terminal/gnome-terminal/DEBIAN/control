@@ -1,0 +1,20 @@
+Package: gnome-terminal
+Version: 3.4.1.1-2
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 739
+Depends: gconf-service, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libgconf-2-4 (>= 2.31.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.3.16), libice6 (>= 1:1.0.0), libpango1.0-0 (>= 1.14.0), libsm6, libvte-2.90-9 (>= 1:0.30.0), libx11-6, gsettings-desktop-schemas (>= 0.1.0), gnome-terminal-data (>= 3.4), gnome-terminal-data (<< 3.5)
+Recommends: yelp, gvfs, dbus-x11
+Replaces: gnome-terminal-data (<< 2.26.2-3)
+Provides: x-terminal-emulator
+Section: gnome
+Priority: optional
+Description: GNOME terminal emulator application
+ GNOME Terminal is a terminal emulation application that you can use to
+ perform the following actions:
+  - Access a UNIX shell in the GNOME environment.
+  - Run any application that is designed to run on VT102, VT220, and xterm
+ terminals.
+ .
+ GNOME Terminal features the ability to use multiple terminals in a single
+ window (tabs) and profiles support.

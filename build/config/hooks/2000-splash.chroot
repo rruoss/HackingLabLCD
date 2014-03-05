@@ -1,0 +1,4 @@
+#!/bin/sh
+apt-get install firmware-linux-nonfree plymouth plymouth-drm -y
+/usr/sbin/plymouth-set-default-theme spinner
+/usr/sbin/update-initramfs -u

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="disable_lock_screen" mtime="1386759460" type="bool" value="true"/>
+</gconf>

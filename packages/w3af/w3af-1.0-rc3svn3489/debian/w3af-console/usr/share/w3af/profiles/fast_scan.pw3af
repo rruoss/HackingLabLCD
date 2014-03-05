@@ -1,0 +1,50 @@
+[profile]
+name = fast_scan
+description = Perform a fast scan of the target site, using only a few discovery plugins and the fastest audit plugins.
+
+[output.gtkOutput]
+
+[misc-settings]
+maxThreads = 15
+fuzzFCExt = txt
+autoDependencies = True
+demo = False
+fuzzableHeaders = 
+showProgressBar = True
+fuzzCookie = False
+fuzzFileContent = True
+fuzzFileName = False
+maxDiscoveryTime = 60
+
+localAddress = 127.0.0.1
+nonTargets = 
+
+[audit.sqli]
+
+[http-settings]
+proxyPort = 8080
+headersFile = 
+maxFileSize = 400000
+proxyAddress = 
+basicAuthDomain = 
+always404 = 
+maxRetrys = 2
+never404 = 
+ignoreSessCookies = False
+cookieJarFile = 
+timeout = 10
+userAgent = w3af.sourceforge.net
+basicAuthUser = 
+basicAuthPass = 
+404string = 
+
+[output.console]
+verbose = False
+
+[discovery.yahooSiteExplorer]
+resultLimit = 300
+
+[audit.xss]
+checkStored = True
+numberOfChecks = 3
+

@@ -1,0 +1,1326 @@
+_xdc_._642wt9 && _xdc_._642wt9( {
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 54.3628419,
+                  "lng" : 10.9683527
+               },
+               "southwest" : {
+                  "lat" : 49.2599201,
+                  "lng" : 6.663343999999999
+               }
+            },
+            "location" : {
+               "lat" : 52.25095229999999,
+               "lng" : 7.913148
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 54.3628419,
+                  "lng" : 10.9683527
+               },
+               "southwest" : {
+                  "lat" : 49.2599201,
+                  "lng" : 6.663343999999999
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.4321823,
+                  "lng" : 14.3279004
+               },
+               "southwest" : {
+                  "lat" : 40.8521895,
+                  "lng" : 9.245335599999999
+               }
+            },
+            "location" : {
+               "lat" : 43.1647768,
+               "lng" : 11.8406638
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4321823,
+                  "lng" : 14.3279004
+               },
+               "southwest" : {
+                  "lat" : 40.8521895,
+                  "lng" : 9.245335599999999
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Portugal",
+               "short_name" : "PT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Portugal",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.1691287,
+                  "lng" : -8.477321
+               },
+               "southwest" : {
+                  "lat" : 38.7876753,
+                  "lng" : -9.117042699999999
+               }
+            },
+            "location" : {
+               "lat" : 39.9396052,
+               "lng" : -8.6791242
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.1691287,
+                  "lng" : -8.477321
+               },
+               "southwest" : {
+                  "lat" : 38.7876753,
+                  "lng" : -9.117042699999999
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "The Netherlands",
+               "short_name" : "NL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, The Netherlands",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 52.3486866,
+                  "lng" : 7.0435203
+               },
+               "southwest" : {
+                  "lat" : 52.1626951,
+                  "lng" : 4.9696208
+               }
+            },
+            "location" : {
+               "lat" : 52.19841899999999,
+               "lng" : 6.048588899999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.3486866,
+                  "lng" : 7.0435203
+               },
+               "southwest" : {
+                  "lat" : 52.1626951,
+                  "lng" : 4.9696208
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Austria",
+               "short_name" : "AT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Austria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 48.2368295,
+                  "lng" : 16.2325164
+               },
+               "southwest" : {
+                  "lat" : 47.7682978,
+                  "lng" : 12.943216
+               }
+            },
+            "location" : {
+               "lat" : 48.1156623,
+               "lng" : 14.6275315
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 48.2368295,
+                  "lng" : 16.2325164
+               },
+               "southwest" : {
+                  "lat" : 47.7682978,
+                  "lng" : 12.943216
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Aftokinitodromos 1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            }
+         ],
+         "formatted_address" : "Aftokinitodromos 1",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 41.1328775,
+                  "lng" : 23.8564095
+               },
+               "southwest" : {
+                  "lat" : 37.9453032,
+                  "lng" : 22.4584563
+               }
+            },
+            "location" : {
+               "lat" : 39.3951526,
+               "lng" : 22.7636743
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 41.1328775,
+                  "lng" : 23.8564095
+               },
+               "southwest" : {
+                  "lat" : 37.9453032,
+                  "lng" : 22.4584563
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Switzerland",
+               "short_name" : "CH",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Switzerland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 47.5323562,
+                  "lng" : 9.652063
+               },
+               "southwest" : {
+                  "lat" : 46.1482973,
+                  "lng" : 6.0753694
+               }
+            },
+            "location" : {
+               "lat" : 47.0284685,
+               "lng" : 7.524797299999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.5323562,
+                  "lng" : 9.652063
+               },
+               "southwest" : {
+                  "lat" : 46.1482973,
+                  "lng" : 6.0753694
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Croatia",
+               "short_name" : "HR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Croatia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.7575325,
+                  "lng" : 17.3783139
+               },
+               "southwest" : {
+                  "lat" : 43.1895924,
+                  "lng" : 15.0910511
+               }
+            },
+            "location" : {
+               "lat" : 44.3254519,
+               "lng" : 15.6736781
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.7575325,
+                  "lng" : 17.3783139
+               },
+               "southwest" : {
+                  "lat" : 43.1895924,
+                  "lng" : 15.0910511
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "France",
+               "short_name" : "FR",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, France",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.6137068,
+                  "lng" : 3.103522
+               },
+               "southwest" : {
+                  "lat" : 48.9023152,
+                  "lng" : 2.3567554
+               }
+            },
+            "location" : {
+               "lat" : 49.7481594,
+               "lng" : 2.7892556
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.6137068,
+                  "lng" : 3.103522
+               },
+               "southwest" : {
+                  "lat" : 48.9023152,
+                  "lng" : 2.3567554
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Autopista Nacional",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Cuba",
+               "short_name" : "CU",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Autopista Nacional, Cuba",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 23.1031841,
+                  "lng" : -79.15823760000001
+               },
+               "southwest" : {
+                  "lat" : 21.9597981,
+                  "lng" : -82.3254098
+               }
+            },
+            "location" : {
+               "lat" : 22.4347321,
+               "lng" : -80.73727459999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 23.1031841,
+                  "lng" : -79.15823760000001
+               },
+               "southwest" : {
+                  "lat" : 21.9597981,
+                  "lng" : -82.3254098
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Highway \"Trakiya\"",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Bulgaria",
+               "short_name" : "BG",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Highway \"Trakiya\", Bulgaria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.63334220000001,
+                  "lng" : 27.3968784
+               },
+               "southwest" : {
+                  "lat" : 42.1921054,
+                  "lng" : 23.4475573
+               }
+            },
+            "location" : {
+               "lat" : 42.2961702,
+               "lng" : 25.477876
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.63334220000001,
+                  "lng" : 27.3968784
+               },
+               "southwest" : {
+                  "lat" : 42.1921054,
+                  "lng" : 23.4475573
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Lithuania",
+               "short_name" : "LT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Lithuania",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 55.73284289999999,
+                  "lng" : 25.237246
+               },
+               "southwest" : {
+                  "lat" : 54.6388031,
+                  "lng" : 21.1783262
+               }
+            },
+            "location" : {
+               "lat" : 55.2859591,
+               "lng" : 23.3012619
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.73284289999999,
+                  "lng" : 25.237246
+               },
+               "southwest" : {
+                  "lat" : 54.6388031,
+                  "lng" : 21.1783262
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Slovenia",
+               "short_name" : "SI",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Slovenia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.6908168,
+                  "lng" : 15.7005889
+               },
+               "southwest" : {
+                  "lat" : 45.5512046,
+                  "lng" : 13.7759059
+               }
+            },
+            "location" : {
+               "lat" : 46.1635792,
+               "lng" : 14.7486206
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.6908168,
+                  "lng" : 15.7005889
+               },
+               "southwest" : {
+                  "lat" : 45.5512046,
+                  "lng" : 13.7759059
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Poland",
+               "short_name" : "PL",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Poland",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 54.234848,
+                  "lng" : 19.6599698
+               },
+               "southwest" : {
+                  "lat" : 49.9362655,
+                  "lng" : 18.4067924
+               }
+            },
+            "location" : {
+               "lat" : 52.1426938,
+               "lng" : 19.4824183
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 54.234848,
+                  "lng" : 19.6599698
+               },
+               "southwest" : {
+                  "lat" : 49.9362655,
+                  "lng" : 18.4067924
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Algeria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 36.449605,
+                  "lng" : 2.6824236
+               },
+               "southwest" : {
+                  "lat" : 36.2601171,
+                  "lng" : 2.3322773
+               }
+            },
+            "location" : {
+               "lat" : 36.2840834,
+               "lng" : 2.4287617
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 36.449605,
+                  "lng" : 2.6824236
+               },
+               "southwest" : {
+                  "lat" : 36.2601171,
+                  "lng" : 2.3322773
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Autoroute Ouest",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Autoroute Ouest, Algeria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 36.449605,
+                  "lng" : 2.6824236
+               },
+               "southwest" : {
+                  "lat" : 36.2602534,
+                  "lng" : 2.3322773
+               }
+            },
+            "location" : {
+               "lat" : 36.2704999,
+               "lng" : 2.4052817
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 36.449605,
+                  "lng" : 2.6824236
+               },
+               "southwest" : {
+                  "lat" : 36.2602534,
+                  "lng" : 2.3322773
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Constantine",
+               "short_name" : "CZL",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Constantine",
+               "short_name" : "Constantine",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Constantine, Algeria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 36.2977187,
+                  "lng" : 6.6178626
+               },
+               "southwest" : {
+                  "lat" : 36.2965405,
+                  "lng" : 6.6101137
+               }
+            },
+            "location" : {
+               "lat" : 36.2970485,
+               "lng" : 6.614110200000001
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 36.29847858029149,
+                  "lng" : 6.6178626
+               },
+               "southwest" : {
+                  "lat" : 36.29578061970849,
+                  "lng" : 6.6101137
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Akmola Province",
+               "short_name" : "Akmola Province",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Kazakhstan",
+               "short_name" : "KZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Kazakhstan",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 53.2740388,
+                  "lng" : 71.37441339999999
+               },
+               "southwest" : {
+                  "lat" : 51.2549237,
+                  "lng" : 69.4271025
+               }
+            },
+            "location" : {
+               "lat" : 52.38268619999999,
+               "lng" : 70.698041
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.2740388,
+                  "lng" : 71.37441339999999
+               },
+               "southwest" : {
+                  "lat" : 51.2549237,
+                  "lng" : 69.4271025
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Autoroute de l'Ouest",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Autoroute de l'Ouest, Algeria",
+         "geometry" : {
+            "location" : {
+               "lat" : 35.4313506,
+               "lng" : -0.2219046
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.43269958029151,
+                  "lng" : -0.220555619708498
+               },
+               "southwest" : {
+                  "lat" : 35.43000161970851,
+                  "lng" : -0.223253580291502
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Algeria",
+         "geometry" : {
+            "location" : {
+               "lat" : 35.405964,
+               "lng" : -0.3309337
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.4073129802915,
+                  "lng" : -0.329584719708498
+               },
+               "southwest" : {
+                  "lat" : 35.4046150197085,
+                  "lng" : -0.332282680291502
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Romania",
+               "short_name" : "RO",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Romania",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 44.8933279,
+                  "lng" : 25.972774
+               },
+               "southwest" : {
+                  "lat" : 44.4357813,
+                  "lng" : 24.8436579
+               }
+            },
+            "location" : {
+               "lat" : 44.6439487,
+               "lng" : 25.392344
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 44.8933279,
+                  "lng" : 25.972774
+               },
+               "southwest" : {
+                  "lat" : 44.4357813,
+                  "lng" : 24.8436579
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Morocco",
+               "short_name" : "MA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Morocco",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 35.6815816,
+                  "lng" : -5.9216016
+               },
+               "southwest" : {
+                  "lat" : 34.0280693,
+                  "lng" : -6.7124275
+               }
+            },
+            "location" : {
+               "lat" : 34.7946016,
+               "lng" : -6.2953008
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.6815816,
+                  "lng" : -5.9216016
+               },
+               "southwest" : {
+                  "lat" : 34.0280693,
+                  "lng" : -6.7124275
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "E75",
+               "short_name" : "E75",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Negotino",
+               "short_name" : "Negotino",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Macedonia (FYROM)",
+               "short_name" : "MK",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "E75, Negotino, Macedonia (FYROM)",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2319915,
+                  "lng" : 22.1027353
+               },
+               "southwest" : {
+                  "lat" : 41.4908712,
+                  "lng" : 21.7035962
+               }
+            },
+            "location" : {
+               "lat" : 41.8485337,
+               "lng" : 21.7225451
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2319915,
+                  "lng" : 22.1027353
+               },
+               "southwest" : {
+                  "lat" : 41.4908712,
+                  "lng" : 21.7035962
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Flanders",
+               "short_name" : "Flanders",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Belgium",
+               "short_name" : "BE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Belgium",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 51.485977,
+                  "lng" : 4.735520699999999
+               },
+               "southwest" : {
+                  "lat" : 50.90342,
+                  "lng" : 4.4110287
+               }
+            },
+            "location" : {
+               "lat" : 51.21668,
+               "lng" : 4.45055
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 51.485977,
+                  "lng" : 4.735520699999999
+               },
+               "southwest" : {
+                  "lat" : 50.90342,
+                  "lng" : 4.4110287
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Autoroute Est-Ouest",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Maghnia",
+               "short_name" : "Maghnia",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Tlemcen",
+               "short_name" : "Tlemcen",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Autoroute Est-Ouest, Maghnia, Algeria",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 35.0401977,
+                  "lng" : -1.0519463
+               },
+               "southwest" : {
+                  "lat" : 34.7944994,
+                  "lng" : -1.8487662
+               }
+            },
+            "location" : {
+               "lat" : 34.9218413,
+               "lng" : -1.4490017
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.0401977,
+                  "lng" : -1.0519463
+               },
+               "southwest" : {
+                  "lat" : 34.7944994,
+                  "lng" : -1.8487662
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Kenitra",
+               "short_name" : "Kenitra",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kenitra",
+               "short_name" : "Kenitra",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Gharb-Chrarda-Beni Hssen",
+               "short_name" : "Gharb-Chrarda-Beni Hssen",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Morocco",
+               "short_name" : "MA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Kenitra, Morocco",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 35.0792552,
+                  "lng" : -6.1567253
+               },
+               "southwest" : {
+                  "lat" : 34.0280549,
+                  "lng" : -6.7121213
+               }
+            },
+            "location" : {
+               "lat" : 34.5601084,
+               "lng" : -6.455604999999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.0792552,
+                  "lng" : -6.1567253
+               },
+               "southwest" : {
+                  "lat" : 34.0280549,
+                  "lng" : -6.7121213
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Autoroute de l'Est",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Algeria",
+               "short_name" : "DZ",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Autoroute de l'Est, Algeria",
+         "geometry" : {
+            "location" : {
+               "lat" : 36.3940322,
+               "lng" : 4.8386635
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 36.39538118029149,
+                  "lng" : 4.840012480291502
+               },
+               "southwest" : {
+                  "lat" : 36.3926832197085,
+                  "lng" : 4.837314519708498
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Arad",
+               "short_name" : "Arad",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Arad",
+               "short_name" : "AR",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Romania",
+               "short_name" : "RO",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Arad, Romania",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.18348330000001,
+                  "lng" : 21.4140379
+               },
+               "southwest" : {
+                  "lat" : 45.8044225,
+                  "lng" : 21.2518394
+               }
+            },
+            "location" : {
+               "lat" : 45.9982659,
+               "lng" : 21.2932205
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.18348330000001,
+                  "lng" : 21.4140379
+               },
+               "southwest" : {
+                  "lat" : 45.8044225,
+                  "lng" : 21.2518394
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sibiu",
+               "short_name" : "SB",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Romania",
+               "short_name" : "RO",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Romania",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.8223995,
+                  "lng" : 24.0786195
+               },
+               "southwest" : {
+                  "lat" : 45.8178628,
+                  "lng" : 24.0724987
+               }
+            },
+            "location" : {
+               "lat" : 45.8204593,
+               "lng" : 24.0756422
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.8223995,
+                  "lng" : 24.0786195
+               },
+               "southwest" : {
+                  "lat" : 45.8178628,
+                  "lng" : 24.0724987
+               }
+            }
+         },
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "A1",
+               "short_name" : "A1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Australia",
+               "short_name" : "AU",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "A1, Australia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -37.8234031,
+                  "lng" : 144.2494252
+               },
+               "southwest" : {
+                  "lat" : -38.3887338,
+                  "lng" : 140.7833583
+               }
+            },
+            "location" : {
+               "lat" : -38.3286989,
+               "lng" : 142.4030486
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -37.8234031,
+                  "lng" : 144.2494252
+               },
+               "southwest" : {
+                  "lat" : -38.3887338,
+                  "lng" : 140.7833583
+               }
+            }
+         },
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}
+ )

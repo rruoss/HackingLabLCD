@@ -1,0 +1,23 @@
+[keyring]
+display-name=Default
+ctime=0
+mtime=0
+lock-on-idle=false
+lock-after=false
+
+[1]
+item-type=0
+display-name=Remmina: Mac OS X Terminal Server - password
+secret=compass
+mtime=1386763650
+ctime=0
+
+[1:attribute0]
+name=filename
+type=string
+value=/home/hacker/.remmina/1386084304818.remmina
+
+[1:attribute1]
+name=key
+type=string
+value=password

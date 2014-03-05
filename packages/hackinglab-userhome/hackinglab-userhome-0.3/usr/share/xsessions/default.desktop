@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GNOME Classic
+Comment=This session logs you into GNOME
+Exec=gnome-session-fallback
+TryExec=gnome-session
+Icon=
+Type=Application
+
+

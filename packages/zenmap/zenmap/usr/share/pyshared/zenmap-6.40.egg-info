@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: zenmap
+Version: 6.40
+Summary: Nmap frontend and results viewer
+Home-page: http://nmap.org/zenmap
+Author: Nmap Project
+Author-email: UNKNOWN
+License: Nmap License (http://nmap.org/book/man-legal.html)
+Download-URL: http://nmap.org/download.html
+Description: Zenmap is an Nmap frontend that is really useful for advanced users and easy to be used by newbies.
+Platform: UNKNOWN

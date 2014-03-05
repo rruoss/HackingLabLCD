@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 20 Oct 2013 11:17:45 +0200
+Source: zaproxy
+Binary: zaproxy
+Architecture: source amd64
+Version: 2.2.2-1
+Distribution: unstable
+Urgency: low
+Maintainer: LUkas Reschke <lukas.reschke@csnc.ch>
+Changed-By: Lukas Reschke <lukas.reschke@csnc.ch>
+Description: 
+ zaproxy    - Easy to use integrated penetration testing tool for finding vulne
+Changes: 
+ zaproxy (2.2.2-1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1: 
+ a195ed1658319749c66afde0faf5dbd874d8c864 823 zaproxy_2.2.2-1.dsc
+ 12d101d2a9b35edd2574f8e7e140da5bfc0a726d 62566312 zaproxy_2.2.2.orig.tar.gz
+ d257b081049e5dd5e1d72fdd7e5c7c3a7bea02f7 1995 zaproxy_2.2.2-1.debian.tar.gz
+ d8f18f669884e5d2887d578721c063b8f9ecac93 62532432 zaproxy_2.2.2-1_amd64.deb
+Checksums-Sha256: 
+ dd7cffd4ee7f1df47398370fc979dd6d4960a38ef90428421eba9c1630853175 823 zaproxy_2.2.2-1.dsc
+ e8706e93698e3ca559f3e427b05e1e99879f92d419abf931c23d35acb14b18d7 62566312 zaproxy_2.2.2.orig.tar.gz
+ 171378d1c326e514833e132e28583477ed4949faa4349cb97abe618cac1994bd 1995 zaproxy_2.2.2-1.debian.tar.gz
+ 8ae308dcfa9e9fbc3475848b123345ef3a10ed4c16545ab596d34d0ab49ae414 62532432 zaproxy_2.2.2-1_amd64.deb
+Files: 
+ cacd894b51e94b70e0262f329b63874b 823 unknown extra zaproxy_2.2.2-1.dsc
+ 479c3e4ba3fa713c4e007cda585166a6 62566312 unknown extra zaproxy_2.2.2.orig.tar.gz
+ 7683101667f5510fe4c4fcc611b8c047 1995 unknown extra zaproxy_2.2.2-1.debian.tar.gz
+ 5fb89d4a65ea349b1f3ef814d5e55892 62532432 unknown extra zaproxy_2.2.2-1_amd64.deb

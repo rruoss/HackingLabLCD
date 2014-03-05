@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Stop Server
+Exec=gksu /etc/init.d/apache_but stop
+Terminal=false
+Type=Application
+Actions=
+Categories=X-LandingPage;

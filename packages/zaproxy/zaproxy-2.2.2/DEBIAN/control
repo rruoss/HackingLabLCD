@@ -1,0 +1,12 @@
+Source: zaproxy
+Section: unknown
+Priority: extra
+Maintainer: LUkas Reschke <lukas.reschke@csnc.ch>
+Version: 2.2.2
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://code.google.com/p/zaproxy/ 
+Package: zaproxy
+Architecture: any
+Depends: default-jre, openjdk-7-jdk
+Description: Easy to use integrated penetration testing tool for finding vulnerabilities in web applications.

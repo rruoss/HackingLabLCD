@@ -1,0 +1,9 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: hackinglab-wallpaper
+Version: 0.1
+Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
+Files: hacking-lab.xml /usr/share/images/desktop-base
+ wallpaper-hl.png /usr/share/images/desktop-base
+Description: Wallpaper of the HackingLab LiveCD

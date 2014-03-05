@@ -1,0 +1,1 @@
+../../../../../share/pyshared/zenmapGUI/higwidgets/higentries.py

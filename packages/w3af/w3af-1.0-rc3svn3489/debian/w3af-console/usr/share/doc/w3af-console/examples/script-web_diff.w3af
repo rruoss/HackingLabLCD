@@ -1,0 +1,28 @@
+# webdiff !
+
+plugins
+output console,textFile
+output config textFile
+set fileName output-w3af.txt
+set verbose True
+back
+output config console
+set verbose False
+back
+
+discovery allowedMethods,webDiff
+discovery config webDiff
+set localDir /var/www/w3af/discovery/web_spider/follow_links/
+set remotePath http://127.0.0.1/w3af/discovery/web_spider/follow_links/
+back
+back
+
+target
+set target http://127.0.0.1/
+back
+
+start
+
+assert len(kb.kb.getData('urls','urlList')) == 11
+
+exit

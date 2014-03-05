@@ -1,0 +1,4 @@
+?package(vmware-view-open-client):needs="X11" section="Applications/Viewers"\
+  title="VMware View Open Client" longtitle="Viewer for VMware View Connection Server."\
+  description="VMware View Open Client allows users to connect to desktops on a VMware View Connection Server."\
+  command="/usr/bin/vmware-view" icon="/usr/share/pixmaps/vmware-view.xpm"

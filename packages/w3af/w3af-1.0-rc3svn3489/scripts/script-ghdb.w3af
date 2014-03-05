@@ -1,0 +1,23 @@
+# This scripts tests the ghdb plugin
+
+plugins
+output console,textFile
+output config textFile
+set fileName output-w3af.txt
+set verbose True
+back
+output config console
+set verbose False
+back
+discovery ghdb
+back
+
+target
+set target http://www.isibang.ac.in/
+back
+
+start
+
+assert 1 == 1
+
+exit

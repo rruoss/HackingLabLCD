@@ -1,0 +1,131 @@
+#splash_main {
+}
+#splash_mainBottom {
+	MARGIN: 0px 12px
+}
+.section {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 97%; BORDER-BOTTOM: 0px
+}
+.section .heading {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; COLOR: #000000; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+.splash_vspace {
+	HEIGHT: 12px
+}
+#splash_coolNewPeople {
+	BORDER-RIGHT: #ffcc99 1px solid; BORDER-TOP: #ffcc99 1px solid; BORDER-LEFT: #ffcc99 1px solid; WIDTH: 300px; BORDER-BOTTOM: #ffcc99 1px solid
+}
+#splash_coolNewPeople .heading {
+	BACKGROUND-COLOR: #ffcc99
+}
+#splash_coolNewPeople DIV {
+	MARGIN-BOTTOM: 5px
+}
+.w120 {
+	WIDTH: 98px
+}
+#splash_coolNewPeople {
+	TEXT-ALIGN: center
+}
+#splash_advertisement {
+	TEXT-ALIGN: center
+}
+#splash_login {
+	TEXT-ALIGN: center
+}
+#splash_music {
+	WIDTH: 440px
+}
+#splash_music .heading {
+	HEIGHT: 14px; BACKGROUND-COLOR: #b5ccfb
+}
+#splash_login {
+	CLEAR: both; BORDER-RIGHT: #003399 1px solid; BORDER-TOP: #003399 1px solid; BORDER-LEFT: #003399 1px solid; WIDTH: 300px; BORDER-BOTTOM: #003399 1px solid
+}
+#splash_login .heading {
+	MARGIN-BOTTOM: 5px; COLOR: #fff; BACKGROUND-COLOR: #039
+}
+#splash_login LABEL {
+	TEXT-ALIGN: right
+}
+#splash_login INPUT {
+	TEXT-ALIGN: right
+}
+#splash_login .row INPUT {
+	FLOAT: right; MARGIN: 2px 18% 2px 0px; WIDTH: 50%; TEXT-ALIGN: left
+}
+#splash_login .row LABEL {
+	FLOAT: left; MARGIN: 2px 2% 2px 0px; WIDTH: 30%; TEXT-ALIGN: right
+}
+#splash_login .row {
+	CLEAR: both
+}
+#splash_login A {
+	FONT-SIZE: 90%; MARGIN: 5px
+}
+#splash_getStarted {
+	MARGIN: 0px; WIDTH: 100%
+}
+#splash_getStarted H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 110%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #003399; PADDING-TOP: 0px
+}
+#splash_getStarted .cols TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 90%; PADDING-BOTTOM: 5px; WIDTH: 24%; PADDING-TOP: 5px; BACKGROUND-COLOR: #b5ccfb
+}
+#splash_getStarted .cols {
+	BORDER-RIGHT: #003399 1px solid; BORDER-TOP: #003399 1px solid; BORDER-LEFT: #003399 1px solid; BORDER-BOTTOM: #003399 1px solid
+}
+#splash_getStarted .cols TD {
+	BORDER-RIGHT: #003399 1px solid; BORDER-TOP: #003399 1px solid; BORDER-LEFT: #003399 1px solid; BORDER-BOTTOM: #003399 1px solid
+}
+#splash_getStarted SPAN {
+	FONT-WEIGHT: bold; COLOR: #cc0000
+}
+#splash_getStarted SPAN A {
+	FONT-WEIGHT: normal
+}
+#splash_greybox {
+	CLEAR: left; BORDER-RIGHT: #d0e4fd 1px solid; BORDER-TOP: #d0e4fd 1px solid; BORDER-LEFT: #d0e4fd 1px solid; WIDTH: 440px; BORDER-BOTTOM: #d0e4fd 1px solid; HEIGHT: 70px; BACKGROUND-COLOR: #f2f5f7
+}
+#splash_greybox .col {
+	FLOAT: left; MARGIN: 3px; WIDTH: 23%
+}
+#splash_greybox .col A {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px
+}
+#header {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; HEIGHT: 70px; TEXT-ALIGN: right
+}
+#header_search #searchSubmit {
+	FONT-SIZE: 100%; HEIGHT: 20px
+}
+#header_search INPUT {
+	MARGIN-BOTTOM: 4px
+}
+#logo {
+	MARGIN-TOP: 15px
+}
+#searchrequest {
+	FONT-SIZE: 80%; WIDTH: 175px
+}
+#splash_login .row INPUT {
+	MARGIN-RIGHT: 50px! important
+}
+.col3 {
+	VERTICAL-ALIGN: top; WIDTH: 49%; TEXT-ALIGN: left
+}
+#wrap {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 100%! important
+}
+.col2 {
+	BACKGROUND: #fff; VERTICAL-ALIGN: top; WIDTH: 2%
+}
+.col1 {
+	VERTICAL-ALIGN: top; WIDTH: 49%; TEXT-ALIGN: right
+}
+#SplashContentWrap {
+	BACKGROUND: white; MARGIN-LEFT: auto; WIDTH: 800px; MARGIN-RIGHT: auto
+}
+#MainTable {
+	WIDTH: 100%
+}

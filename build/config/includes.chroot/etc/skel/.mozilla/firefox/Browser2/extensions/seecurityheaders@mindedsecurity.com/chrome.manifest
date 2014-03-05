@@ -1,0 +1,4 @@
+content  seecurityheaders   chrome/content/
+skin    seecurityheaders  classic/1.0 chrome/skin/classic/
+
+overlay chrome://firebug/content/firebugOverlay.xul         chrome://seecurityheaders/content/seecurityheaders.xul

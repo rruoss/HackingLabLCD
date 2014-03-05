@@ -1,0 +1,25 @@
+Package: w3af-console
+Source: w3af
+Version: 1.0-rc3svn3489-1
+Architecture: all
+Maintainer: Luciano Bello <luciano@debian.org>
+Installed-Size: 55634
+Depends: python, python (>= 2.6) | python-simplejson, python-beautifulsoup, python-soappy, python-pypdf, python-openssl, python-pysqlite2
+Conflicts: python-json
+Section: net
+Priority: extra
+Homepage: http://w3af.sourceforge.net/
+Description: framework to find and exploit web application vulnerabilities (CLI only)
+ w3af is a Web Application Attack and Audit Framework which aims
+ to identify and exploit all web application vulnerabilities.
+ .
+ This package provides a command line interface (CLI) only. The graphical user
+ interface (GUI) is provided by the package w3af.
+ .
+ The framework has been called the "metasploit for the web", but it's actually
+ much more than that, because it also discovers the web application
+ vulnerabilities using black-box scanning techniques!
+ .
+ The w3af core and it's plugins are fully written in Python. The project has
+ more than 130 plugins, which identify and exploit SQL injection, cross site
+ scripting (XSS), remote file inclusion and more.

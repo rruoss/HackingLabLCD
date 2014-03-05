@@ -1,0 +1,8 @@
+Package: apache-but
+Priority: optional
+Section: misc
+Version: 0.2c
+Architecture: i386
+Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
+Depends: libpcre3, openssl, flex
+Description: Landing page server including mod_but

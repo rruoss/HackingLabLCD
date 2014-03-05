@@ -1,0 +1,4 @@
+#su hacker -c "gsettings set org.gnome.desktop.background show-desktop-icons true"
+#killall gnome-panel
+#su hacker -c "DISPLAY=:0.0 gnome-panel &"
+#echo 0 > /tmp/HAHAHAHACKINGLAB

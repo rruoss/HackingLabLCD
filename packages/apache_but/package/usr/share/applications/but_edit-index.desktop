@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Edit Landing Page index.html
+Exec=gksu gedit /opt/apache_but/httpd/htdocs/index.html
+Terminal=false
+Type=Application
+Actions=
+Categories=X-LandingPage;

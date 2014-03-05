@@ -1,0 +1,6 @@
+# KMS
+intel_agp
+drm
+i915 modeset=1
+nouveau modeset=1
+radeon modeset=1

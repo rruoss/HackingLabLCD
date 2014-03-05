@@ -1,0 +1,10 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: burp-desktop
+Depends: burpsuite
+Version: 1.0
+Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
+Description: Burp
+Files: burp.desktop /usr/share/applications
+ burp.ico /usr/share/applications

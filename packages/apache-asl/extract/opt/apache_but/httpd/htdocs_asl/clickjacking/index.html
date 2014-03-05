@@ -1,0 +1,50 @@
+<html>
+	<link rel="stylesheet" type="text/css" href="http://glocken.hacking-lab.com/12001/inputval_case5/inputval5/format.css">
+
+	<!--<fieldset style="width: 70%; height: 500px; border: 4px solid cornflowerblue;">-->
+
+<div id="div1" style="position:absolute;top:0;left:0;width:155;height:300;background-color:white;z-index:7;opacity:1.0"><h1><br><br><br><br><br>Anzahl:</h1></div>
+<div id="div2" style="position:absolute;top:0;left:0;width:400;height:176;background-color:white;z-index:8;opacity:1.0"><h1>Ihre Chance! <br> bestellen Sie heute Glocken für 0 Fr.</h1></div>
+<div id="div3" style="position:absolute;top:212;left:0;width:400;height:100;background-color:white;z-index:6;opacity:1.0"></div>
+<div id="div4" style="position:absolute;top:0;left:226;width:400;height:300;background-color:white;z-index:6;opacity:1.0"></div>
+<div id="div5" style="position:absolute;top:0;left:207;width:400;height:194;background-color:white;z-index:6;opacity:1.0"></div>
+<span  onmouseout="reloadGlocken()">
+<iframe id="if1" src="http://glocken.hacking-lab.com/12001/inputval_case5/inputval5/controller?action=showpage&page=products" width="300" height="300" allowtransparency="true" style="position:absolute;top:0;left:0;z-index:5;opacity:1.0" ></iframe>
+</span>
+<div id="glocken" style="position:absolute; top:80; left:00; display: none; z-index:4; "></div>
+<div id="bestaetigung" style="position:absolute;top:350;left:10;z-index:3"></div>
+<div style="position:absolute;top:440;left:10;z-index:50"><input id="chkbx" type="checkbox" name="showme" value="checkbox" onclick="showit()"> Show me what&apos;s going on</div>
+
+<script>
+
+function reloadGlocken(){
+	document.getElementById('glocken').style.display = 'block';
+	document.getElementById('glocken').innerHTML = '<iframe id="if2" src="https://glocken.hacking-lab.com/12001/inputval_case5/inputval5/controller?action=pay" height="400" allowtransparency="true" style="position:absolute;top:0;left:0;width:500;z-index:1;opacity:0.0"></iframe>';
+	document.getElementById('bestaetigung').innerHTML = '<b>bitte bestätigen Sie die Bestellung mit folgendem Link:<br><a href="asdfa">Bestätigen</a>';
+	showit();
+	
+}
+
+function showit(){
+	if(document.getElementById('chkbx').checked) {
+		document.getElementById('div1').style.opacity = 0.5;
+		document.getElementById('div2').style.opacity = 0.5;
+		document.getElementById('div3').style.opacity = 0.5;
+		document.getElementById('div4').style.opacity = 0.5;
+		document.getElementById('div5').style.opacity = 0.5;
+		document.getElementById('if2').style.opacity = 0.5;
+		document.getElementById('if1').style.opacity = 0.5;
+	}
+	else {
+		document.getElementById('div1').style.opacity = 1;
+		document.getElementById('div2').style.opacity = 1;
+		document.getElementById('div3').style.opacity = 1;
+		document.getElementById('div4').style.opacity = 1;
+		document.getElementById('div5').style.opacity = 1;
+		document.getElementById('if2').style.opacity = 0;
+		document.getElementById('if1').style.opacity = 1;
+	}
+}
+
+</script>
+</html>

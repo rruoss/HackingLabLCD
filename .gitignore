@@ -1,0 +1,11 @@
+.build/
+*.iso
+*.iso.zsync
+.DS_Store
+chroot/
+binary/
+cache/
+chroot.packages.live
+chroot.packages.install
+binary.packages
+binary.contents

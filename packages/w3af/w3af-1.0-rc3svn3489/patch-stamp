@@ -1,0 +1,16 @@
+Patches applied in the Debian version of :
+
+debian/patches/01_report_bugs_as_debian.dpatch (Luciano Bello <luciano@debian.org>):
+  Indicates that the version cames from a Debian Package 
+  TODO: include the Debian Package Version
+
+debian/patches/02_disable_dependecies.dpatch (Luciano Bello <luciano@debian.org>):
+  The pygoogle support is disable. There is some legal issues with it
+  (see http://bugs.debian.org/282313) and w3af works anyway without it.
+
+debian/patches/03_webshell.pl_is_not_script.dpatch (Luciano Bello <luciano@debian.org>):
+  this script won't ever be running by hand.
+
+debian/patches/10_json-fix.dpatch (Bernd Zeimetz <bzed@debian.org>):
+  python-json is not available in Python2.6
+

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/livecd/!svn/ver/165/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing
+END
+classifier.hashkey
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repo/livecd/!svn/ver/163/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/classifier.hashkey
+END
+test-phish-simple.sbstore
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/livecd/!svn/ver/163/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/test-phish-simple.sbstore
+END
+goog-phish-shavar.pset
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/livecd/!svn/ver/165/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/goog-phish-shavar.pset
+END
+test-phish-simple.cache
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/livecd/!svn/ver/163/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/test-phish-simple.cache
+END
+goog-malware-shavar.sbstore
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/livecd/!svn/ver/165/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/goog-malware-shavar.sbstore
+END
+goog-malware-shavar.cache
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/livecd/!svn/ver/163/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/goog-malware-shavar.cache
+END
+goog-phish-shavar.sbstore
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/livecd/!svn/ver/165/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/goog-phish-shavar.sbstore
+END
+test-malware-simple.pset
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/livecd/!svn/ver/163/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/test-malware-simple.pset
+END
+goog-phish-shavar.cache
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repo/livecd/!svn/ver/163/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/goog-phish-shavar.cache
+END
+test-phish-simple.pset
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repo/livecd/!svn/ver/163/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/test-phish-simple.pset
+END
+test-malware-simple.sbstore
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repo/livecd/!svn/ver/163/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/test-malware-simple.sbstore
+END
+goog-malware-shavar.pset
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repo/livecd/!svn/ver/165/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/goog-malware-shavar.pset
+END
+test-malware-simple.cache
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repo/livecd/!svn/ver/163/trunk/home/hl/.mozilla/firefox/l523p6rz.Browser1/safebrowsing/test-malware-simple.cache
+END

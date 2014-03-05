@@ -1,0 +1,2 @@
+mod_replace is not in any way part of mod_but.  This directory merely
+serves as Apache module documentation for mod_but developers.

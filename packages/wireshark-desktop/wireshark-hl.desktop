@@ -1,0 +1,18 @@
+[Desktop Entry]
+# $Id: wireshark.desktop 39670 2011-10-30 14:24:29Z rbalint $
+# The format of this file is specified at
+# http://freedesktop.org/Standards/desktop-entry-spec
+# The entries are in the order they are listed in version 1.0
+Type=Application
+Version=1.0
+Name=Wireshark
+Name[vi]=Wireshark
+Icon=wireshark
+TryExec=wireshark
+Exec=gksu wireshark %f
+Terminal=false
+MimeType=application/vnd.tcpdump.pcap;
+# Categorie entry according to version 1.0 of
+# http://www.freedesktop.org/wiki/Specifications/menu-spec
+Categories=GNOME;Network;X-Networking
+Encoding=UTF-8

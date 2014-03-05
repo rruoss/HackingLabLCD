@@ -1,0 +1,29 @@
+#! /bin/sh
+#
+# Created by configure
+
+CFLAGS="-m32"; export CFLAGS
+"/home/hacker/HackingLabLCD/packages/apache_but/httpd-2.4.6/srclib/apr-util/configure" \
+"--disable-option-checking" \
+"--enable-substitute" \
+"--enable-sed" \
+"--enable-ssl" \
+"--enable-proxy" \
+"--enable-expires" \
+"--enable-remoteip" \
+"--enable-rewrite" \
+"--enable-so" \
+"--enable-log-forensic" \
+"--with-included-apr" \
+"--with-included-apr-util" \
+"--with-included-apr-iconv" \
+"CFLAGS=-m32" \
+"--cache-file=/dev/null" \
+"--srcdir=/home/hacker/HackingLabLCD/packages/apache_but/httpd-2.4.6/srclib/apr-util" \
+"--with-apr=../apr" \
+"--prefix=/opt/apache_but/httpd/" \
+"--exec-prefix=/opt/apache_but/httpd/" \
+"--libdir=/opt/apache_but/httpd/lib" \
+"--includedir=/opt/apache_but/httpd//include" \
+"--bindir=/opt/apache_but/httpd/bin" \
+"$@"

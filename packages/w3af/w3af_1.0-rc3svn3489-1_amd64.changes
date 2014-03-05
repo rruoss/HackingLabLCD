@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Wed, 12 May 2010 11:20:27 -0300
+Source: w3af
+Binary: w3af w3af-console
+Architecture: source all
+Version: 1.0-rc3svn3489-1
+Distribution: unstable
+Urgency: low
+Maintainer: Luciano Bello <luciano@debian.org>
+Changed-By: Luciano Bello <luciano@debian.org>
+Description: 
+ w3af       - framework to find and exploit web application vulnerabilities
+ w3af-console - framework to find and exploit web application vulnerabilities (CL
+Closes: 555346 571004 571110 580645
+Changes: 
+ w3af (1.0-rc3svn3489-1) unstable; urgency=low
+ .
+   [ Luciano Bello ]
+   * New SVN export revision: 3489
+   * removed from the source
+     - nltk (closes: #571004, #555346)
+     - yalm
+   * Licenses added to the copyright file:
+     - dir_bruter/common_dirs_small.db: cc-by-sa 3.0
+     - extlib/ntlmaps: LGPL
+     - extlib/gtkcodebuffer: LGPL
+     - core/data/url/handlers/keepalive.py: LGPL-2.1
+ .
+   [ Bernd Zeimetz ]
+   * Replace python-json by python-simplejson. (Closes: #571110, #580645)
+   * Build for all Python versions and use the default Python version.
+Checksums-Sha1: 
+ 0c332d243532a0bf984f4f2962f72afdeda6a5ad 902 w3af_1.0-rc3svn3489-1.dsc
+ 2ed738e16830fc95ca3d0335ba7be2f5ea7d6801 21399160 w3af_1.0-rc3svn3489.orig.tar.gz
+ 3be7447672a9c15543604010cbef9af2c7e49bbd 6383 w3af_1.0-rc3svn3489-1.diff.gz
+ 41dee80781278861a7b74cb4a81c252a71673452 539306 w3af_1.0-rc3svn3489-1_all.deb
+ 58bc4b7238a7b0b117c89668db4160d2aa2e00f3 20775568 w3af-console_1.0-rc3svn3489-1_all.deb
+Checksums-Sha256: 
+ f038eacb0c50e0ff3cf7917abdce9f30cee39a0782190c47d4e9462ad51aa454 902 w3af_1.0-rc3svn3489-1.dsc
+ 16a23eebf9f58a6f661fb790ba4632c07eabd9422c5c688ac086b9c473bb938d 21399160 w3af_1.0-rc3svn3489.orig.tar.gz
+ 1c22af023b462cbb5e36661ebf8fa2eac4237539ad659bdc3fe0f96660e3383a 6383 w3af_1.0-rc3svn3489-1.diff.gz
+ 9811743f549565f24a2d4ed2a6b6c5f6faf9b7263363cf764a4f5a0f958392aa 539306 w3af_1.0-rc3svn3489-1_all.deb
+ 79169ab7627fee34c7a52123178553b30c6e247ee1ebf394bc0a866e5a69b365 20775568 w3af-console_1.0-rc3svn3489-1_all.deb
+Files: 
+ 9b0105b23e7c7243a2aa4584d79cf36d 902 net extra w3af_1.0-rc3svn3489-1.dsc
+ 3f3dfcb47cc4991f0669477e4320f727 21399160 net extra w3af_1.0-rc3svn3489.orig.tar.gz
+ 80e2304a8e1ff01759197cb8c6fafb1f 6383 net extra w3af_1.0-rc3svn3489-1.diff.gz
+ 6bed4aef93fd4a3e83db6ccdffa8cdb0 539306 net extra w3af_1.0-rc3svn3489-1_all.deb
+ 5e6929adc8e2bd03cfd105c0f210a662 20775568 net extra w3af-console_1.0-rc3svn3489-1_all.deb

@@ -1,0 +1,4 @@
+#!/bin/sh
+update-alternatives --install /usr/share/images/desktop-base/desktop-background.xml desktop-background.xml /usr/share/images/desktop-base/hacking-lab.xml 100
+update-alternatives --set desktop-background.xml /usr/share/images/desktop-base/hacking-lab.xml
+dpkg-reconfigure gdm3

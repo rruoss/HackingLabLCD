@@ -1,0 +1,8 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: hackinglab-autostart
+Version: 1.0
+Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
+Description: Autostart applications
+Files: gopenvpn.desktop /usr/share/gnome/autostart

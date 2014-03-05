@@ -1,0 +1,180 @@
+DIV.googleafs {
+	FONT: 11px arial,helvetica,sans-serif
+}
+DIV.googleafc {
+	FONT: 11px arial,helvetica,sans-serif
+}
+DIV.googleafs {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+DIV.googleafs A:hover {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+DIV.googleafs * {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+DIV.googleafc {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+DIV.googleafc A:hover {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+DIV.googleafc * {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+DIV.googlehdr {
+	COLOR: #777976; TEXT-ALIGN: right
+}
+DIV.googleafs P {
+	DISPLAY: block; COLOR: #000
+}
+DIV.googleafc P {
+	DISPLAY: block; COLOR: #000
+}
+DIV.googleafs SPAN {
+	DISPLAY: block; COLOR: #017f02
+}
+DIV.googleafc SPAN {
+	DISPLAY: block; COLOR: #017f02
+}
+DIV.googleafs STRONG {
+	DISPLAY: block; FONT-WEIGHT: bold; COLOR: #0401ce; TEXT-DECORATION: underline
+}
+DIV.googleafc STRONG {
+	DISPLAY: block; FONT-WEIGHT: bold; COLOR: #0401ce; TEXT-DECORATION: underline
+}
+DIV.googleafs {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.googleafs * {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.googleafc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.googleafc * {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.googleafc A {
+	PADDING-RIGHT: 12px; DISPLAY: block; PADDING-LEFT: 12px; PADDING-BOTTOM: 7px; MARGIN: 0px; PADDING-TOP: 3px
+}
+DIV.googleafs {
+	BACKGROUND: #e4ecf9; OVERFLOW: hidden
+}
+DIV.googleafs DIV.googlehdr {
+	PADDING-RIGHT: 9px; MARGIN: -2px
+}
+DIV.googleafc {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 10px 0px; OVERFLOW: hidden; HEIGHT: auto
+}
+DIV.googleafc DIV.googlehdr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; COLOR: #000; PADDING-TOP: 0px; BORDER-BOTTOM: #a5a5a5 1px solid
+}
+DIV.googleafc DIV.horz {
+	PADDING-BOTTOM: 5px
+}
+DIV.googleafc DIV.horz A {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 23%; PADDING-TOP: 0px
+}
+DIV.googleafc DIV.adcount1 {
+	TEXT-ALIGN: center
+}
+DIV.googleafc DIV.adcount1 A * {
+	TEXT-ALIGN: center
+}
+DIV.googleafc DIV.adcount1 A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FLOAT: none! important; PADDING-BOTTOM: 0px; WIDTH: auto! important; PADDING-TOP: 0px
+}
+DIV.googleafc DIV.adcount1 STRONG {
+	FONT-SIZE: 20px! important; LINE-HEIGHT: 150%
+}
+DIV.googleafc DIV.adcount1 P {
+	FONT-SIZE: 16px! important; MARGIN: 0.7em 0px; LINE-HEIGHT: 162.5%
+}
+DIV.googleafc DIV.adcount1 SPAN {
+	FONT-SIZE: 13px! important
+}
+DIV.googleafc DIV.horz DIV.adcount2 A {
+	WIDTH: 49%
+}
+DIV.googleafc DIV.horz DIV.adcount3 A {
+	WIDTH: 31%
+}
+DIV.googleafc DIV.quad {
+	BORDER-RIGHT: #797979 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #797979 1px solid; PADDING-LEFT: 0px; BACKGROUND: #eaeaea; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0.7em; OVERFLOW: hidden; BORDER-LEFT: #797979 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #797979 1px solid; HEIGHT: auto
+}
+DIV.googleafc DIV.quad A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 47%; PADDING-TOP: 0px; HEIGHT: 6.3em
+}
+DIV.googleafc DIV.quad STRONG {
+	MARGIN-TOP: 0.5em; COLOR: #1619fc
+}
+DIV.googleafc DIV.quad DIV.adcount1 A {
+	MARGIN-BOTTOM: 1em; HEIGHT: auto
+}
+DIV#searchmain DIV.googleafc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 7px; WIDTH: 500px; PADDING-TOP: 7px
+}
+DIV#searchmain DIV#searchresults DIV.googleafc {
+	WIDTH: 500px
+}
+DIV#searchmain DIV#searchresults DIV.googleafc {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 4px
+}
+DIV.googlemusic DIV.googleafc {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; BACKGROUND: #eaeaea; PADDING-BOTTOM: 0px; WIDTH: 300px; PADDING-TOP: 0px; BORDER-BOTTOM: #797979 1px solid; HEIGHT: auto
+}
+DIV.googlemusic DIV.googlehdr {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 0px; BACKGROUND: url(http://creative.myspace.com/cms/FIM/MS/myspace_hdr_music.gif) no-repeat left top; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: auto; COLOR: #b7b7b5; TEXT-INDENT: -5000px; PADDING-TOP: 0px; BORDER-BOTTOM: #797979 1px solid; HEIGHT: 25px; TEXT-ALIGN: center
+}
+DIV.googlemusic DIV.googleafc A {
+	BORDER-RIGHT: #797979 1px solid; PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; MARGIN: 0px; BORDER-LEFT: #797979 1px solid; PADDING-TOP: 7px
+}
+DIV.googlemusic DIV.googleafc SPAN {
+	COLOR: #01a920
+}
+DIV.googlemusic DIV.googleafc STRONG {
+	COLOR: #1619fc
+}
+DIV#bkmain DIV.googleafc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; WIDTH: auto; PADDING-TOP: 0px
+}
+DIV#bkmain DIV.googleafc * {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV#bkmain DIV.googleafc A {
+	PADDING-BOTTOM: 10px
+}
+DIV#astmain DIV.googleafc {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+DIV#astmain DIV.googleafc P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV#astmain DIV.googleafc A {
+	MARGIN: 0px 0px 1em
+}
+DIV.jobs_ads DIV.googleafc {
+	WIDTH: 761px
+}
+DIV#forumctr DIV.adcount1 STRONG {
+	FONT-SIZE: 16px! important
+}
+DIV#forumctr DIV.adcount1 P {
+	FONT-SIZE: 14px! important
+}
+DIV#forumctr DIV.adcount1 SPAN {
+	FONT-SIZE: 11px! important
+}
+DIV#film_main DIV.googleafc {
+	MARGIN-TOP: 0px; WIDTH: 465px; HEIGHT: auto
+}
+DIV#film_main DIV.googlehdr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0px; BACKGROUND: url(http://creative.myspace.com/cms/FIM/MS/myspace_hdr_film.gif) no-repeat left top; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 465px; COLOR: #8e8e8e; TEXT-INDENT: -5000px; PADDING-TOP: 0px; HEIGHT: 25px; TEXT-ALIGN: center
+}
+DIV#home_gafc DIV.googlehdr {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 8px; BORDER-TOP: medium none; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #084ead; PADDING-BOTTOM: 8px; BORDER-LEFT: medium none; COLOR: #fff; PADDING-TOP: 8px; BORDER-BOTTOM: medium none; TEXT-ALIGN: left
+}
+DIV.googleafc#home_gafc {
+	BORDER-RIGHT: #084ead 1px solid; BORDER-TOP: #084ead 1px solid; PADDING-BOTTOM: 0.6em; BORDER-LEFT: #084ead 1px solid; BORDER-BOTTOM: #084ead 1px solid
+}

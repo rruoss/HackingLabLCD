@@ -1,0 +1,10 @@
+Package: zaproxy
+Version: 2.2.2-1
+Architecture: amd64
+Maintainer: LUkas Reschke <lukas.reschke@csnc.ch>
+Installed-Size: 92188
+Depends: default-jre, openjdk-7-jdk
+Section: unknown
+Priority: extra
+Homepage: https://code.google.com/p/zaproxy/
+Description: Easy to use integrated penetration testing tool for finding vulnerabilities in web applications.

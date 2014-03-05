@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=View logs
+Exec=gnome-terminal -e "tail -f /opt/apache_but/httpd/logs/access_log"
+Terminal=false
+Type=Application
+Actions=
+Categories=X-LandingPage;

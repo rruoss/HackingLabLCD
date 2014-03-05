@@ -1,0 +1,11 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: compass-vm
+Version: 0.1d
+Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
+Description: Internal compass VM script
+Files: setup_compass_vm.sh /sbin/
+File: postinst
+ #!/bin/sh -e
+ chmod a+x /sbin/setup_compass_vm.sh

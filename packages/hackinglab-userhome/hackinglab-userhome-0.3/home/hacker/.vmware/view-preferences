@@ -1,0 +1,8 @@
+.encoding = "UTF-8"
+view.defaultUser = "hacker10"
+view.mmrPath = "/usr/lib/mmr"
+view.defaultShowBrokerOptions = "TRUE"
+view.autoConnect = "TRUE"
+view.broker0 = "view.vdi.hacking-lab.com"
+view.defaultDomain = "VDI"
+view.defaultDesktopSize = "3"

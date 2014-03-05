@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=gopenvpn
+GenericName=OpenVPN GUI
+Comment=gopenvpn
+Exec=/usr/bin/gopenvpn
+Icon=/usr/share/gopenvpn/gopenvpn-icon.png
+Terminal=false
+Type=Application
