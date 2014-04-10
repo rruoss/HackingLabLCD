@@ -8,37 +8,71 @@ gnome-keyring-daemon: insufficient process capabilities, unsecure memory might g
 gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
 gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
 gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-0wHYUh
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-0wHYUh
-SSH_AUTH_SOCK=/home/hacker/.cache/keyring-0wHYUh/ssh
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-0wHYUh
-SSH_AUTH_SOCK=/home/hacker/.cache/keyring-0wHYUh/ssh
-GPG_AGENT_INFO=/home/hacker/.cache/keyring-0wHYUh/gpg:0:1
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-0wHYUh
-SSH_AUTH_SOCK=/home/hacker/.cache/keyring-0wHYUh/ssh
-GPG_AGENT_INFO=/home/hacker/.cache/keyring-0wHYUh/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-mEJUNn
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-mEJUNn
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-mEJUNn/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-mEJUNn
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-mEJUNn/gpg:0:1
+SSH_AUTH_SOCK=/home/hacker/.cache/keyring-mEJUNn/ssh
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-mEJUNn
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-mEJUNn/gpg:0:1
+SSH_AUTH_SOCK=/home/hacker/.cache/keyring-mEJUNn/ssh
 
-(gnome-settings-daemon:4997): power-plugin-WARNING **: Failed set DPMS mode: Display is not DPMS capable
+(gnome-settings-daemon:6311): power-plugin-WARNING **: Failed set DPMS mode: Display is not DPMS capable
 Failed to create secure directory: Operation not permitted
 
-** (gnome-settings-daemon:4997): WARNING **: Failed to connect context: Connection refused
+** (gnome-settings-daemon:6311): WARNING **: Failed to connect context: Connection refused
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+(gnome-settings-daemon:6311): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+(gnome-settings-daemon:6311): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+(gnome-settings-daemon:6311): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
 
-(gnome-panel:5027): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
+(gnome-panel:6342): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
 
-** (gnome-panel:5027): WARNING **: Unable to parse mouse modifier '(null)'
+** (gnome-panel:6342): WARNING **: Unable to parse mouse modifier '(null)'
+
+
+(gnome-settings-daemon:6311): updates-plugin-WARNING **: state unknown: 0
+
+(gnome-settings-daemon:6311): PackageKit-WARNING **: failed to set proxy: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:6311): updates-plugin-WARNING **: failed to set proxies: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:6311): PackageKit-WARNING **: failed to set root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:6311): updates-plugin-WARNING **: failed to set install root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
 
 Initializing tracker-miner-fs...
+vmware-user: could not open /proc/fs/vmblock/dev
+Initializing tracker-store...
 Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-miner-fs.cfg'
 Starting log:
   File:'/home/hacker/.local/share/tracker/tracker-miner-fs.log'
-vmware-user: could not open /proc/fs/vmblock/dev
-Initializing tracker-store...
 E: [autospawn] core-util.c: Failed to create secure directory: Operation not permitted
 W: [autospawn] lock-autospawn.c: Cannot access autospawn lock.
 E: [pulseaudio] main.c: Failed to acquire autospawn lock
@@ -48,59 +82,19 @@ Starting log:
   File:'/home/hacker/.local/share/tracker/tracker-store.log'
 Initializing nautilus-gdu extension
 
-(gnome-panel:5027): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
+(gnome-panel:6342): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
 
-** (gnome-panel:5027): WARNING **: Unable to parse mouse modifier '(null)'
+** (gnome-panel:6342): WARNING **: Unable to parse mouse modifier '(null)'
 
-** Message: applet now removed from the notification area
 Unable to open desktop file sudo-1.desktop for panel launcher
+** Message: applet now removed from the notification area
 Failed to create secure directory: Operation not permitted
 
-(gnome-sound-applet:5057): sound-cc-panel-WARNING **: Failed to connect context: Connection refused
+(gnome-sound-applet:6373): sound-cc-panel-WARNING **: Failed to connect context: Connection refused
 
-(gnome-settings-daemon:4997): updates-plugin-WARNING **: state unknown: 0
-
-(gnome-settings-daemon:4997): PackageKit-WARNING **: failed to set proxy: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
-    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
-    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
-UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
-
-
-(gnome-settings-daemon:4997): PackageKit-WARNING **: failed to set root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
-    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
-    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
-UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
-
-
-(gnome-settings-daemon:4997): updates-plugin-WARNING **: failed to set proxies: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
-    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
-    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
-UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
-
-
-(gnome-settings-daemon:4997): updates-plugin-WARNING **: failed to set install root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
-    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
-    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
-UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
-
-
-(gnome-panel:5027): GLib-GObject-WARNING **: /build/buildd-glib2.0_2.33.12+really2.32.4-5-i386-eISom6/glib2.0-2.33.12+really2.32.4/./gobject/gsignal.c:2459: signal `size_request' is invalid for instance `0x95bb020'
+(gnome-panel:6342): GLib-GObject-WARNING **: /build/buildd-glib2.0_2.33.12+really2.32.4-5-i386-eISom6/glib2.0-2.33.12+really2.32.4/./gobject/gsignal.c:2459: signal `size_request' is invalid for instance `0x9fba820'
 ** Message: applet now embedded in the notification area
-Failed to create secure directory: Operation not permitted
-
-** (gnome-settings-daemon:4997): WARNING **: Failed to connect context: Connection refused
-Failed to create secure directory: Operation not permitted
-
-(gnome-sound-applet:5057): sound-cc-panel-WARNING **: Failed to connect context: Connection refused
-[1397138570,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+[1397142123,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
 === Updating for primary Configuration ===
   Clone: false
   Output: Unknown attached to default
@@ -111,50 +105,101 @@ Failed to create secure directory: Operation not permitted
      primary: true
      position: 0 0
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+(gnome-settings-daemon:6311): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+(gnome-settings-daemon:6311): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+(gnome-settings-daemon:6311): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+(gnome-settings-daemon:6311): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+(gnome-settings-daemon:6311): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+(gnome-settings-daemon:6311): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+(gnome-settings-daemon:6311): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
 
-(gnome-settings-daemon:4997): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
-Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
-Window manager warning: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
-** Message: applet now removed from the notification area
+(gnome-settings-daemon:6311): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+Failed to create secure directory: Operation not permitted
 
-(update-notifier:5063): GConf-WARNING **: Got Disconnected from DBus.
+** (gnome-settings-daemon:6311): WARNING **: Failed to connect context: Connection refused
+Failed to create secure directory: Operation not permitted
+
+(gnome-sound-applet:6373): sound-cc-panel-WARNING **: Failed to connect context: Connection refused
+gnome-session[6250]: Gdk-WARNING: gnome-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
 
 
-(nm-applet:5065): GConf-WARNING **: Got Disconnected from DBus.
+(nautilus:6370): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(gnome-settings-daemon:6311): Gdk-WARNING **: gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
 
 
-(tracker-miner-fs:5050): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+(gnome-fallback-mount-helper:6371): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
 
-(tracker-miner-fs:5050): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+(nautilus:6370): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
 
-(tracker-miner-fs:5050): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+(gnome-panel:6342): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+Window manager warning: Fatal IO error 11 (Resource temporarily unavailable) on display ':0'.
+
+(gnome-fallback-mount-helper:6371): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(nautilus:6370): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(gnome-fallback-mount-helper:6371): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
-g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
-g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+(tracker-miner-fs:6366): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(polkit-gnome-authentication-agent-1:6372): Gdk-WARNING **: polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(notification-daemon:6365): Gdk-WARNING **: notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(gdu-notification-daemon:6367): Gdk-WARNING **: gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(gnome-fallback-mount-helper:6371): Gdk-WARNING **: gnome-fallback-mount-helper: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(bluetooth-applet:6369): Gdk-WARNING **: bluetooth-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(gnome-sound-applet:6373): Gdk-WARNING **: gnome-sound-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+gopenvpn: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
 
-(gdu-notification-daemon:5051): Gdk-WARNING **: gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Received signal:15->'Terminated'
+
+(update-notifier:6377): GConf-WARNING **: Got Disconnected from DBus.
+
+
+(nautilus:6370): Gdk-WARNING **: nautilus: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
 
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
 
 Received signal:15->'Terminated'
 OK
 
-gopenvpn: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
 
-(nautilus:5054): Gdk-WARNING **: nautilus: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+(nm-applet:6379): GConf-WARNING **: Got Disconnected from DBus.
 
 update-notifier: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+(nm-applet:6379): Gdk-WARNING **: nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(gnome-panel:6342): Gdk-WARNING **: gnome-panel: Fatal IO error 2 (No such file or directory) on X server :0.
+
+
+(tracker-miner-fs:6366): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:6366): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:6366): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+OK
+
+
+(gksu:6444): GLib-CRITICAL **: g_str_has_prefix: assertion `str != NULL' failed
