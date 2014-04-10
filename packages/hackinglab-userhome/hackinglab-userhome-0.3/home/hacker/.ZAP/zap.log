@@ -204,3 +204,101 @@
 2013-12-11 12:09:21,777 INFO  ENGINE - dataFileCache commit start
 2013-12-11 12:09:21,779 INFO  ENGINE - Database closed
 2013-12-11 12:09:21,882 INFO  Control - OWASP ZAP 2.2.2 terminated.
+2014-04-10 15:30:47,655 INFO  Constant - Creating directory /home/hacker/.ZAP/dirbuster
+2014-04-10 15:30:47,656 INFO  Constant - Creating directory /home/hacker/.ZAP/fuzzers
+2014-04-10 15:30:47,656 INFO  Constant - Creating directory /home/hacker/.ZAP/plugin
+2014-04-10 15:30:47,657 INFO  Constant - Creating directory /home/hacker/.ZAP/scripts
+2014-04-10 15:30:47,788 INFO  ZAP - OWASP ZAP 2.2.2 started.
+2014-04-10 15:30:48,464 INFO  ENGINE - dataFileCache open start
+2014-04-10 15:30:48,471 INFO  ENGINE - dataFileCache open end
+2014-04-10 15:30:48,633 INFO  View - Initialising View
+2014-04-10 15:30:49,751 INFO  PluginFactory - loaded plugin Path Traversal
+2014-04-10 15:30:49,751 INFO  PluginFactory - loaded plugin Remote File Inclusion
+2014-04-10 15:30:49,751 INFO  PluginFactory - loaded plugin URL Redirector Abuse
+2014-04-10 15:30:49,752 INFO  PluginFactory - loaded plugin Server side include
+2014-04-10 15:30:49,754 INFO  PluginFactory - loaded plugin Cross Site Scripting (Reflected)
+2014-04-10 15:30:49,754 INFO  PluginFactory - loaded plugin SQL Injection
+2014-04-10 15:30:49,754 INFO  PluginFactory - loaded plugin Directory browsing
+2014-04-10 15:30:49,754 INFO  PluginFactory - loaded plugin Session ID in URL rewrite
+2014-04-10 15:30:49,755 INFO  PluginFactory - loaded plugin Secure page browser cache
+2014-04-10 15:30:49,755 INFO  PluginFactory - loaded plugin External redirect
+2014-04-10 15:30:49,755 INFO  PluginFactory - loaded plugin CRLF injection
+2014-04-10 15:30:49,755 INFO  PluginFactory - loaded plugin Parameter tampering
+2014-04-10 15:30:49,755 INFO  PluginFactory - loaded plugin Script active scan rules
+2014-04-10 15:30:50,307 INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2014-04-10 15:30:50,308 INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2014-04-10 15:30:50,308 INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2014-04-10 15:30:50,308 INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2014-04-10 15:30:50,309 INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2014-04-10 15:30:50,309 INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2014-04-10 15:30:50,309 INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2014-04-10 15:30:50,309 INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2014-04-10 15:30:50,309 INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2014-04-10 15:30:50,309 INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2014-04-10 15:30:50,309 INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2014-04-10 15:30:50,309 INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2014-04-10 15:30:50,309 INFO  FilterFactory - loaded filter Send ZAP session request ID
+2014-04-10 15:30:51,021 INFO  ExtensionPassiveScan - loaded passive scan rule: Script passive scan rules
+2014-04-10 15:30:51,022 INFO  ExtensionPassiveScan - loaded passive scan rule: Incomplete or no cache-control and pragma HTTPHeader set
+2014-04-10 15:30:51,022 INFO  ExtensionPassiveScan - loaded passive scan rule: Content-Type header missing
+2014-04-10 15:30:51,022 INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie no http-only flag
+2014-04-10 15:30:51,022 INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie without secure flag
+2014-04-10 15:30:51,022 INFO  ExtensionPassiveScan - loaded passive scan rule: Cross-domain JavaScript source file inclusion
+2014-04-10 15:30:51,022 INFO  ExtensionPassiveScan - loaded passive scan rule: IE8's XSS protection filter not disabled
+2014-04-10 15:30:51,022 INFO  ExtensionPassiveScan - loaded passive scan rule: Secure pages including mixed content
+2014-04-10 15:30:51,022 INFO  ExtensionPassiveScan - loaded passive scan rule: Password Autocomplete in browser
+2014-04-10 15:30:51,023 INFO  ExtensionPassiveScan - loaded passive scan rule: Private IP disclosure
+2014-04-10 15:30:51,023 INFO  ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options header missing
+2014-04-10 15:30:51,023 INFO  ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options header not set
+2014-04-10 15:30:52,323 INFO  Control - New Session
+2014-04-10 15:31:08,635 INFO  ENGINE - dataFileCache commit start
+2014-04-10 15:31:08,637 INFO  ENGINE - Database closed
+2014-04-10 15:31:08,739 INFO  Control - OWASP ZAP 2.2.2 terminated.
+2014-04-10 15:31:44,450 INFO  ZAP - OWASP ZAP 2.2.2 started.
+2014-04-10 15:31:44,963 INFO  ENGINE - dataFileCache open start
+2014-04-10 15:31:44,969 INFO  ENGINE - dataFileCache open end
+2014-04-10 15:31:45,128 INFO  View - Initialising View
+2014-04-10 15:31:46,118 INFO  PluginFactory - loaded plugin Path Traversal
+2014-04-10 15:31:46,118 INFO  PluginFactory - loaded plugin Remote File Inclusion
+2014-04-10 15:31:46,118 INFO  PluginFactory - loaded plugin URL Redirector Abuse
+2014-04-10 15:31:46,118 INFO  PluginFactory - loaded plugin Server side include
+2014-04-10 15:31:46,120 INFO  PluginFactory - loaded plugin Cross Site Scripting (Reflected)
+2014-04-10 15:31:46,120 INFO  PluginFactory - loaded plugin SQL Injection
+2014-04-10 15:31:46,121 INFO  PluginFactory - loaded plugin Directory browsing
+2014-04-10 15:31:46,121 INFO  PluginFactory - loaded plugin Session ID in URL rewrite
+2014-04-10 15:31:46,121 INFO  PluginFactory - loaded plugin Secure page browser cache
+2014-04-10 15:31:46,121 INFO  PluginFactory - loaded plugin External redirect
+2014-04-10 15:31:46,121 INFO  PluginFactory - loaded plugin CRLF injection
+2014-04-10 15:31:46,122 INFO  PluginFactory - loaded plugin Parameter tampering
+2014-04-10 15:31:46,122 INFO  PluginFactory - loaded plugin Script active scan rules
+2014-04-10 15:31:46,617 INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2014-04-10 15:31:46,617 INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2014-04-10 15:31:46,617 INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2014-04-10 15:31:46,618 INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2014-04-10 15:31:46,618 INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2014-04-10 15:31:46,618 INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2014-04-10 15:31:46,618 INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2014-04-10 15:31:46,618 INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2014-04-10 15:31:46,618 INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2014-04-10 15:31:46,618 INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2014-04-10 15:31:46,618 INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2014-04-10 15:31:46,618 INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2014-04-10 15:31:46,618 INFO  FilterFactory - loaded filter Send ZAP session request ID
+2014-04-10 15:31:47,266 INFO  ExtensionPassiveScan - loaded passive scan rule: Script passive scan rules
+2014-04-10 15:31:47,266 INFO  ExtensionPassiveScan - loaded passive scan rule: Incomplete or no cache-control and pragma HTTPHeader set
+2014-04-10 15:31:47,266 INFO  ExtensionPassiveScan - loaded passive scan rule: Content-Type header missing
+2014-04-10 15:31:47,267 INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie no http-only flag
+2014-04-10 15:31:47,267 INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie without secure flag
+2014-04-10 15:31:47,267 INFO  ExtensionPassiveScan - loaded passive scan rule: Cross-domain JavaScript source file inclusion
+2014-04-10 15:31:47,267 INFO  ExtensionPassiveScan - loaded passive scan rule: IE8's XSS protection filter not disabled
+2014-04-10 15:31:47,267 INFO  ExtensionPassiveScan - loaded passive scan rule: Secure pages including mixed content
+2014-04-10 15:31:47,267 INFO  ExtensionPassiveScan - loaded passive scan rule: Password Autocomplete in browser
+2014-04-10 15:31:47,267 INFO  ExtensionPassiveScan - loaded passive scan rule: Private IP disclosure
+2014-04-10 15:31:47,268 INFO  ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options header missing
+2014-04-10 15:31:47,268 INFO  ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options header not set
+2014-04-10 15:31:48,526 INFO  Control - New Session
+2014-04-10 15:32:00,052 INFO  DynamicSSLPanel - Saving Root CA certificate to /home/hacker/owasp_zap_root_ca.cer
+2014-04-10 15:32:02,280 INFO  SSLConnector - ClientCert disabled
+2014-04-10 15:32:05,467 INFO  ENGINE - dataFileCache commit start
+2014-04-10 15:32:05,470 INFO  ENGINE - Database closed
+2014-04-10 15:32:05,572 INFO  Control - OWASP ZAP 2.2.2 terminated.

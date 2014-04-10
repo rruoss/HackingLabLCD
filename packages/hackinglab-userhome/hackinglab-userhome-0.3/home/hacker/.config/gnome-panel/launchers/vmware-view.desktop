@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Icon=vmware-view.png
+Exec=vmware-view
+Categories=Application;Network;
+# TRANSLATORS: Ignore this string; do not translate.
+Name=VMware View Open Client
+Name[de]=VMware View Open Client
+Name[fr]=VMware View Open Client
+Name[ja]=VMware View Open Client
+Name[zh_CN]=VMware View Open Client
+Terminal=false
+Icon[en_US]=/home/hacker/transfer/vmware-view.png
