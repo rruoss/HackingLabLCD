@@ -1,7 +1,0 @@
-Package: *
-Pin: origin repo.hacking-lab.com
-Pin-Priority: 610
-
-Package: *
-Pin: release n=wheezy
-Pin-Priority: 600
