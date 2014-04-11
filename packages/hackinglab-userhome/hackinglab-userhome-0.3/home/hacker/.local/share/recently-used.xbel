@@ -53,27 +53,4 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///usr/share/icons/hicolor/scalable/apps/wireshark.svg" added="2014-04-10T15:30:34Z" modified="2014-04-10T15:30:34Z" visited="2014-04-10T15:30:34Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/svg+xml"/>
-        <bookmark:applications>
-          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2014-04-10T15:30:34Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/hacker/Desktop/Wireshark.desktop" added="2014-04-10T15:30:43Z" modified="2014-04-10T15:30:43Z" visited="2014-04-10T15:30:43Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/x-desktop"/>
-        <bookmark:groups>
-          <bookmark:group>gedit</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2014-04-10T15:30:43Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
 </xbel>

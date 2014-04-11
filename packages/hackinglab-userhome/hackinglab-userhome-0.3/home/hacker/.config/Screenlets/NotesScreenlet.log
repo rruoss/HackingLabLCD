@@ -1,0 +1,29 @@
+CachingBackend: Loading instances from cache
+No global tempdir found, creating new one.
+Temp directory /tmp/screenlets created.
+Creating new entry for NotesScreenlet in /tmp/screenlets/screenlets.hacker.running
+Loading instances in: /home/hacker/.config/Screenlets/Notes/default/
+No instance(s) found in session-path, creating new one.
+/home/hacker/.config/Screenlets/Notes/default/Notes1
+LOAD NEW THEME: default
+FOUND: /usr/share/screenlets/Notes/themes/default
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+Screenlet has been initialized.
+2.52830188679
+2.59016393443
+0.733870967742
+(0.0, 0.0, 0.0, 1.0)
+1.0
+/home/hacker/.screenlets/Notes/themes
+Path /home/hacker/.screenlets/Notes/themes not found.
+/usr/share/screenlets/Notes/themes
+active theme is: default
+Changed: font_name
+Changed: keep_above
+LOAD NEW THEME: green
+FOUND: /usr/share/screenlets/Notes/themes/green

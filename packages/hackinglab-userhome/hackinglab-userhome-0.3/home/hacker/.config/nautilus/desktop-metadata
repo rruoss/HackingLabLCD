@@ -1,11 +1,11 @@
 [directory]
 nautilus-icon-view-keep-aligned=true
-nautilus-icon-view-layout-timestamp=1397143253
+nautilus-icon-view-layout-timestamp=1397203483
 
 [trash]
 nautilus-icon-position=64,262
 icon-scale=1
-nautilus-icon-position-timestamp=1397143253
+nautilus-icon-position-timestamp=1397203483
 
 [KINGSTON.volume]
 nautilus-icon-position=64,362
@@ -15,14 +15,9 @@ nautilus-icon-position-timestamp=1386931807
 [home]
 nautilus-icon-position=64,122
 icon-scale=1
-nautilus-icon-position-timestamp=1397143253
+nautilus-icon-position-timestamp=1397203483
 
 [computer]
 nautilus-icon-position=64,22
 icon-scale=1
-nautilus-icon-position-timestamp=1397143253
-
-[HackingLab  20140123-09:34.volume]
-nautilus-icon-position=64,362
-icon-scale=1
-nautilus-icon-position-timestamp=1397143253
+nautilus-icon-position-timestamp=1397203483

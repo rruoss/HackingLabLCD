@@ -17,18 +17,40 @@
 
 10 Apr 2014, 16:04:05: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-10 Apr 2014, 17:02:24: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+11 Apr 2014, 02:54:56: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
 
-10 Apr 2014, 17:02:24: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+11 Apr 2014, 02:54:56: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-10 Apr 2014, 17:02:24: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+11 Apr 2014, 02:54:56: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-10 Apr 2014, 17:02:24: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+11 Apr 2014, 02:54:56: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-10 Apr 2014, 17:32:46: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+11 Apr 2014, 03:00:32: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-10 Apr 2014, 17:32:46: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+11 Apr 2014, 03:00:32: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-10 Apr 2014, 17:32:46: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+11 Apr 2014, 03:00:32: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-10 Apr 2014, 17:32:46: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+11 Apr 2014, 03:00:46: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:00:46: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:00:46: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:02:42: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:02:42: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:02:42: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.13 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:03:51: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:03:51: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:03:51: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.13 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:04:57: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:04:57: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+11 Apr 2014, 03:04:57: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.13 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
