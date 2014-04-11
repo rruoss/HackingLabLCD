@@ -1,0 +1,9 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: zenmap-desktop
+Depends: zenmap
+Version: 1.1
+Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
+Description: Zenmap
+Files: zenmap-hl.desktop /usr/share/applications

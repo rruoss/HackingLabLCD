@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Zenmap
+GenericName=GUI Port Scanner
+TryExec=zenmap
+Exec=zenmap %F
+Terminal=false
+Icon=/usr/share/zenmap/pixmaps/zenmap.png
+Type=Application
+Categories=X-Scanning;
+Comment=A cross-platform GUI for the Nmap Security Scanner.
+

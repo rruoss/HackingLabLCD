@@ -27,6 +27,17 @@
 			</Include>
 		</Menu>
 
+	       <!-- Scanning submenu -->
+                <Menu>
+                        <Name>Scanning</Name>
+                        <Include>
+                                <And>
+                                        <Category>X-Scanning</Category>
+                                </And>
+                        </Include>
+                </Menu>
+
+
 		<!-- Encryption submenu -->
 		<Menu>
 			<Name>Encryption</Name>

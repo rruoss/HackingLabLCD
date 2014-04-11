@@ -2,7 +2,7 @@ Section: misc
 Priority: optional
 Standards-Version: 3.9.2
 Package: hackinglab-directories
-Version: 2.0
+Version: 2.0a
 Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
 Description: Menu directories
 Files: Browsers.directory /usr/share/desktop-directories
