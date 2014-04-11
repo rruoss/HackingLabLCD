@@ -1,0 +1,87 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+	<Name>HackingLab Applications</Name>
+	<!-- HackingLab submenu -->
+	<Menu>
+		<Name>HackingLab</Name>
+
+		<!-- Landing Page submenu -->
+		<Menu>
+			<Name>Landing Page</Name>
+			<Include>
+				<And>
+					<Category>X-LandingPage</Category>
+				</And>
+			</Include>
+		</Menu>
+		 
+		 <!-- Malware submenu -->
+		<Menu>
+			<Name>Malware</Name>
+			<Include>
+				<And>
+					<Category>Malware</Category>
+				</And>
+			</Include>
+		</Menu>
+
+		<!-- Encryption submenu -->
+		<Menu>
+			<Name>Encryption</Name>
+			<Include>
+				<And>
+					<Category>Encryption</Category>
+				</And>
+			</Include>
+		</Menu>  
+
+		<!-- Database submenu -->
+		<Menu>
+			<Name>Database</Name>
+			<Include>
+				<And>
+					<Category>Database</Category>
+				</And>
+			</Include>
+		</Menu>
+
+		<!-- Networking submenu -->
+		<Menu>
+			<Name>Networking</Name>
+			<Directory>Networking.directory</Directory>
+			<Include>
+				<And>
+					<Category>X-Networking</Category>
+				</And>
+			</Include>
+			<Menu>
+				<Name>Browsers</Name>
+				<Directory>Browsers.directory</Directory>
+				<Include>
+					<And>
+						<Category>WebBrowser</Category>
+					</And>
+				</Include>
+			</Menu>
+			<Menu>
+				<Name>Remote Desktop</Name>
+				<Include>
+					<And>
+						<Category>X-RemoteDesktop</Category>
+					</And>
+				</Include>
+			</Menu>
+		</Menu>
+		<Menu>
+			<Name>Web Security</Name>
+			<Directory>WebSec.directory</Directory>
+			<Include>
+				<And>
+					<Category>WebSec</Category>
+				</And>
+			</Include>
+		</Menu>
+	</Menu>
+</Menu>
