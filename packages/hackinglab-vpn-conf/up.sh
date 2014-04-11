@@ -9,4 +9,4 @@ for DHCPOPTVAR in ${!foreign_option*} ; do
 done
 mv -f /etc/resolv.conf /etc/resolv.conf.old
 mv -f $TEMPFILE /etc/resolv.conf
-chown 777 /etc/resolv.conf
+chmod 644 /etc/resolv.conf
