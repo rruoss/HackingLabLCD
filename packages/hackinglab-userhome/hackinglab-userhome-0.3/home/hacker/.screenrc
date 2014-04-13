@@ -1,0 +1,4 @@
+term vt100
+hardstatus on
+hardstatus alwayslastline "%w"
+startup_message off
