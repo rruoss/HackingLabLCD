@@ -1,4 +1,6 @@
 android-sdk install
+android-tools-adb install
+android-tools-fastboot install
 apktool install
 dex2jar install
 smali install
