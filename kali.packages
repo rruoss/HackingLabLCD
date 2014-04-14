@@ -7,6 +7,7 @@ autopsy install
 burpsuite install
 clamtk install
 dex2jar install
+distorm3 install
 ettercap-common install
 ettercap-dbg install
 ettercap-graphical install
