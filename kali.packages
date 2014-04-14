@@ -19,5 +19,6 @@ openvas-manager install
 openvas-scanner install
 sqlmap install
 thc-ipv6 install
+w3af install
 zaproxy install
 zenmap install
