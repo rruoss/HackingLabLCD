@@ -16,6 +16,7 @@ greenbone-security-assistant-dbg install
 greenbone-security-assistant install
 hping3 install
 hydra install
+libafpclient0 install
 libopenvas6 install
 nmap install
 metasploit-framework install
