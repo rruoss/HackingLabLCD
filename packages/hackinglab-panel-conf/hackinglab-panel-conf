@@ -1,7 +1,0 @@
-Section: misc
-Priority: optional
-Standards-Version: 3.9.2
-Package: hackinglab-panel-conf
-Version: 0.1
-Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
-Description: Metapackage for config packages
