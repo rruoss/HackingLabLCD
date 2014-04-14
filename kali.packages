@@ -11,6 +11,7 @@ greenbone-security-assistant-dbg install
 greenbone-security-assistant install
 hping3 install
 libopenvas6 install
+nmap install
 metasploit-framework install
 mimikatz install
 openvas-administrator install
