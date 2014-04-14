@@ -19,6 +19,14 @@ openvas-manager install
 openvas-scanner install
 python-xdot install
 python-halberd install
+python-bloomfiltermmap install
+python-phply install
+python-ntlm install
+python-guess-language install
+python-nltk install
+python-esmre install
+python-pygithub install
+python-clamd install
 sqlmap install
 thc-ipv6 install
 w3af install
