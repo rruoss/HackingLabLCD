@@ -1,5 +1,0 @@
-patching file core/controllers/misc/dependencyCheck.py
-Hunk #1 succeeded at 95 (offset -2 lines).
-patching file core/data/fuzzer/fuzzer.py
-patching file core/data/request/frFactory.py
-patching file core/data/request/jsonPostDataRequest.py
