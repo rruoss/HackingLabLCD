@@ -1,3 +1,4 @@
+autopsy install
 android-sdk install
 apktool install
 dex2jar install
@@ -9,10 +10,12 @@ ettercap-common install
 ettercap-dbg install
 ettercap-graphical install
 ettercap-text-only install
+extundelete install
 fierce install
 greenbone-security-assistant-dbg install
 greenbone-security-assistant install
 hping3 install
+hydra install
 libopenvas6 install
 nmap install
 metasploit-framework install
@@ -21,6 +24,7 @@ openvas-administrator install
 openvas-cli install
 openvas-manager install
 openvas-scanner install
+truecrypt install
 python-xdot install
 python-halberd install
 python-bloomfiltermmap install
@@ -31,8 +35,10 @@ python-nltk install
 python-esmre install
 python-pygithub install
 python-clamd install
+sleuthkit install
 sqlmap install
 thc-ipv6 install
+valgrind install
 w3af install
 w3af-console install
 zaproxy install
