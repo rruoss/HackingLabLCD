@@ -19,6 +19,7 @@ greenbone-security-assistant-dbg install
 hping3 install
 hydra install
 ike-scan install
+iw install
 jad install
 javasnoop install
 kismet install
