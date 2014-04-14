@@ -1,1 +1,0 @@
-../../../../share/pyshared/zenmapCore/I18N.py

@@ -1,0 +1,9 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: clamtk-desktop
+Depends: clamtk
+Version: 1.1
+Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
+Description: clamtk
+Files: clamtk-hl.desktop /usr/share/applications

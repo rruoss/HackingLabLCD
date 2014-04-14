@@ -1,1 +1,0 @@
-../../../../share/pyshared/zenmapCore/__init__.py

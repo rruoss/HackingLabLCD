@@ -1,1 +1,0 @@
-../../../../share/pyshared/zenmapCore/ScriptMetadata.py

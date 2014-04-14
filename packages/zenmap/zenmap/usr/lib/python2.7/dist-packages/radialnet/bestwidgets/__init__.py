@@ -1,1 +1,0 @@
-../../../../../share/pyshared/radialnet/bestwidgets/__init__.py
