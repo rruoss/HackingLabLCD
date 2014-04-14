@@ -1,3 +1,7 @@
+android-sdk install
+apktool install
+dex2jar install
+smali install
 asleap install
 burpsuite install
 clamtk install
