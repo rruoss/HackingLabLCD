@@ -22,6 +22,7 @@ ike-scan install
 iw install
 jad install
 javasnoop install
+jd-gui install
 kismet install
 libafpclient0 install
 libopenvas6 install
