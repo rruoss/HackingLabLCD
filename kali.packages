@@ -50,7 +50,6 @@ smali install
 sqlmap install
 sslyze install
 thc-ipv6 install
-thc-ipv6 install
 truecrypt install
 valgrind install
 volatility install
