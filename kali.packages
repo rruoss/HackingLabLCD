@@ -18,3 +18,4 @@ openvas-manager install
 openvas-scanner install
 sqlmap install
 thc-ipv6 install
+zaproxy install
