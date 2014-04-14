@@ -45,17 +45,14 @@ python-phply install
 python-pygithub install
 python-xdot install
 regripper install
-rfidiot install
 rifiuti install
 sleuthkit install
 smali install
 sqlmap install
 sslyze install
 thc-ipv6 install
-truecrypt install
 valgrind install
 volatility install
-volatility-profiles install
 w3af install
 w3af-console install
 yersinia install
