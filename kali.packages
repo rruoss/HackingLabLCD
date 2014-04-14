@@ -1,6 +1,7 @@
 armitage install
 asleap install
 burpsuite install
+clamtk install
 ettercap-common install
 ettercap-dbg install
 ettercap-graphical install
@@ -19,3 +20,4 @@ openvas-scanner install
 sqlmap install
 thc-ipv6 install
 zaproxy install
+zenmap install
