@@ -17,6 +17,8 @@ openvas-administrator install
 openvas-cli install
 openvas-manager install
 openvas-scanner install
+python-xdot install
+python-halberd install
 sqlmap install
 thc-ipv6 install
 w3af install
