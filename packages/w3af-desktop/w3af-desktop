@@ -1,0 +1,9 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: w3af-desktop
+Depends: w3af
+Version: 1.0
+Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
+Description: w3af
+Files: w3af-hl.desktop /usr/share/applications

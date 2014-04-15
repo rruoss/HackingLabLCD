@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=ZAP
+Icon=/usr/share/zaproxy/zap.ico
+Exec=/usr/bin/zap
+Terminal=false
+Categories=WebSec; 
+Encoding=UTF-8

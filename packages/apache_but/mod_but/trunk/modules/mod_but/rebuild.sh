@@ -17,9 +17,9 @@ function findbinary() {
 	exit -1
 }
 
-apxs=`findbinary /opt/applic/httpd/bin/apxs "$APXS"`
+apxs=`findbinary /opt/apache_but/httpd/bin/apxs "$APXS"`
 
 #apache2ctl stop
-make APXS="$apxs" APXSFLAGS="-c -i -a -Wc,-O0 -Wc,-Wall -Wc,-DMOD_BUT_SESSION_COUNT=50000 -Wc,-DMOD_BUT_COOKIESTORE_COUNT=100000 -I/opt/applic/pcre/include/"
+make APXS="$apxs" APXSFLAGS="-c -i -a -Wc,-O0 -Wc,-Wall -Wc,-DMOD_BUT_SESSION_COUNT=50000 -Wc,-DMOD_BUT_COOKIESTORE_COUNT=100000 -I/opt/apache_but/pcre-8.35/include/"
 #apache2ctl start
 

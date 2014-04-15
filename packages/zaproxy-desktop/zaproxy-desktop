@@ -1,0 +1,9 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: zaproxy-desktop
+Depends: zaproxy
+Version: 1.1
+Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
+Description: Zaproxy
+Files: zaproxy-hl.desktop /usr/share/applications

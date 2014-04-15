@@ -2,7 +2,7 @@
 /* lib/apr_iconv_private.h.in.  Generated from configure.in by autoheader.  */
 
 /* Directory where the *.so tables are stored */
-#define ICONV_DEFAULT_PATH "/opt/apache_but/apr-iconv/lib/iconv"
+#define ICONV_DEFAULT_PATH "/opt/apache_but/apr-iconf-1.2.1/lib/iconv"
 
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT ""

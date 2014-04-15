@@ -1,13 +1,13 @@
 # Generated automatically from Makefile.in by configure.
-abs_srcdir=/home/lukas/apache_but/apr-iconv-1.2.1
-abs_builddir=/home/lukas/apache_but/apr-iconv-1.2.1
+abs_srcdir=/opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1
+abs_builddir=/opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1
 
 
-prefix=/opt/apache_but/apr-iconv
+prefix=/opt/apache_but/apr-iconf-1.2.1
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 
-INCLUDES = -I/home/lukas/apache_but/apr-iconv-1.2.1/lib -I/home/lukas/apache_but/apr-iconv-1.2.1/include  -I/opt/apache_but/apr/include/apr-1 
+INCLUDES = -I/opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1/lib -I/opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1/include  -I/opt/apache_but/apr-1.5.0/include/apr-1 
 
 TARGET_LIB = libapriconv-1.la
 SUBDIRS = .
@@ -26,7 +26,7 @@ OBJECTS_all = iconv_module.lo iconv.lo iconv_int.lo iconv_uc.lo \
 
 LT_VERSION = -version-info 2:1:2
 # bring in rules.mk for standard functionality
-include /home/lukas/apache_but/apr-iconv-1.2.1/build/rules.mk
+include /opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1/build/rules.mk
 # replace build-outputs.mk
 OBJECTS_unix = $(OBJECTS_all)
  

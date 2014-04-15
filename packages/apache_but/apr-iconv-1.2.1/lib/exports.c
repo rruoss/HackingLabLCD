@@ -18,7 +18,7 @@
 const void *ap_ugly_hack = NULL;
 
 /*
- * /home/ibuetler/namang/apr-iconv-1.2.1/include/api_version.h
+ * /opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1/include/api_version.h
  */
 #ifndef API_VERSION_ONLY
 const void *ap_hack_api_version = (const void *)api_version;
@@ -26,14 +26,14 @@ const void *ap_hack_api_version_string = (const void *)api_version_string;
 #endif /* ndef API_VERSION_ONLY */
 
 /*
- * /home/ibuetler/namang/apr-iconv-1.2.1/include/apr_iconv.h
+ * /opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1/include/apr_iconv.h
  */
 const void *ap_hack_apr_iconv_open = (const void *)apr_iconv_open;
 const void *ap_hack_apr_iconv = (const void *)apr_iconv;
 const void *ap_hack_apr_iconv_close = (const void *)apr_iconv_close;
 
 /*
- * /home/ibuetler/namang/apr-iconv-1.2.1/lib/iconv.h
+ * /opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1/lib/iconv.h
  */
 #ifdef ICONV_INTERNAL
 const void *ap_hack_apr_iconv_ces_open = (const void *)apr_iconv_ces_open;

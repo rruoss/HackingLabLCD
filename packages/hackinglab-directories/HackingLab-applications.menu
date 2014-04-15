@@ -66,10 +66,10 @@
 				</Include>
 			</Menu>
 			<Menu>
-				<Name>Remote Desktop</Name>
+				<Name>Scanning</Name>
 				<Include>
 					<And>
-						<Category>X-RemoteDesktop</Category>
+						<Category>X-Scanning</Category>
 					</And>
 				</Include>
 			</Menu>
