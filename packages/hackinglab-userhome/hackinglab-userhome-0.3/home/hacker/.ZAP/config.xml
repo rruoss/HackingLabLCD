@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <config>
-<version>2002002</version>
+<version>2003000</version>
 <userDir/>
 <connection>
 		<proxyChain>
 			<hostName/>
 			<port>8080</port>
-			<skipName/>
+			
 			<realm/>
 			<userName/>
 			<password/>		
 			<prompt>false</prompt>
-		</proxyChain>
+		<enabled>false</enabled>
+</proxyChain>
 		<auth/>
 	<sslConnectPorts>443</sslConnectPorts>
 <timeoutInSecs>20</timeoutInSecs>
 <singleCookieRequestHeader>true</singleCookieRequestHeader>
 <confirmRemoveAuth>true</confirmRemoveAuth>
+<securityProtocolsEnabled>
+<protocol>SSLv3</protocol>
+<protocol>TLSv1</protocol>
+<protocol>TLSv1.1</protocol>
+<protocol>TLSv1.2</protocol>
+</securityProtocolsEnabled>
 </connection>
 <proxy>
 		<ip>localhost</ip>
@@ -28,6 +35,12 @@
 			<httpsPort>443</httpsPort>
 		</reverseProxy>		
 	<modifyAcceptEncoding>true</modifyAcceptEncoding>
+<securityProtocolsEnabled>
+<protocol>SSLv3</protocol>
+<protocol>TLSv1</protocol>
+<protocol>TLSv1.1</protocol>
+<protocol>TLSv1.2</protocol>
+</securityProtocolsEnabled>
 </proxy>
 <view>
 		<processImages>0</processImages>
@@ -120,6 +133,24 @@
 </HttpPanelSyntaxHighlightTextView>
 </views>
 </websocket>
+<pnhClient>
+<defaultview>HttpPanelSyntaxHighlightTextView</defaultview>
+<views>
+<HttpPanelSyntaxHighlightTextView>
+<aa>true</aa>
+<linenumbers>false</linenumbers>
+<wordwrap>true</wordwrap>
+<highlightline>false</highlightline>
+<fadehighlightline>false</fadehighlightline>
+<whitespaces>false</whitespaces>
+<newlines>false</newlines>
+<markocurrences>false</markocurrences>
+<roundedselection>false</roundedselection>
+<bracketmatch>false</bracketmatch>
+<animatedbracketmatch>false</animatedbracketmatch>
+</HttpPanelSyntaxHighlightTextView>
+</views>
+</pnhClient>
 </components>
 </httppanel>
 </request>
@@ -205,6 +236,24 @@
 </views>
 </body>
 </split>
+<pnhClient>
+<defaultview>HttpPanelSyntaxHighlightTextView</defaultview>
+<views>
+<HttpPanelSyntaxHighlightTextView>
+<aa>true</aa>
+<linenumbers>false</linenumbers>
+<wordwrap>true</wordwrap>
+<highlightline>false</highlightline>
+<fadehighlightline>false</fadehighlightline>
+<whitespaces>false</whitespaces>
+<newlines>false</newlines>
+<markocurrences>false</markocurrences>
+<roundedselection>false</roundedselection>
+<bracketmatch>false</bracketmatch>
+<animatedbracketmatch>false</animatedbracketmatch>
+</HttpPanelSyntaxHighlightTextView>
+</views>
+</pnhClient>
 </components>
 </httppanel>
 </response>
@@ -212,9 +261,12 @@
 <advancedview>0</advancedview>
 <askOnExit>1</askOnExit>
 <uiWmHandling>0</uiWmHandling>
+<messagePanelsPosition>
+<lastSelectedPosition>TABS_SIDE_BY_SIDE</lastSelectedPosition>
+</messagePanelsPosition>
 </view>
 <start>
-        <checkForUpdates>0</checkForUpdates>
+        <checkForUpdates>false</checkForUpdates>
     <dayLastChecked>Never</dayLastChecked>
 <downloadNewRelease>false</downloadNewRelease>
 <checkAddonUpdates>false</checkAddonUpdates>
@@ -232,7 +284,7 @@
 <spider>
 		<thread>2</thread>
 		<maxDepth>5</maxDepth>
-		<scope/>
+		
 		<postform>true</postform>
 		<processform>true</processform>
 		<sendCookies>false</sendCookies>
@@ -249,7 +301,7 @@
 	<delayInMs>0</delayInMs>
 <maxResults>1000</maxResults>
 <antiCSFR>false</antiCSFR>
-<deleteOnShutdown>true</deleteOnShutdown>
+
 <level>MEDIUM</level>
 <strength>MEDIUM</strength>
 <params>
@@ -316,6 +368,21 @@
 <p50000>
 <enabled>1</enabled>
 </p50000>
+<p40014>
+<enabled>1</enabled>
+</p40014>
+<p90019>
+<enabled>1</enabled>
+</p90019>
+<p90020>
+<enabled>1</enabled>
+</p90020>
+<p40016>
+<enabled>1</enabled>
+</p40016>
+<p40017>
+<enabled>1</enabled>
+</p40017>
 </plugins>
 <fuzzer>
 <threadPerScan>1</threadPerScan>
@@ -585,4 +652,7 @@
 </tokens>
 <confirmRemoveToken>true</confirmRemoveToken>
 </anticsrf>
+<ajaxSpider>
+<configVersion>1</configVersion>
+</ajaxSpider>
 </config>

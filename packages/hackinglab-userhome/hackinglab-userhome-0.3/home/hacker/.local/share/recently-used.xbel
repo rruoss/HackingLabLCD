@@ -43,12 +43,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/hacker/transfer/lcdbg2.JPG" added="2014-04-10T13:59:09Z" modified="2014-04-10T13:59:09Z" visited="2014-04-10T13:59:09Z">
+  <bookmark href="file:///home/hacker/transfer/lcdbg2.JPG" added="2014-04-10T13:59:09Z" modified="2014-04-15T20:51:44Z" visited="2014-04-10T13:59:09Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/jpeg"/>
         <bookmark:applications>
-          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2014-04-10T13:59:09Z" count="1"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2014-04-15T20:51:44Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/pixmaps/wsicon32.xpm" added="2014-04-15T20:46:11Z" modified="2014-04-15T20:46:11Z" visited="2014-04-15T20:46:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/x-xpixmap"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2014-04-15T20:46:11Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

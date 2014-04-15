@@ -62,3 +62,31 @@
 13 Apr 2014, 15:30:56: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
 13 Apr 2014, 15:30:56: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+15 Apr 2014, 22:36:01: Tracker-Critical **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+
+15 Apr 2014, 22:36:01: Tracker-Critical **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+
+15 Apr 2014, 22:49:31: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+15 Apr 2014, 22:49:31: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+15 Apr 2014, 22:49:31: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+15 Apr 2014, 22:54:46: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+15 Apr 2014, 22:54:46: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+15 Apr 2014, 22:54:46: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+15 Apr 2014, 22:55:30: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+15 Apr 2014, 22:55:30: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+15 Apr 2014, 22:55:30: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+15 Apr 2014, 22:55:30: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+15 Apr 2014, 22:55:30: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+15 Apr 2014, 22:55:30: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
