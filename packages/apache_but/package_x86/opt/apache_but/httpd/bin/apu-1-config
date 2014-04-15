@@ -27,16 +27,16 @@ bindir="${prefix}/bin"
 libdir="${prefix}/lib"
 includedir="/opt/apache_but/httpd//include"
 
-LIBS="/tmp/but/apache_but/httpd-2.4.6/srclib/apr-util/xml/expat/libexpat.la"
-INCLUDES="-I/tmp/but/apache_but/httpd-2.4.6/srclib/apr-util/xml/expat/lib"
+LIBS="-lexpat"
+INCLUDES=""
 LDFLAGS=""
 LDAP_LIBS=""
 DBM_LIBS="  "
 
 APRUTIL_LIBNAME="aprutil-${APRUTIL_MAJOR_VERSION}"
 
-APU_SOURCE_DIR="/tmp/but/apache_but/httpd-2.4.6/srclib/apr-util"
-APU_BUILD_DIR="/tmp/but/apache_but/httpd-2.4.6/srclib/apr-util"
+APU_SOURCE_DIR="/home/lukas/apache_but/httpd-2.4.6/srclib/apr-util"
+APU_BUILD_DIR="/home/lukas/apache_but/httpd-2.4.6/srclib/apr-util"
 APR_XML_EXPAT_OLD="@APR_XML_EXPAT_OLD@"
 APU_DB_VERSION="0"
 

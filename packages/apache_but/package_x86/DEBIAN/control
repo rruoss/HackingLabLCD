@@ -1,7 +1,7 @@
 Package: apache-but
 Priority: optional
 Section: misc
-Version: 0.2c
+Version: 0.3b
 Architecture: i386
 Maintainer: Philipp Prommeuschel <philipp.promeuschel@csnc.ch>
 Depends: libpcre3, openssl, flex, libcurl4-openssl-dev, apache2-prefork-dev, curl, libapache2-mod-perl2-dev, libapache2-mod-perl2

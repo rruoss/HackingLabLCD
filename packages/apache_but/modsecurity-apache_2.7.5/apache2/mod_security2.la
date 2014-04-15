@@ -17,7 +17,7 @@ old_library='mod_security2.a'
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -R/opt/applic/pcre/lib  /opt/applic/apr-util/lib/libaprutil-1.la -lexpat /opt/applic/apr/lib/libapr-1.la -lrt -lcrypt -lpthread -L/opt/applic/pcre/lib /opt/applic/pcre/lib/libpcre.la -lxml2 -lz -lm'
+dependency_libs=' -R/opt/apache_but/pcre-8.35/lib  /usr/lib/i386-linux-gnu/libexpat.la /opt/apache_but/apr-util-1.5.3/lib/libaprutil-1.la -L/opt/apache_but/apr-iconf-1.2.1//lib /opt/apache_but/apr-util-1.5.3/lib/libexpat.la /opt/apache_but/apr-iconf-1.2.1/lib/libapriconv-1.la /opt/apache_but/apr-1.5.0/lib/libapr-1.la -lrt -lcrypt -lpthread -ldl -L/opt/apache_but/pcre-8.35/lib /opt/apache_but/pcre-8.35/lib/libpcre.la -L/usr/lib -lxml2'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/opt/applic/mod_security/lib'
+libdir='/opt/apache_but/mod_security/lib'

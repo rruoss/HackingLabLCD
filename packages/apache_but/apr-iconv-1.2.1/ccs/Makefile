@@ -1,5 +1,5 @@
 
-INCLUDES = -I/home/lukas/apache_but/apr-iconv-1.2.1/lib -I/home/lukas/apache_but/apr-iconv-1.2.1/include  -I/opt/apache_but/apr/include/apr-1 
+INCLUDES = -I/opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1/lib -I/opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1/include  -I/opt/apache_but/apr-1.5.0/include/apr-1 
 
 CHARSETS_ISO8859 = iso-8859-1.la iso-8859-2.la iso-8859-4.la iso-8859-5.la \
                    iso-8859-15.la
@@ -58,10 +58,10 @@ RFC1345_ALL =      ${RFC1345_PC} ${RFC1345_EBCDIC} ${RFC1345_IR} ${RFC1345_MISC}
 TARGETS =          ${CHARSETS_ALL} ${EXTRA_ALL} ${RFC1345_ALL}
 
 # bring in rules.mk for standard functionality
-include /home/lukas/apache_but/apr-iconv-1.2.1/build/rules.mk
+include /opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1/build/rules.mk
 
 .SUFFIXES:
 .SUFFIXES: .c .lo .o .la
 
 .lo.la:
-	$(LIBTOOL) --mode=link $(COMPILE) -module -avoid-version -rpath /opt/apache_but/apr-iconv/lib/iconv $(LT_LDFLAGS) $(ALL_LDFLAGS) -o $@ $<
+	$(LIBTOOL) --mode=link $(COMPILE) -module -avoid-version -rpath /opt/apache_but/apr-iconf-1.2.1/lib/iconv $(LT_LDFLAGS) $(ALL_LDFLAGS) -o $@ $<

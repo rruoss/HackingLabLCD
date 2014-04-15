@@ -11,6 +11,7 @@
 #APXS=/zpool/applic/httpd-2.2.8_01/bin/apxs
 #APXS=/opt/applic/http-2.2.10/bin/apxs
 #APXS=/opt/applic/httpd-2.2.14/bin/apxs
+APXS=/opt/apache_but/httpd/bin/apxs
 
 # CentOS
 #APXS=/usr/sbin/apxs

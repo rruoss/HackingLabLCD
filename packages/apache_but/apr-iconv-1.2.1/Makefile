@@ -1,12 +1,12 @@
 #
 # Top-level Makefile for APRICONV
 #
-abs_srcdir=/home/lukas/apache_but/apr-iconv-1.2.1
-abs_builddir=/home/lukas/apache_but/apr-iconv-1.2.1
+abs_srcdir=/opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1
+abs_builddir=/opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1
 
 
 # bring in rules.mk for standard functionality
-include /home/lukas/apache_but/apr-iconv-1.2.1/build/rules.mk
+include /opt/git/HackingLabLCD/packages/apache_but/apr-iconv-1.2.1/build/rules.mk
 
 SUBDIRS = lib ccs ces util
 CLEAN_SUBDIRS = . lib ccs ces util
@@ -17,11 +17,11 @@ DISTCLEAN_TARGETS = config.cache config.log config.status
 EXTRACLEAN_TARGETS = configure libtool aclocal.m4
 
 ### install location
-prefix=/opt/apache_but/apr-iconv
-exec_prefix=/opt/apache_but/apr-iconv/bin
-lib_prefix=/opt/apache_but/apr-iconv/lib
-include_prefix=/opt/apache_but/apr-iconv/include/apr-1
-libdir=/opt/apache_but/apr-iconv/lib/iconv
+prefix=/opt/apache_but/apr-iconf-1.2.1
+exec_prefix=/opt/apache_but/apr-iconf-1.2.1/bin
+lib_prefix=/opt/apache_but/apr-iconf-1.2.1/lib
+include_prefix=/opt/apache_but/apr-iconf-1.2.1/include/apr-1
+libdir=/opt/apache_but/apr-iconf-1.2.1/lib/iconv
 
 API_CPPFLAGS=
 

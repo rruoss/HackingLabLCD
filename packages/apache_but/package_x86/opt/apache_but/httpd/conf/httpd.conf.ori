@@ -48,6 +48,7 @@ ServerRoot "/opt/apache_but/httpd"
 # Change this to Listen on specific IP addresses as shown below to 
 # prevent Apache from glomming onto all bound IP addresses.
 #
+Listen 127.0.0.1:80
 Listen 127.0.0.2:80
 #Listen HL_ETH:80
 #Listen HL_TUN:80

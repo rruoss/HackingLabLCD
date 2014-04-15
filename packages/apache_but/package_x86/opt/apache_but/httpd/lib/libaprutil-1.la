@@ -17,7 +17,7 @@ old_library='libaprutil-1.a'
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' /opt/apache_but/httpd//lib/libexpat.la /opt/apache_but/httpd//lib/libapr-1.la -luuid -lrt -lcrypt -lpthread -ldl'
+dependency_libs=' /usr/lib/x86_64-linux-gnu/libexpat.la /opt/apache_but/httpd//lib/libapr-1.la -luuid -lrt -lcrypt -lpthread -ldl'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
