@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=ZAP
+Icon=/usr/share/pixmaps/wsicon32.xpm
+Exec=sudo /usr/bin/wireshark
+Terminal=false
+Categories=WebSec; 
+Encoding=UTF-8
+Name[en_US]=Wireshark

@@ -1,0 +1,52 @@
+[15.04.2014 22:36:26] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:36:26] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:36:26] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:36:26] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:43:07] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:43:07] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:43:07] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:43:07] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:45:29] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:45:29] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:45:29] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:45:30] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:52:29] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:52:29] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:52:29] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:52:29] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:52:46] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:52:46] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:52:46] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:52:46] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:53:23] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:53:23] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:53:23] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:53:23] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:53:29] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:53:29] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:53:29] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:53:29] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:53:41] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:53:41] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:53:41] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:53:41] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:53:53] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:53:55] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:53:55] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:53:55] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:54:08] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:54:08] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:54:08] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:54:08] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:54:27] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:54:27] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:54:27] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:54:28] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:54:41] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:54:42] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:54:42] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:54:42] [INFO] Database loaded with 53 fuzzers
+[15.04.2014 22:55:14] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
+[15.04.2014 22:55:14] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
+[15.04.2014 22:55:14] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[15.04.2014 22:55:14] [INFO] Database loaded with 53 fuzzers
