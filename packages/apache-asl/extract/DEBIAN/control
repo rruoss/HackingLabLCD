@@ -1,7 +1,7 @@
 Package: apache-asl
 Priority: optional
 Section: misc
-Version: 0.3
+Version: 0.3a
 Architecture: i386
 Depends: apache-but
 Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
