@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/gnome-applications.menu</MergeFile>
+	<Menu>
+		<Name>HackingLab</Name>
+		<Menu>
+			<Name>alacarte-made</Name>
+			<Directory>alacarte-made.directory</Directory>
+			<Include>
+				<Filename>alacarte-made.desktop</Filename>
+			</Include>
+			<Layout>
+				<Merge type="menus"/>
+				<Merge type="files"/>
+			</Layout>
+		</Menu>
+		<DefaultLayout inline="false"/>
+		<Menu>
+			<Name>alacarte-made-1</Name>
+			<Directory>alacarte-made-1.directory</Directory>
+			<Include>
+				<Filename>alacarte-made-2.desktop</Filename>
+			</Include>
+			<Layout>
+				<Merge type="menus"/>
+				<Merge type="files"/>
+			</Layout>
+			<Deleted/>
+		</Menu>
+		<Include>
+			<Filename>alacarte-made-1.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Menuname>alacarte-made-1</Menuname>
+			<Menuname>alacarte-made</Menuname>
+			<Menuname>Landing Page</Menuname>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+</Menu>

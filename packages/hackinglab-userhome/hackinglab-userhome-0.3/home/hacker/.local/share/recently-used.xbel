@@ -116,4 +116,24 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///usr/share/applications/ghex.desktop" added="2014-04-23T21:41:08Z" modified="2014-04-23T21:41:08Z" visited="2014-04-23T21:41:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-desktop"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-desktop-item-edit" exec="&apos;gnome-desktop-item-edit %u&apos;" modified="2014-04-23T21:41:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/icons/hicolor/scalable/apps/ghex.svg" added="2014-04-23T21:43:02Z" modified="2014-04-23T21:43:02Z" visited="2014-04-23T21:43:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-desktop-item-edit" exec="&apos;gnome-desktop-item-edit %u&apos;" modified="2014-04-23T21:43:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

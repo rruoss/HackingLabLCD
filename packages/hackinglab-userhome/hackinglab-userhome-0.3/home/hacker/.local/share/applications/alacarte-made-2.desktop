@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=ettercap
+Name[en_US]=Ettercap
+Exec=sh -c "ettercap;${SHELL:-bash}"
+Name=Ettercap
+Icon=ettercap
+Comment[en_US]=sh -c "ettercap;${SHELL:-bash}"
+Comment=sh -c "d2j-dex2jar -h;${SHELL:-bash}"
