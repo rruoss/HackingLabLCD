@@ -8,91 +8,59 @@ gnome-keyring-daemon: insufficient process capabilities, unsecure memory might g
 gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
 gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
 gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-kfV3z0
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-kfV3z0
-SSH_AUTH_SOCK=/home/hacker/.cache/keyring-kfV3z0/ssh
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-kfV3z0
-SSH_AUTH_SOCK=/home/hacker/.cache/keyring-kfV3z0/ssh
-GPG_AGENT_INFO=/home/hacker/.cache/keyring-kfV3z0/gpg:0:1
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-kfV3z0
-SSH_AUTH_SOCK=/home/hacker/.cache/keyring-kfV3z0/ssh
-GPG_AGENT_INFO=/home/hacker/.cache/keyring-kfV3z0/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-fslxNC
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-fslxNC
+SSH_AUTH_SOCK=/home/hacker/.cache/keyring-fslxNC/ssh
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-fslxNC
+SSH_AUTH_SOCK=/home/hacker/.cache/keyring-fslxNC/ssh
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-fslxNC/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-fslxNC
+SSH_AUTH_SOCK=/home/hacker/.cache/keyring-fslxNC/ssh
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-fslxNC/gpg:0:1
 
-(gnome-settings-daemon:5662): power-plugin-WARNING **: Failed set DPMS mode: Display is not DPMS capable
-Failed to create secure directory: Operation not permitted
+(gnome-settings-daemon:3141): power-plugin-WARNING **: Failed set DPMS mode: Display is not DPMS capable
 
-** (gnome-settings-daemon:5662): WARNING **: Failed to connect context: Connection refused
+(gnome-settings-daemon:3141): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
 
-(gnome-settings-daemon:5662): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+(gnome-panel:3186): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
 
-(gnome-settings-daemon:5662): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
-
-(gnome-settings-daemon:5662): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
-
-(gnome-panel:5691): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
-
-** (gnome-panel:5691): WARNING **: Unable to parse mouse modifier '(null)'
-
-
-(gnome-settings-daemon:5662): PackageKit-WARNING **: failed to set proxy: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
-    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
-    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
-UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
-
-
-(gnome-settings-daemon:5662): updates-plugin-WARNING **: failed to set proxies: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
-    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
-    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
-UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
-
-
-(gnome-settings-daemon:5662): PackageKit-WARNING **: failed to set root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
-    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
-    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
-UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
-
-
-(gnome-settings-daemon:5662): updates-plugin-WARNING **: failed to set install root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
-    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
-  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
-    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
-UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
+** (gnome-panel:3186): WARNING **: Unable to parse mouse modifier '(null)'
 
 Initializing tracker-store...
 Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-store.cfg'
-Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-store.cfg'
-Starting log:
-  File:'/home/hacker/.local/share/tracker/tracker-store.log'
 Initializing tracker-miner-fs...
 Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-miner-fs.cfg'
 Starting log:
   File:'/home/hacker/.local/share/tracker/tracker-miner-fs.log'
 vmware-user: could not open /proc/fs/vmblock/dev
-E: [autospawn] core-util.c: Failed to create secure directory: Operation not permitted
-W: [autospawn] lock-autospawn.c: Cannot access autospawn lock.
-E: [pulseaudio] main.c: Failed to acquire autospawn lock
-** Message: applet now removed from the notification area
+
+(gnome-settings-daemon:3141): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(gnome-settings-daemon:3141): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
 Initializing nautilus-gdu extension
-Failed to create secure directory: Operation not permitted
+Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-store.cfg'
+Starting log:
+  File:'/home/hacker/.local/share/tracker/tracker-store.log'
+** Message: applet now removed from the notification area
 
-(gnome-sound-applet:5755): sound-cc-panel-WARNING **: Failed to connect context: Connection refused
+(gnome-panel:3186): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
 
-(gnome-panel:5691): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
+** (gnome-panel:3186): WARNING **: Unable to parse mouse modifier '(null)'
 
-** (gnome-panel:5691): WARNING **: Unable to parse mouse modifier '(null)'
-
-[1397595292,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
-[1397595292,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
-[1397595292,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
-[1397595292,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
+[1398263601,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+[1398263602,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
+[1398263602,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
+[1398263602,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
 === Updating for primary Configuration ===
+CachingBackend: Loading instances from cache
+CachingBackend: Loading <Notes1>
+No global tempdir found, creating new one.
+Temp directory /tmp/screenlets created.
+Creating new entry for NotesScreenlet in /tmp/screenlets/screenlets.hacker.running
+Loading instances in: /home/hacker/.config/Screenlets/Notes/default/
+File: Notes1.ini
+Unable to open desktop file sudo-1.desktop for panel launcher
+Unable to open desktop file /usr/share/applications/zaproxy.desktop for panel launcher: No such file or directory
   Clone: false
   Output: Unknown attached to default
      status: on
@@ -101,15 +69,52 @@ Failed to create secure directory: Operation not permitted
      rate: 60
      primary: true
      position: 0 0
-CachingBackend: Loading instances from cache
-CachingBackend: Loading <Notes1>
-Unable to open desktop file sudo-1.desktop for panel launcher
-Unable to open desktop file /usr/share/applications/zaproxy.desktop for panel launcher: No such file or directory
-Found a running session of Notes, adding new instance by service.
-Error in screenlets.services.get_service_by_name: org.freedesktop.DBus.Error.ServiceUnknown: The name org.screenlets.Notes was not provided by any .service files
-Screenlet has already been added to /tmp/screenlets/screenlets.hacker.running
-Loading instances in: /home/hacker/.config/Screenlets/Notes/default/
-File: Notes1.ini
+
+(gnome-settings-daemon:3141): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(gnome-settings-daemon:3141): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+
+(gnome-panel:3186): GLib-GObject-WARNING **: /build/buildd-glib2.0_2.33.12+really2.32.4-5-i386-eISom6/glib2.0-2.33.12+really2.32.4/./gobject/gsignal.c:2459: signal `size_request' is invalid for instance `0x9450a48'
+
+(gnome-settings-daemon:3141): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(gnome-settings-daemon:3141): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+
+(gnome-settings-daemon:3141): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(gnome-settings-daemon:3141): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+
+(gnome-settings-daemon:3141): PackageKit-WARNING **: failed to set proxy: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3141): updates-plugin-WARNING **: failed to set proxies: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3141): PackageKit-WARNING **: failed to set root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3141): updates-plugin-WARNING **: failed to set install root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
+
 /home/hacker/.config/Screenlets/Notes/default/Notes1
 LOAD NEW THEME: default
 FOUND: /usr/share/screenlets/Notes/themes/default
@@ -124,141 +129,77 @@ LOAD NEW THEME: green
 FOUND: /usr/share/screenlets/Notes/themes/green
 Screenlet has been initialized.
 Restored instances from session 'default' ...
-
-(gnome-panel:5691): GLib-GObject-WARNING **: /build/buildd-glib2.0_2.33.12+really2.32.4-5-i386-eISom6/glib2.0-2.33.12+really2.32.4/./gobject/gsignal.c:2459: signal `size_request' is invalid for instance `0x8c4fa28'
-
-(gnome-settings-daemon:5662): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
-
-(gnome-settings-daemon:5662): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
-
-(gnome-settings-daemon:5662): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
-
-(gnome-settings-daemon:5662): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
-
-(gnome-settings-daemon:5662): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
-
-(gnome-settings-daemon:5662): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
 ** Message: applet now embedded in the notification area
+0.452830188679
+0.452830188679
+0.452830188679
+Window manager warning: Attempt to perform window operation 1 on window 0x2800007 (NotesScree) when operation 1 on 0x2800007 (NotesScree) already in effect
+0.31914893617
+0.877358490566
+1.08552631579
+1.08552631579
 
-(nautilus:5752): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+** (notification-daemon:3218): WARNING **: "icon_data" hint is deprecated, please use "image_data" instead
 
-Failed to create secure directory: Operation not permitted
+(notification-daemon:3218): Gtk-WARNING **: gtk_widget_size_allocate(): attempt to allocate widget with width -23 and height 24
 
-** (gnome-settings-daemon:5662): WARNING **: Failed to connect context: Connection refused
-Failed to create secure directory: Operation not permitted
+(gnome-settings-daemon:3141): power-plugin-WARNING **: failed to turn the panel on: Display is not DPMS capable
 
-(gnome-sound-applet:5755): sound-cc-panel-WARNING **: Failed to connect context: Connection refused
+(gnome-settings-daemon:3141): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
 
-(nautilus:5752): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
 
-Found Java version 1.7.0_25
-Available memory:  502 MB
-0 [main] INFO org.zaproxy.zap.ZAP  - OWASP ZAP 2.3.0.1 started.
-642 [main] INFO hsqldb.db.HSQLDB379AF3DEBD.ENGINE  - dataFileCache open start
-646 [main] INFO hsqldb.db.HSQLDB379AF3DEBD.ENGINE  - dataFileCache open end
-844 [main] INFO org.parosproxy.paros.network.SSLConnector  - Reading supported SSL/TLS protocols...
-845 [main] INFO org.parosproxy.paros.network.SSLConnector  - Using a SSLEngine...
-981 [main] INFO org.parosproxy.paros.network.SSLConnector  - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
-983 [main] INFO org.parosproxy.paros.extension.option.OptionsParamCertificate  - Unsafe SSL renegotiation disabled.
-987 [main] INFO org.parosproxy.paros.view.View  - Initialising View
-2732 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Change user agent to other browsers. 
-2733 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Detect insecure or potentially malicious content in HTTP responses.
-2734 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
-2734 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Avoid browser cache (strip off IfModifiedSince)
-2734 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Log cookies sent by browser.
-2734 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Log unique GET queries into file:filter/get.xls
-2734 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Log unique POST queries into file:  filter/post.xls
-2734 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Log request and response into file: filter/message.txt
-2734 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Replace HTTP request body using defined pattern.
-2734 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Replace HTTP request header using defined pattern.
-2734 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Replace HTTP response body using defined pattern.
-2734 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Replace HTTP response header using defined pattern.
-2735 [main] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Send ZAP session request ID
-4036 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Script passive scan rules
-4037 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Application Error disclosure
-4037 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Incomplete or no cache-control and pragma HTTPHeader set
-4037 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Content-Type header missing
-4037 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Cookie no http-only flag
-4037 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Cookie without secure flag
-4037 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Cross-domain JavaScript source file inclusion
-4037 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: IE8's XSS protection filter not disabled
-4037 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Secure pages including mixed content
-4038 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Password Autocomplete in browser
-4038 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Private IP disclosure
-4038 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Session ID in URL rewrite
-4038 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: X-Content-Type-Options header missing
-4038 [main] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: X-Frame-Options header not set
-4891 [main] INFO org.zaproxy.zap.extension.authentication.ExtensionAuthentication  - Loaded authentication method types: [Form-based Authentication, HTTP/NTLM Authentication, Manual Authentication, Script-based Authentication]
-5906 [main] INFO org.zaproxy.zap.extension.sessions.ExtensionSessionManagement  - Loaded session management method types: [Cookie-based Session Management, Http Authentication Session Management]
-6248 [main] INFO org.zaproxy.zap.extension.keyboard.ExtensionKeyboard  - Initializing keyboard shortcuts
-7312 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Path Traversal
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Remote File Inclusion
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Server side include
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Reflected)
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Persistent)
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin SQL Injection
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Server Side Code Injection Plugin
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Remote OS Command Injection Plugin
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Directory browsing
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Secure page browser cache
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin External redirect
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin CRLF injection
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Parameter tampering
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Persistent) - Prime
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Persistent) - Spider
-7313 [main] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Script active scan rules
-7421 [main] INFO org.parosproxy.paros.control.Control  - New Session
-9440 [Thread-6] INFO hsqldb.db.HSQLDB379AF3DEBD.ENGINE  - dataFileCache commit start
-9442 [Thread-6] INFO hsqldb.db.HSQLDB379AF3DEBD.ENGINE  - Database closed
-9544 [Thread-6] INFO org.parosproxy.paros.control.Control  - OWASP ZAP 2.3.0.1 terminated.
+(gnome-settings-daemon:3141): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3141): updates-plugin-WARNING **: state unknown: 0
+Initializing nautilus-gdu extension
+Shutting down nautilus-gdu extension
+
+(gedit:12675): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.VFJJEX': No such file or directory
+
+(gedit:12675): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
 Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
 Window manager warning: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
 ** Message: applet now removed from the notification area
 
-(tracker-miner-fs:5740): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-(tracker-miner-fs:5740): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-(tracker-miner-fs:5740): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-(gnome-fallback-mount-helper:5753): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-(gnome-fallback-mount-helper:5753): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-(gnome-fallback-mount-helper:5753): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-(update-notifier:5759): GConf-WARNING **: Got Disconnected from DBus.
+(update-notifier:3252): GConf-WARNING **: Got Disconnected from DBus.
 
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
-g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
-g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
-g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
-** Message: PID 5736 (we are 5736) sent signal 15, shutting down...
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
 
 Received signal:15->'Terminated'
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+** Message: PID 3208 (we are 3208) sent signal 15, shutting down...
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+(gdu-notification-daemon:3214): Gdk-WARNING **: gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+Received signal:15->'Terminated'gopenvpn: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
 OK
 
 
-(gdu-notification-daemon:5738): Gdk-WARNING **: gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+(tracker-miner-fs:3220): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
 
+(tracker-miner-fs:3220): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
 
-(nautilus:5752): Nautilus-GDU-WARNING **: unable to query info: Couldn't get main dbus connection: Failed to connect to socket /tmp/dbus-ETPi8akofb: Connection refused
-
-gopenvpn: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
-
-(nautilus:5752): Gdk-WARNING **: nautilus: Fatal IO error 111 (Connection refused) on X server :0.
-
-update-notifier: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
-g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
-
-Received signal:15->'Terminated'
-
-(tracker-miner-fs:5740): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
-
-(tracker-miner-fs:5740): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
-
-(tracker-miner-fs:5740): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+(tracker-miner-fs:3220): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
 
 OK
 
