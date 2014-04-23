@@ -1,0 +1,34 @@
+CachingBackend: Loading instances from cache
+Found a running session of Tomboy, adding new instance by service.
+Error in screenlets.services.get_service_by_name: org.freedesktop.DBus.Error.ServiceUnknown: The name org.screenlets.Tomboy was not provided by any .service files
+Screenlet has already been added to /tmp/screenlets/screenlets.hacker.running
+Loading instances in: /home/hacker/.config/Screenlets/Tomboy/default/
+No instance(s) found in session-path, creating new one.
+/home/hacker/.config/Screenlets/Tomboy/default/Tomboy1
+LOAD NEW THEME: yellow
+FOUND: /usr/share/screenlets/Tomboy/themes/yellow
+theme.conf found! Loading option-overrides.
+theme.conf loaded: 
+Name: yellow
+Author: Helder Fraga aka Whise
+Version: 1.0
+Info: Blue theme
+Override: color_title
+WARNING: Option 'color_title' not found or protected.
+Override: font
+WARNING: Option 'font' not found or protected.
+Override: color_hover
+WARNING: Option 'color_hover' not found or protected.
+Override: color_even
+WARNING: Option 'color_even' not found or protected.
+Override: font_title
+WARNING: Option 'font_title' not found or protected.
+Override: show_shadow
+WARNING: Option 'show_shadow' not found or protected.
+Override: color_back
+WARNING: Option 'color_back' not found or protected.
+Override: color_odd
+WARNING: Option 'color_odd' not found or protected.
+Override: color_text
+WARNING: Option 'color_text' not found or protected.
+ !!! Error loading Tomboy notes: [Errno 2] No such file or directory: '/home/hacker/.tomboy'

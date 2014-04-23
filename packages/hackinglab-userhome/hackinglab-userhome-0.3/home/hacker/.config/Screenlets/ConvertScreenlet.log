@@ -1,0 +1,14 @@
+CachingBackend: Loading instances from cache
+Found a running session of Convert, adding new instance by service.
+Error in screenlets.services.get_service_by_name: org.freedesktop.DBus.Error.ServiceUnknown: The name org.screenlets.Convert was not provided by any .service files
+Screenlet has already been added to /tmp/screenlets/screenlets.hacker.running
+Loading instances in: /home/hacker/.config/Screenlets/Convert/default/
+No instance(s) found in session-path, creating new one.
+/home/hacker/.config/Screenlets/Convert/default/Convert1
+LOAD NEW THEME: default
+FOUND: /usr/share/screenlets/Convert/themes/default
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+Screenlet has been initialized.

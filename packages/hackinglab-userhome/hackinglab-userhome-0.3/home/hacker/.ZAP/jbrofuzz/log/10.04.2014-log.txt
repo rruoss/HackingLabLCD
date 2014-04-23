@@ -1,8 +1,0 @@
-[10.04.2014 15:30:51] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
-[10.04.2014 15:30:51] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
-[10.04.2014 15:30:51] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
-[10.04.2014 15:30:51] [INFO] Database loaded with 53 fuzzers
-[10.04.2014 15:31:47] [INFO] Loading from the internal file fuzzers.jbrf found in the current directory
-[10.04.2014 15:31:47] [INFO] fuzzers.jbrf file loaded with 48 fuzzers
-[10.04.2014 15:31:47] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
-[10.04.2014 15:31:47] [INFO] Database loaded with 53 fuzzers

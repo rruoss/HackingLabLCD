@@ -1,0 +1,10 @@
+CachingBackend: Loading instances from cache
+Found a running session of Launcher, adding new instance by service.
+Error in screenlets.services.get_service_by_name: org.freedesktop.DBus.Error.ServiceUnknown: The name org.screenlets.Launcher was not provided by any .service files
+Screenlet has already been added to /tmp/screenlets/screenlets.hacker.running
+Loading instances in: /home/hacker/.config/Screenlets/Launcher/default/
+No instance(s) found in session-path, creating new one.
+/home/hacker/.config/Screenlets/Launcher/default/Launcher1
+Screenlet has been initialized.
+Quitting current screenlet instance
+[<LauncherScreenlet object at 0x9a33784 (screenlets+Screenlet at 0x963fdb0)>]

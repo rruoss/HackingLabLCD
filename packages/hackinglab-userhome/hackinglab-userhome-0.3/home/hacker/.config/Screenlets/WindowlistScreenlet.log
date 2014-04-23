@@ -1,0 +1,17 @@
+CachingBackend: Loading instances from cache
+Found a running session of Windowlist, adding new instance by service.
+Error in screenlets.services.get_service_by_name: org.freedesktop.DBus.Error.ServiceUnknown: The name org.screenlets.Windowlist was not provided by any .service files
+Screenlet has already been added to /tmp/screenlets/screenlets.hacker.running
+Loading instances in: /home/hacker/.config/Screenlets/Windowlist/default/
+No instance(s) found in session-path, creating new one.
+/home/hacker/.config/Screenlets/Windowlist/default/Windowlist1
+Screenlet has been initialized.
+ID is unset or already in use - creating new one!
+File: Windowlist1.ini
+/home/hacker/.config/Screenlets/Windowlist/default/Windowlist2
+Screenlet has been initialized.
+ID is unset or already in use - creating new one!
+File: Windowlist1.ini
+/home/hacker/.config/Screenlets/Windowlist/default/Windowlist3
+Screenlet has been initialized.
+quiting
