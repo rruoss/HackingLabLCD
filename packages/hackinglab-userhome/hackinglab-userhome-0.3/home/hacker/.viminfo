@@ -11,8 +11,8 @@
 ~MSle0~/ico
 
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
 :q!
 
 # Search String History (newest to oldest):
@@ -34,13 +34,16 @@
 	W
 
 # File marks:
-'0  12  0  ~/Desktop/ZAP.desktop
-'1  4  0  ~/.screenrc
-'2  1  2  ~/.screenrc
-'3  4  0  ~/.bashrc
-'4  16  0  ~/.bashrc
+'0  10  0  ~/.about.txt
+'1  12  0  ~/Desktop/ZAP.desktop
+'2  4  0  ~/.screenrc
+'3  1  2  ~/.screenrc
+'4  4  0  ~/.bashrc
+'5  16  0  ~/.bashrc
 
 # Jumplist (newest first):
+-'  10  0  ~/.about.txt
+-'  1  0  ~/.about.txt
 -'  12  0  ~/Desktop/ZAP.desktop
 -'  1  0  ~/Desktop/ZAP.desktop
 -'  4  0  ~/.screenrc
@@ -103,8 +106,50 @@
 -'  5  0  ~/.bashrc
 -'  17  0  ~/.bashrc
 -'  14  0  ~/.bashrc
+-'  12  0  ~/Desktop/ZAP.desktop
+-'  1  0  ~/Desktop/ZAP.desktop
+-'  4  0  ~/.screenrc
+-'  1  0  ~/.screenrc
+-'  4  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  16  0  ~/.bashrc
+-'  13  0  ~/.bashrc
+-'  5  0  ~/.bashrc
+-'  17  0  ~/.bashrc
+-'  14  0  ~/.bashrc
+-'  4  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  16  0  ~/.bashrc
+-'  13  0  ~/.bashrc
+-'  5  0  ~/.bashrc
+-'  17  0  ~/.bashrc
+-'  14  0  ~/.bashrc
+-'  4  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  16  0  ~/.bashrc
+-'  13  0  ~/.bashrc
+-'  5  0  ~/.bashrc
+-'  17  0  ~/.bashrc
+-'  14  0  ~/.bashrc
+-'  4  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  16  0  ~/.bashrc
+-'  13  0  ~/.bashrc
+-'  5  0  ~/.bashrc
+-'  17  0  ~/.bashrc
+-'  14  0  ~/.bashrc
+-'  4  0  ~/.screenrc
+-'  1  0  ~/.screenrc
 
 # History of marks within files (newest to oldest):
+
+> ~/.about.txt
+	"	10	0
+	^	10	0
+	.	9	1
+	+	1	49
+	+	1	0
+	+	9	1
 
 > ~/Desktop/ZAP.desktop
 	"	12	0

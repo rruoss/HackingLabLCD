@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=mysql-workbench
+Name[en_US]=MySQL Workbench
+Exec=/usr/lib/mysql-workbench/bin/mysql-workbench
+Name=MySQL Workbench
+Icon=mysql-workbench

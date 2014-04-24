@@ -73,4 +73,24 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///usr/local/bin" added="2014-04-24T21:44:52Z" modified="2014-04-24T21:44:52Z" visited="2014-04-24T21:44:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="launchy" exec="&apos;launchy %u&apos;" modified="2014-04-24T21:44:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/local/sbin" added="2014-04-24T21:45:01Z" modified="2014-04-24T21:45:01Z" visited="2014-04-24T21:45:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="launchy" exec="&apos;launchy %u&apos;" modified="2014-04-24T21:45:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

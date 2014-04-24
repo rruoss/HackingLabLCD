@@ -1,0 +1,6 @@
+
+24 Apr 2014, 23:45:41: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+24 Apr 2014, 23:45:41: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+24 Apr 2014, 23:45:41: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.13 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts

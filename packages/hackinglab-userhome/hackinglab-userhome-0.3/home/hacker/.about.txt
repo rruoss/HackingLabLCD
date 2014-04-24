@@ -1,0 +1,10 @@
+
+
+	Hacking-Lab is a remote security lab infrastructure
+
+	* hosting more than 300 security challenges
+	* security training infrastructure
+	* since 2007
+
+	
+
