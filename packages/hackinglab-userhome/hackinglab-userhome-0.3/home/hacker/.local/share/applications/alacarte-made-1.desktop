@@ -1,10 +1,11 @@
 #!/usr/bin/env xdg-open
+
 [Desktop Entry]
 Version=1.0
 Type=Application
 Terminal=true
 Icon[en_US]=gnome-panel-launcher
 Name[en_US]=My IP Adresses
-Exec=/bin/sh -c "sudo /sbin/ifconfig -a|egrep \\"Link encap|Mask\\";${SHELL:-bash}"
+Exec=/bin/sh -c "/home/hacker/.scripts/list-ip.sh";${SHELL:-bash}""
 Name=My IP Adresses
 Icon=gnome-panel-launcher
