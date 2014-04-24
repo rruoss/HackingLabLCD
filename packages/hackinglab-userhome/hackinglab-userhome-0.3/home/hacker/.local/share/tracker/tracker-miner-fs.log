@@ -113,186 +113,32 @@
 
 23 Apr 2014, 17:15:32: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-23 Apr 2014, 17:31:14: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+24 Apr 2014, 17:21:04: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-23 Apr 2014, 17:31:14: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 17:21:04: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-23 Apr 2014, 17:31:14: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 17:21:04: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-23 Apr 2014, 17:31:14: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 17:23:36: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
 
-23 Apr 2014, 21:41:10: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 17:23:37: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-23 Apr 2014, 21:41:10: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 17:23:37: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-23 Apr 2014, 21:41:10: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 17:23:37: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-23 Apr 2014, 22:09:24: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+24 Apr 2014, 20:16:43: Tracker-Warning **: Could not open 'file:///home/hacker/bookmarks-ivan.json'
 
-23 Apr 2014, 22:09:25: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 20:18:53: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
 
-23 Apr 2014, 22:09:25: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 20:18:53: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-23 Apr 2014, 22:09:25: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 20:18:53: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-23 Apr 2014, 22:12:56: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 20:18:53: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
-23 Apr 2014, 22:12:56: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 20:21:11: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
 
-23 Apr 2014, 22:12:56: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 20:21:11: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
 
-23 Apr 2014, 22:14:06: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 22:14:06: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 22:14:06: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 22:15:12: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 22:15:12: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 22:15:12: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:14:14: Tracker-Warning **: Could not open 'file:///home/hacker/LiveCD-Tipps.pdf'
-
-23 Apr 2014, 23:14:20: Tracker-Warning **: Could not open 'file:///home/hacker/Desktop/LiveCD-Tipps.pdf'
-
-23 Apr 2014, 23:15:30: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-23 Apr 2014, 23:15:30: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-23 Apr 2014, 23:15:30: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-23 Apr 2014, 23:16:40: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-23 Apr 2014, 23:16:40: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-23 Apr 2014, 23:16:40: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-23 Apr 2014, 23:30:26: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-23 Apr 2014, 23:30:26: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-23 Apr 2014, 23:30:26: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-23 Apr 2014, 23:32:37: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:32:37: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:32:37: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.13 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:32:53: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:32:53: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:32:53: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:33:29: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:33:29: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:33:29: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:34:18: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:34:18: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-23 Apr 2014, 23:34:18: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:07:42: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:07:42: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:07:42: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:07:42: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:07:42: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:07:42: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:08:23: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:08:23: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:08:23: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:08:52: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:08:52: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:08:52: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:09:11: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:09:11: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:09:11: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:09:48: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:09:48: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:09:48: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:10:01: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:10:01: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:10:01: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:10:18: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:10:18: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:10:18: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:11:11: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:11:11: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:11:11: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:11:32: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:11:32: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:11:32: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:11:32: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:12:10: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:12:10: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:12:10: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:13:39: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:13:39: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:13:39: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:13:39: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:13:39: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 00:13:52: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:13:52: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 00:13:52: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 05:58:14: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-24 Apr 2014, 05:58:14: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 05:58:14: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 05:58:14: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 06:00:47: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 06:00:47: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
-
-24 Apr 2014, 06:00:47: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+24 Apr 2014, 20:21:11: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.13 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
