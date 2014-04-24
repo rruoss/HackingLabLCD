@@ -9,3 +9,4 @@ Name[en_US]=Ghex
 Name=Ghex
 Icon=gnome-panel-launcher
 Exec=sudo /usr/bin/ghex %F
+Hidden=true

@@ -17,6 +17,7 @@
 				<Merge type="menus"/>
 				<Merge type="files"/>
 			</Layout>
+			<Deleted/>
 		</Menu>
 		<DefaultLayout inline="false"/>
 		<Menu>

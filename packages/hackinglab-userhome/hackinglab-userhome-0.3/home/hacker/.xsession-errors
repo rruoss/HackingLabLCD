@@ -8,53 +8,52 @@ gnome-keyring-daemon: insufficient process capabilities, unsecure memory might g
 gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
 gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
 gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-nmNOnc
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-nmNOnc
-SSH_AUTH_SOCK=/home/hacker/.cache/keyring-nmNOnc/ssh
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-nmNOnc
-SSH_AUTH_SOCK=/home/hacker/.cache/keyring-nmNOnc/ssh
-GPG_AGENT_INFO=/home/hacker/.cache/keyring-nmNOnc/gpg:0:1
-GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-nmNOnc
-SSH_AUTH_SOCK=/home/hacker/.cache/keyring-nmNOnc/ssh
-GPG_AGENT_INFO=/home/hacker/.cache/keyring-nmNOnc/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-Ps8Ji0
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-Ps8Ji0
+SSH_AUTH_SOCK=/home/hacker/.cache/keyring-Ps8Ji0/ssh
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-Ps8Ji0
+SSH_AUTH_SOCK=/home/hacker/.cache/keyring-Ps8Ji0/ssh
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-Ps8Ji0/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-Ps8Ji0
+SSH_AUTH_SOCK=/home/hacker/.cache/keyring-Ps8Ji0/ssh
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-Ps8Ji0/gpg:0:1
 
-(gnome-settings-daemon:14665): power-plugin-WARNING **: Failed set DPMS mode: Display is not DPMS capable
+(gnome-settings-daemon:4364): power-plugin-WARNING **: Failed set DPMS mode: Display is not DPMS capable
 
-(gnome-settings-daemon:14665): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+(gnome-settings-daemon:4364): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
 
-(gnome-settings-daemon:14665): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+(gnome-settings-daemon:4364): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
 
-(gnome-settings-daemon:14665): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+(gnome-settings-daemon:4364): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
 
-(gnome-panel:14694): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
+(gnome-panel:4392): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
 
-** (gnome-panel:14694): WARNING **: Unable to parse mouse modifier '(null)'
+** (gnome-panel:4392): WARNING **: Unable to parse mouse modifier '(null)'
 
 Initializing tracker-miner-fs...
 Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-miner-fs.cfg'
 Starting log:
   File:'/home/hacker/.local/share/tracker/tracker-miner-fs.log'
-vmware-user: could not open /proc/fs/vmblock/dev
 Initializing tracker-store...
-
-(gnome-panel:14694): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
-
-** (gnome-panel:14694): WARNING **: Unable to parse mouse modifier '(null)'
-
+vmware-user: could not open /proc/fs/vmblock/dev
 Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-store.cfg'
 Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-store.cfg'
 Starting log:
   File:'/home/hacker/.local/share/tracker/tracker-store.log'
+
+(gnome-panel:4392): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
+
+** (gnome-panel:4392): WARNING **: Unable to parse mouse modifier '(null)'
+
 Initializing nautilus-gdu extension
+Loading settings in installed mode from /home/hacker
 ** Message: applet now removed from the notification area
+QKeySequence("Ctrl+Space") true 
 CachingBackend: Loading instances from cache
 CachingBackend: Loading <Notes4>
-Loading settings in installed mode from /home/hacker
+Unable to open desktop file /usr/share/applications/zaproxy.desktop for panel launcher: No such file or directory
 
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-QKeySequence("Ctrl+Space") true 
-
-(gnome-settings-daemon:14665): PackageKit-WARNING **: failed to set proxy: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+(gnome-settings-daemon:4364): PackageKit-WARNING **: failed to set proxy: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
   File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
     (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
   File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
@@ -62,7 +61,7 @@ QKeySequence("Ctrl+Space") true
 UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
 
 
-(gnome-settings-daemon:14665): PackageKit-WARNING **: failed to set root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+(gnome-settings-daemon:4364): PackageKit-WARNING **: failed to set root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
   File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
     (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
   File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
@@ -70,7 +69,7 @@ UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method
 UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
 
 
-(gnome-settings-daemon:14665): updates-plugin-WARNING **: failed to set proxies: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+(gnome-settings-daemon:4364): updates-plugin-WARNING **: failed to set proxies: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
   File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
     (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
   File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
@@ -78,19 +77,19 @@ UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method
 UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
 
 
-(gnome-settings-daemon:14665): updates-plugin-WARNING **: failed to set install root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+(gnome-settings-daemon:4364): updates-plugin-WARNING **: failed to set install root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
   File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
     (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
   File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
     raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
 UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
 
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-[1398291224,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
-[1398291225,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
-[1398291225,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
-[1398291225,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
+Unable to open desktop file sudo-1.desktop for panel launcher
+Unable to open desktop file /home/hacker/Desktop/gnome-nettool.desktop for panel launcher: No such file or directory
+[1398311906,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+[1398311907,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
+[1398311907,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
+[1398311907,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
 === Updating for primary Configuration ===
   Clone: false
   Output: Unknown attached to default
@@ -101,60 +100,27 @@ UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method
      primary: true
      position: 0 0
 
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
+(gnome-settings-daemon:4364): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
 
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
+(gnome-settings-daemon:4364): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
 
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
+(gnome-settings-daemon:4364): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
 
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-Unable to open desktop file /usr/share/applications/zaproxy.desktop for panel launcher: No such file or directory
-Unable to open desktop file sudo-1.desktop for panel launcher
-Unable to open desktop file /home/hacker/Desktop/gnome-nettool.desktop for panel launcher: No such file or directory
-daemon already started
+(gnome-settings-daemon:4364): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
 
-(gnome-panel:14694): GLib-GObject-WARNING **: /build/buildd-glib2.0_2.33.12+really2.32.4-5-i386-eISom6/glib2.0-2.33.12+really2.32.4/./gobject/gsignal.c:2459: signal `size_request' is invalid for instance `0x9053e68'
-** Message: applet now embedded in the notification area
+(gnome-settings-daemon:4364): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
 
-(gnome-settings-daemon:14665): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
-
-(gnome-settings-daemon:14665): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
-
-(gnome-settings-daemon:14665): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
-
-(gnome-settings-daemon:14665): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
-
-(gnome-settings-daemon:14665): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
-
-(gnome-settings-daemon:14665): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
+(gnome-settings-daemon:4364): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
 Found a running session of Notes, adding new instance by service.
 Error in screenlets.services.get_service_by_name: org.freedesktop.DBus.Error.ServiceUnknown: The name org.screenlets.Notes was not provided by any .service files
 Screenlet has already been added to /tmp/screenlets/screenlets.hacker.running
 Loading instances in: /home/hacker/.config/Screenlets/Notes/default/
 File: Notes4.ini
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
 /home/hacker/.config/Screenlets/Notes/default/Notes4
 LOAD NEW THEME: default
 FOUND: /usr/share/screenlets/Notes/themes/default
+
+(gnome-panel:4392): GLib-GObject-WARNING **: /build/buildd-glib2.0_2.33.12+really2.32.4-5-i386-eISom6/glib2.0-2.33.12+really2.32.4/./gobject/gsignal.c:2459: signal `size_request' is invalid for instance `0x8f01660'
 WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
 WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
 WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
@@ -164,58 +130,70 @@ WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu
 Set options in NotesScreenlet
 LOAD NEW THEME: tango
 FOUND: /usr/share/screenlets/Notes/themes/tango
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
 Screenlet has been initialized.
 Restored instances from session 'default' ...
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-** (gnome-panel:14694): WARNING **: Failed to get pixmap 16777423, 1295, 0
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
-
-(gnome-panel:14694): Gtk-CRITICAL **: _gtk_style_properties_set_property_by_property: assertion `_gtk_css_value_holds (value, _gtk_css_style_property_get_computed_type (style_prop))' failed
+** Message: applet now embedded in the notification area
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x2400007 specified for 0x2400005 (Launchy).
+Searching catalog for "r" 
+Setting output text to "Remmina" 
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+Searching catalog for "ro" 
+Setting output text to "Root Terminal" 
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+Searching catalog for "roo" 
+Setting output text to "Root Terminal" 
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+Searching catalog for "root" 
+Setting output text to "Root Terminal" 
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+QPixmap: It is not safe to use pixmaps outside the GUI thread
+Launching "Root Terminal" : "/usr/bin/gksu /usr/bin/x-terminal-emulator" 
 Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
 Window manager warning: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
 ** Message: applet now removed from the notification area
+gopenvpn: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
 
-(tracker-miner-fs:14740): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+(notification-daemon:4430): Gdk-WARNING **: notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
 
-(tracker-miner-fs:14740): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
-
-(tracker-miner-fs:14740): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
-** Message: PID 14736 (we are 14736) sent signal 15, shutting down...
 
-(update-notifier:14735): GConf-WARNING **: Got Disconnected from DBus.
-
+Received signal:15->'Terminated'
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
 update-notifier: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
 
-(gdu-notification-daemon:14738): Gdk-WARNING **: gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+(nm-applet:4427): Gdk-WARNING **: nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
 
-gopenvpn: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+(gdu-notification-daemon:4429): Gdk-WARNING **: gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
 g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
 
 Received signal:15->'Terminated'
+(nautilus:4439): Gdk-WARNING **: nautilus: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
 OK
 
 
-(nautilus:14749): Gdk-WARNING **: nautilus: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+(tracker-miner-fs:4431): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:4431): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:4431): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+OK
 
