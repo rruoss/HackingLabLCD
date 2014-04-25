@@ -198,3 +198,59 @@
 25 Apr 2014, 09:03:08: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
 
 25 Apr 2014, 09:03:08: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:32:26: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+25 Apr 2014, 09:32:26: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:32:26: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:32:26: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:33:53: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:33:53: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:33:53: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:34:51: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:34:51: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:34:51: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:35:37: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:35:37: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:35:37: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:35:55: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+25 Apr 2014, 09:35:55: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+25 Apr 2014, 09:35:55: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+25 Apr 2014, 09:35:55: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:35:55: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:35:55: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:36:21: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+25 Apr 2014, 09:36:21: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+25 Apr 2014, 09:36:21: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+25 Apr 2014, 09:36:21: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:36:21: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:36:21: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+25 Apr 2014, 09:36:32: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+25 Apr 2014, 09:36:32: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+25 Apr 2014, 09:36:32: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts

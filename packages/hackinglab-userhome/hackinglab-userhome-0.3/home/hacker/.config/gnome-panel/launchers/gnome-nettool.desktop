@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Exec=sudo gnome-nettool
+Icon=gnome-nettool
+Terminal=false
+Type=Application
+Categories=System;Settings;GNOME;GTK;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-nettool
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.2.0
+Name[en_US]=Network Inspection
+Name=Network Inspection
+Comment[en_US]=Network Inspection
+Comment=Network Inspection
