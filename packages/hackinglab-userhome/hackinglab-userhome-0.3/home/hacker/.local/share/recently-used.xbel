@@ -93,12 +93,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/hacker/Desktop/LiveCD-Tipps.pdf" added="2014-04-24T21:58:41Z" modified="2014-04-25T07:02:49Z" visited="2014-04-24T21:58:41Z">
+  <bookmark href="file:///home/hacker/Desktop/LiveCD-Tipps.pdf" added="2014-04-24T21:58:41Z" modified="2014-05-06T12:50:27Z" visited="2014-04-24T21:58:41Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/pdf"/>
         <bookmark:applications>
-          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2014-04-25T07:02:49Z" count="3"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2014-05-06T12:50:27Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>

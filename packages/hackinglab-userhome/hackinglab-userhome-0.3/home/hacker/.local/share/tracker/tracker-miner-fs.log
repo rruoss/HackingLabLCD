@@ -254,3 +254,29 @@
 25 Apr 2014, 09:36:32: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
 
 25 Apr 2014, 09:36:32: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+06 May 2014, 14:50:59: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+06 May 2014, 14:50:59: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+06 May 2014, 14:50:59: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+06 May 2014, 14:50:59: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+06 May 2014, 14:53:36: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+06 May 2014, 14:53:36: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+06 May 2014, 14:53:36: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+06 May 2014, 14:55:20: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.10 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+06 May 2014, 14:55:20: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.11 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+06 May 2014, 14:55:20: GVFS-RemoteVolumeMonitor-Warning **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+06 May 2014, 14:55:20: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+06 May 2014, 14:55:20: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed
+
+06 May 2014, 14:55:20: GLib-GIO-Critical **: Error while sending AddMatch() message: The connection is closed

@@ -2,7 +2,7 @@ Section: misc
 Priority: optional
 Standards-Version: 3.9.2
 Package: hackinglab-vpn-conf
-Depends: openvpn, gopenvpn
+Depends: openvpn, gopenvpn, hackinglab-gopenvpn
 Version: 2.2e
 Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
 Description: Hackinglab VPN config and related scripts
