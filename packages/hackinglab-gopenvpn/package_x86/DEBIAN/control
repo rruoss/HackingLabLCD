@@ -1,0 +1,8 @@
+Package: hackinglab-gopenvpn
+Priority: optional
+Section: misc
+Version: 1.0
+Architecture: i386
+Maintainer: Ivan Buetler <ivan.buetler@csnc.ch>
+Depends: gopenvpn
+Description: gopenvpn gnome task bar application
