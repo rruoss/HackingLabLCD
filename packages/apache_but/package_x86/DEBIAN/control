@@ -1,7 +1,7 @@
 Package: apache-but
 Priority: optional
 Section: misc
-Version: 0.3f
+Version: 1.0
 Architecture: i386
 Maintainer: Philipp Prommeuschel <philipp.promeuschel@csnc.ch>
 Depends: flex, libcurl4-openssl-dev, curl
