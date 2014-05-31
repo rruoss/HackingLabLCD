@@ -1,0 +1,39 @@
+#tabbrowser-tabs tab.tabbrowser-tab .tab-text.tab-label {
+text-shadow: white 1px 1px 1.5px !important; 
+color: black;
+/*transition: all .5s !important; 
+-moz-transition: all .5s !important; 
+*/
+}		/* cssRules[0]*/
+menuitem.alltabs-item {text-shadow: 1px 1px 1px #fff;}		/* cssRules[1] */
+menuitem.alltabs-item:hover, menuitem.alltabs-item:hover  .menu-iconic-text  {text-shadow: 1px 1px 1px #000;}
+#tabbrowser-tabs > .tabbrowser-tab[selected=true] { }
+#tabbrowser-tabs > .tabbrowser-tab[selected=true] .tab-background-start {}
+#tabbrowser-tabs > .tabbrowser-tab[selected=true] .tab-background-middle {}
+#tabbrowser-tabs > .tabbrowser-tab[selected=true] .tab-background-end {}
+#colorfulTabsStack {display: -moz-stack;}
+/*#tabbrowser-tabs > .tabbrowser-tab[selected=true] {background-color:red !important;}*/
+ /* animation */
+#tabbrowser-tabs:hover tab.tabbrowser-tab[selected=true] .tab-text.tab-label {			/* cssRules[8] */
+animation: myanim 1s infinite !important;
+animation-delay: 1s !important;
+text-shadow: none !important;
+}
+@keyframes myanim
+{
+    0% {
+   color:black ;
+    }
+    50% {
+    color:white ;
+    }
+}
+
+#tabbrowser-tabs > tab.tabbrowser-tab {
+opacity:.5;
+}
+
+#tabbrowser-tabs > tab.tabbrowser-tab[selected=true],
+#tabbrowser-tabs > tab.tabbrowser-tab:hover {
+opacity:1 !important;
+}

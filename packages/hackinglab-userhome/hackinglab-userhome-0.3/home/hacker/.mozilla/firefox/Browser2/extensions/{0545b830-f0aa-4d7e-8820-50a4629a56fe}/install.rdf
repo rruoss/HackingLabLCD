@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$lZf0J1"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="13.0"
+                   em:maxVersion="29.*" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="{0545b830-f0aa-4d7e-8820-50a4629a56fe}"
+                   em:unpack="true"
+                   em:type="2"
+                   em:name="ColorfulTabs"
+                   em:version="23.9"
+                   em:creator="Shivanand Sharma"
+                   em:description="Colorful Tabs colors every tab in a different color and makes them easy to distinguish while beautifying the overall appeal of the interface."
+                   em:homepageURL="http://www.binaryturf.com/free-software/colorfultabs-for-firefox/"
+                   em:iconURL="chrome://clrtabs/content/star.png"
+                   em:optionsURL="chrome://clrtabs/content/clrtabsopt.xul"
+                   >
+    <em:targetApplication RDF:resource="rdf:#$lZf0J1"/>
+    <em:targetApplication RDF:resource="rdf:#$mZf0J1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$mZf0J1"
+                   em:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   em:minVersion="2.0"
+                   em:maxVersion="2.6.*" />
+</RDF:RDF>

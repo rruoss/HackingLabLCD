@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog
+	id="clrAppDomainPreferences"
+	width="300"
+	title="Choose Color For This Domain"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	style="background:#EEEEFF;"
+	buttons="accept,cancel"
+	ondialogaccept="return sendDomainClr(1);"
+	ondialogcancel="return sendDomainClr(0);"
+	onload="setDomainPkr();"
+	>
+<groupbox id="prefdomainclrpkr"  style="background-color: #FFEAFE;"> 
+	   <description>Enter The Domain.</description>
+	   <textbox id="domainpkr" />
+	   <description>Select a color for this domain.</description>
+	   <colorpicker id="domainclrpkr" type="button" palettename="standard" onselect="setDomainText();" />
+	   <description>OR</description>
+	   <description tooltiptext="e.g. '#FF88CC' OR 'rgb(255,155,75)'.">Enter color in HEX OR RGB.</description>
+	   <textbox id="domainclrvalue" size="7" oninput="setDomainClr();" value="#" />
+</groupbox>
+<script>
+<![CDATA[
+var color;
+function setDomainPkr()
+	{
+	document.getElementById('domainpkr').value = window.arguments[0].inn.domain; 
+	document.getElementById('domainclrpkr').color = window.arguments[0].inn.oldColor; 
+	color = document.getElementById("domainclrpkr").color;
+	document.getElementById("domainclrvalue").value = color;
+	}
+
+function setDomainText()
+	{
+	color = document.getElementById("domainclrpkr").color;
+	document.getElementById("domainclrvalue").value = color;	
+	window.arguments[0].inn.oldColor = color;
+	}
+
+function setDomainClr()
+	{
+	var txt = document.getElementById("domainclrvalue").value;
+	document.getElementById("domainclrpkr").color = txt;
+	setDomainText();
+	}
+
+function sendDomainClr(st)
+	{
+	window.arguments[0].inn.enabled=st;
+	window.arguments[0].out = {oldColor:window.arguments[0].inn.oldColor, enabled:window.arguments[0].inn.enabled };
+	return true;
+	}
+]]>
+</script>
+<script type="application/x-javascript" src="chrome://clrtabs/content/clrtabs.js"/>
+</dialog>

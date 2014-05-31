@@ -1,7 +1,7 @@
 Package: hackinglab-userhome
 Priority: optional
 Section: misc
-Version: 1.0k
+Version: 1.1
 Architecture: i386
 Maintainer: Philipp Promeuschel <philipp.promeuschel@csnc.ch>
 Depends: openvpn, gopenvpn, hackinglab-gopenvpn, hackinglab-vpn-conf, hackinglab-wallpaper

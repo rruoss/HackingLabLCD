@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Icon[en_US]=gnome-panel-launcher
+Exec=gksu /etc/init.d/apache_but restart
+Icon=gnome-panel-launcher
+NoDisplay=false
+Name[en_US]=Restart Server
+Name=Restart Server

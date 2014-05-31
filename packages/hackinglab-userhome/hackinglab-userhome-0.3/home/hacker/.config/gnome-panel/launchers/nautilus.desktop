@@ -1,6 +1,7 @@
 #!/usr/bin/env xdg-open
+
 [Desktop Entry]
-Exec=sudo nautilus %U
+Exec=sudo nautilus /home/hacker
 Icon=system-file-manager
 Terminal=false
 Type=Application

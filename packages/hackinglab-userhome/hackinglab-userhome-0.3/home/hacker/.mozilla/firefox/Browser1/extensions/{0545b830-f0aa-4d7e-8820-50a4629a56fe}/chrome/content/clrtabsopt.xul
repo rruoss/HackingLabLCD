@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://clrtabs/skin/optionswindow.css" type="text/css"?>
+<prefwindow
+	id="appCtPreferences"
+	windowtype="window:prefwindow"
+	type="prefwindow"
+	title="Colorful Tabs Options"	   
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"	
+	>
+	<prefpane id="clrtbopt" label="General" onpaneload="colorfulTabsOptions1.clrPrefPaneLoad(event);" style="margin-bottom:30px;">
+		<preferences>
+			<preference id="fadelevel" name="extensions.clrtabs.fadedeg" type="int"/>
+			<preference id="scheme" name="extensions.clrtabs.scheme" type="int"/>
+			<preference id="clrCtxMenu" name="extensions.clrtabs.menu" type="bool"/>
+			<preference id="clrAllTabsPopPref" name="extensions.clrtabs.clrAllTabsPopPref" type="bool"/>
+			<preference id="clrReverse" name="extensions.clrtabs.txtreverse" type="bool"/>
+			<preference id="clrBgPic" name="extensions.clrtabs.bgpic" type="bool"/>
+			<preference id="standout" name="extensions.clrtabs.standout" type="bool"/>
+			<preference id="clrBgPicPath" name="extensions.clrtabs.bgpicpath" type="string"/>
+			<preference id="tablabelblink" name="extensions.clrtabs.tablabelblink" type="bool"/>
+			<preference id="uncoloredbgclr" name="extensions.clrtabs.uncoloredbgclr" type="string"/>
+			<preference id="tabtextclr" name="extensions.clrtabs.tabtextclr" type="string"/>
+			<preference id="pminify" name="extensions.clrtabs.minify" type="bool"/>
+
+		</preferences>		
+		<groupbox>
+			<caption label="Coloring Scheme" />
+			<vbox>
+				<radiogroup id="clrPrefs" preference="scheme"> 
+					<radio
+						id="clr1"
+						flex="1"
+						label="Use Default Palette."
+						value="0"
+						/>
+					<radio
+						id="clr2"
+						flex="1"
+						label="Generate Colors At Random."
+						value="1"
+						/>
+					<radio
+						id="clr3"
+						flex="1"
+						label="Generate Colors By Domain Hostname."
+						value="2"
+						/>
+					<radio
+						id="clr3"
+						flex="1"
+						label="Color only the tabs you want."
+						value="3"
+						/>
+				</radiogroup>				
+			</vbox>
+		</groupbox>
+			<groupbox>
+			<caption label="Tab Styles" />
+ 			<vbox>
+				<label>Fading of unselected tab.</label>
+				<menulist id="fadedeg" preference="fadelevel">
+					<menupopup>
+					<menuitem label="0 (No tab fading)" value="0"/>
+					<menuitem label="1 (minimum)" value="1"/>
+					<menuitem label="2" value="2"/>
+					<menuitem label="3" value="3"/>
+					<menuitem label="4" value="4"/>
+					<menuitem label="5" value="5"/>
+					<menuitem label="6" value="6"/>
+					<menuitem label="7" value="7"/>
+					<menuitem label="8" value="8"/>
+					<menuitem label="9 (maximum)" value="9"/>
+					</menupopup>
+				</menulist>
+				<checkbox id="standoutcheck" preference="standout" label="Highlight the currently selected tab."/>
+				<checkbox id="tablabelblinkcheck" preference="tablabelblink" label="Blink the currently selected tab on hover/mouse-over."/>
+				<checkbox id="clrCtxMenu" label="Enable context menu on the tabs." preference="clrCtxMenu" />
+				<checkbox id="clrAllTabsPop" label="Enable coloring the All-Tabs-Popup menu." preference="clrAllTabsPopPref" />
+				<checkbox id="clrMinify" label="Minify Tabs." preference="pminify" />
+				<label>Background style for uncolored tab when using Coloring Scheme 4.</label>
+				<box>
+					<colorpicker open="true" preference='uncoloredbgclr' type="button" id="uncoloredbgselector" style="margin-left:30px;"/>
+				</box>
+				<label>Color of tab-label.</label>
+				<box>
+					<colorpicker open="true" preference='tabtextclr' type="button" id="tabtextclrpkr" style="margin-left:30px;"/>
+				</box>
+				<checkbox id="clrTabBgnd"  preference="clrBgPic"  label="Enable a background image for tabs." tooltiptext="Not recommended with Personas"  oncommand="document.getElementById('image-path').disabled=!this.checked;document.getElementById('browseBgnd').disabled=!this.checked"   />
+				<textbox id="image-path"   preference="clrBgPicPath"  />
+				<button label="Browse..." oncommand="colorfulTabsOptions1.browsebgnd();" id="browseBgnd"  />
+				<description>Get a beautiful <html:a  style="color:blue;text-decoration:underline;cursor:pointer" onclick="colorfulTabs.wOpen('http://www.binaryturf.com/?page_id=514')">stripe pattern</html:a> or a <html:a  style="color:blue;text-decoration:underline;cursor:pointer" onclick="colorfulTabs.wOpen('http://www.binaryturf.com/?page_id=13463')">polka dot pattern</html:a> to use as a</description>
+				<description>background image.</description>
+			</vbox>
+		</groupbox>
+	</prefpane>
+	<prefpane id="domainclrs" label="Presets" orient="vertical" onpaneload="colorfulTabsOptions1.setDomainPref();colorfulTabsOptions1.setPalette();colorfulTabsOptions1.changeUI(document.getElementById('denabled'),0);">
+		<preferences>
+			<preference id="enabledomain" name="extensions.clrtabs.enabledomain" type="bool" />
+			<preference id="dpref" name="extensions.clrtabs.dpref" type="string" />
+			<preference id="ppref" name="extensions.clrtabs.ppref" type="string" />
+		</preferences>
+		<groupbox disabled="true">
+			<caption label="Preset Domain Colors" />
+			<vbox>
+				<label class="text-link" style="cursor:pointer" tooltiptext="Visit QuickStart Guide" onclick="colorfulTabs.wOpen('http://www.binaryturf.com/free-software/colorfultabs-for-firefox/colorfultabs-documentation-and-help/');" value="See Documentation" />
+				<label>To delete a domain, blank it out and save.</label>
+			</vbox>
+			<checkbox id="denabled" label="Enable Preset Domain Colors" preference="enabledomain" oncommand="colorfulTabsOptions1.changeUI(this,1)" />
+			<grid  style="height:200px; overflow-y:auto;overflow-x:hidden;" id="colorfulTabsDomains" preference-editable="true" preference="dpref" onsynctopreference="return colorfulTabsOptions.saveDomains();">
+				<columns>
+					<column flex="1"/>
+					<column flex="1"/>
+					<column flex="1"/>
+    				</columns>
+				<rows id="domainrows">
+				<row><label value="Domain" flex="1"/><label value="Color" flex="1"/><label value="Color Picker" flex="1"/></row>
+				</rows>
+			</grid>
+			<button id="adddomain" label="Add Domain" oncommand="colorfulTabsOptions1.addDomain();"/>
+			<label class="text-link" onclick="colorfulTabs.wOpen('http://www.binaryturf.com/free-software/colorfultabs-for-firefox/colorfultabs-documentation-and-help/#epref')" value="RegEx are allowed" tooltiptext="Regular Expressions allow powerful matching options."/>
+		</groupbox>
+		<groupbox>
+<caption label="Customize The Colors In The Default Palette (Coloring Scheme-I)" />
+<grid style="height:100px; overflow-y:auto;overflow-x:hidden;" id="colorfulTabsPalette">
+<columns>
+<column flex="1"/>
+<column flex="1"/>
+<column flex="1"/>
+<column flex="1"/>
+<column flex="1"/>
+<column flex="1"/>
+<column flex="1"/>
+<column flex="1"/>
+</columns>
+  <rows id="palettecolors">
+    
+    <row flex="1">
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+    </row>
+    <row flex="1">
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+    </row>
+    <row flex="1">
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+    </row>
+    <row flex="1">
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+      <button open="true" class="cpkrPalette" oncommand="colorfulTabsOptions.savePalette(this)" />
+    </row>
+  </rows>
+</grid>
+</groupbox>
+	</prefpane>
+	<prefpane id="tweaks" label="Tweaks" onpaneload="colorfulTabsOptions1.tweakspaneload();">
+		<preferences>
+			<preference id="txtshadow" name="extensions.clrtabs.txtshadow" type="bool"/>
+			<preference id="aggressive" name="extensions.clrtabs.aggressive" type="bool"/>
+			<preference id="currenttab" name="extensions.clrtabs.currenttab" type="bool"/>
+			<preference id="dispstack" name="extensions.clrtabs.dispstack" type="bool"/>
+			<preference id="currenttabclr" name="extensions.clrtabs.currenttabclr" type="string"/>
+			
+		</preferences>
+		<groupbox>
+			<caption><label>General Tweaks</label></caption>
+			<checkbox label="Enable Tab Text Glow" id='txtshadowenable' preference='txtshadow' oncommand="colorfulTabsOptions1.preftxtshadow(this.checked);" />			
+			<checkbox label="Enable Fixed Background Color For Currently Selected Tab" id='currenttabenable' preference='currenttab' tooltiptext="Uncheck Aggressive Mode to enable." oncommand="document.getElementById('currentclrselector').disabled = ! this.checked" />
+			<box><colorpicker open="true" preference='currenttabclr' type="button" id="currentclrselector" style="margin-left:30px;"/></box>
+			<checkbox label="Display Tab-Stack below the tabs (the thick colored line)" id='dispstackenable' preference='dispstack'/><label class="text-link" style="cursor:pointer" tooltiptext="Feature Requests" onclick="colorfulTabs.wOpen('http://www.binaryturf.com/forums/');" >Request more compatibility tweaks with other addons/themes here.</label>
+		</groupbox>
+		<groupbox>
+			<caption><label>Compatibility Tweaks</label></caption>			
+			<checkbox label="Agressive Mode (Prevent other addons from breaking ColorfulTabs)" id='aggressiveenable' preference='aggressive' oncommand="document.getElementById('currenttabenable').disabled = this.checked;document.getElementById('currentclrselector').disabled = this.checked;" />	
+		</groupbox>
+	</prefpane>
+	<prefpane id="advOpt"  label="Color Fine-Tuning" onpaneload="colorfulTabsOptions1.advPrefInit();">
+		<preferences>
+			<preference id="adv" name="extensions.clrtabs.advanced" type="bool"/>
+			<preference id="satmin" name="extensions.clrtabs.satmin" type="int"/>
+			<preference id="satmax" name="extensions.clrtabs.satmax" type="int"/>
+			<preference id="lummax" name="extensions.clrtabs.lummax" type="int"/>
+			<preference id="lummin" name="extensions.clrtabs.lummin" type="int"/>			
+			<preference id="sat" name="extensions.clrtabs.sat" type="int"/>
+			<preference id="lum" name="extensions.clrtabs.lum" type="int"/>
+		</preferences>
+		<groupbox>
+			<caption><label>Colour Fine-Tuning Options</label></caption>
+			<checkbox label="Enable Fine-Tuning Options" id='advenable' preference='adv' oncommand="colorfulTabsOptions1.adv_toggle_state(this.checked);" />
+			<groupbox id="adv_group"  style="visibility:hidden;">				
+				<grid>
+					<rows>
+						<row>
+							<label />
+							<label value="Minimum" />
+							<label value="Maximum" />
+						</row>
+						<row>
+							<label value="Saturation%" />
+							<textbox id='satmin' maxlength='3' size='3'  style='border:1px inset silver;' oninput='colorfulTabsOptions1.val(this)' preference='satmin'/>
+							<textbox id='satmax' maxlength='3' size='3'  style='border:1px inset silver;' oninput='colorfulTabsOptions1.val(this)' preference='satmax'/>
+						</row>
+						<row>
+							<label value="Luminance%" />
+							<textbox id='lummin' maxlength='3' size='3'  style='border:1px inset silver;' oninput='colorfulTabsOptions1.val(this)' preference='lummin'/>
+							<textbox id='lummax' maxlength='3' size='3'  style='border:1px inset silver;' oninput='colorfulTabsOptions1.val(this)' preference='lummax'/>
+						</row>
+					</rows>
+				</grid>
+				<button label="Reset" oncommand="colorfulTabsOptions1.resetPref()"/>
+			</groupbox>
+			<groupbox id='adv_group2' style="visibility:hidden;">				
+				<grid>
+					<rows>
+						<row>
+							<label value="Saturation%" />
+							<textbox id='sat' maxlength='3' size='3'  style='border:1px inset silver;' oninput='colorfulTabsOptions1.val(this)' preference='sat'/>							
+						</row>
+						<row>
+							<label value="Luminance%" />
+							<textbox id='lum' maxlength='3' size='3'  style='border:1px inset silver;' oninput='colorfulTabsOptions1.val(this)' preference='lum'/>							
+						</row>
+					</rows>
+				</grid>
+				<button label="Reset" oncommand="colorfulTabsOptions1.resetPref()"/>
+			</groupbox>
+		</groupbox>
+		
+	</prefpane>
+	<prefpane
+		id="cthelp"
+		label="Troubleshooting &amp; Help"		
+		>
+		<preferences>
+			<preference id="consolelog" name="extensions.clrtabs.consolelog" type="bool"/>
+		</preferences>
+ 		<groupbox>
+			<caption label="Help and Resources" />
+			<vbox>				
+				<label class="text-link" style="cursor:pointer" tooltiptext="Visit Help and Documentation" onclick="colorfulTabs.wOpen('http://www.binaryturf.com/free-software/colorfultabs-for-firefox/colorfultabs-documentation-and-help/');" value="Help and Documentation" />				
+				<label class="text-link" style="cursor:pointer" tooltiptext="Visit the support forums" onclick="colorfulTabs.wOpen('http://www.binaryturf.com/forum')" value="Support Forums" />
+				<label class="text-link" style="cursor:pointer" tooltiptext="Visit QuickStart Guide" onclick="colorfulTabs.wOpen('http://colorfultabs.binaryturf.com/')" value="ColorfulTabs Quick-Start Guide" />
+				<label class="text-link" style="cursor:pointer" tooltiptext="Reinstall an old version" onclick="colorfulTabs.wOpen('https://addons.mozilla.org/en-us/firefox/addon/colorfultabs/versions/');" value="Revert to older version" />
+				<label class="text-link" style="cursor:pointer" tooltiptext="FfChrome For Firefox" onclick="colorfulTabs.wOpen('http://www.binaryturf.com/free-software/ffchrome-for-firefox/')" value="FfChrome &#8212; An intelligent addon to slicken your context menu" />
+			</vbox>
+		</groupbox>
+		<groupbox>
+			<caption label="Other Resources" />
+			<box orient="horizontal" width="100">			
+				<box orient="vertical">
+					<label  style="font-family:serif;font-size:large;font-style:italic;" value="ColorfulTabs is free. However it helps me if" />
+					<label style="font-family:serif;font-size:large;font-style:italic;" value="you would use any one of my services as a token" />
+					<label style="font-family:serif;font-size:large;font-style:italic;" value="of support. Thank you for using ColorfulTabs!" />
+				</box>
+				<box>
+					<image src='developer.png' width='100' height='100' />
+				</box>
+			</box>			
+			<vbox>			
+				<label class="text-link" style="cursor:pointer" tooltiptext="Web Development Services" onclick="colorfulTabs.wOpen('http://www.binaryturf.com/')">BinaryTurf.Com &#8212; My Professional Web Design &amp; Development Services</label>
+				<label class="text-link" style="cursor:pointer" tooltiptext="APN Photography School" onclick="colorfulTabs.wOpen('http://www.apnphotographyschool.com/about')">APN Photography School &#8212; Photography tips and web design services for photographers.</label>
+			</vbox>
+		</groupbox>
+		<groupbox>
+			<caption label="Tools" />
+			<vbox>
+			<box>
+				<checkbox label="Enable Console Logging (Developmental Use)" id='consolelogenable' preference='consolelog' />
+			</box>
+			<box>
+				<button label="Reset ColorfulTabs Preferences (Needs Browser Restart)" oncommand="colorfulTabsOptions.resetPrefs();"/>
+			</box>
+			</vbox>
+		</groupbox>
+		</prefpane>
+<script type="application/javascript" src="chrome://clrtabs/content/clrtabs.js" />
+<script type="application/javascript">
+<![CDATA[
+var colorfulTabsOptions = {
+saveDomains:function()
+	{
+	colorfulTabs.cl("saving domains");
+	if(!document.getElementById("domainrows")) return;
+	var domains =  document.getElementById("domainrows").getElementsByAttribute("rel","domain");
+	var colors =  document.getElementById("domainrows").getElementsByAttribute("rel","color");
+	dpref= new Array;
+	var rawDomain,color;
+	for(var i=0;i <domains.length ; i++)
+		{
+		rawDomain = domains[i].value
+			rawDomain = rawDomain.replace(/^\s+|\s+$/, '');
+		color = colors[i].value;
+			color = color.replace(/^\s+|\s+$/, '');
+		if(rawDomain == '') continue;
+		if(color == '') continue;
+		rawDomain.replace(/https:\/\//i,"")				 
+		rawDomain=rawDomain.replace(/http:\/\//i,"")					 
+		rawDomain.replace(/ftp:\/\//i,"")					 
+		rawDomain.replace(/\//i,"");				 
+		dpref.push(rawDomain+"~"+colors[i].value);
+		}
+	//Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService).getBranch("extensions.clrtabs.").setCharPref("dpref",dpref.join("`"));
+	return dpref.join("`");
+	},
+savePalette:function(btnObjc)
+	{
+	btnClr = btnObjc.getAttribute('paletteclr');
+	var params = {inn:{oldColor:btnClr, enabled:0}, out:null};
+	window.openDialog('chrome://clrtabs/content/clrpkr.xul','_blank','modal,chrome,centerscreen,resizable=no, dialog=yes,close=no', params).focus();
+	if (params.inn.enabled)
+		{
+		var clrNewColor = params.inn.oldColor;
+		btnObjc.setAttribute('paletteclr',clrNewColor)
+		btnObjc.setAttribute('style',"background-color:" + clrNewColor);
+		}
+	else
+		{
+		}
+		var palette =  document.getElementById("palettecolors").getElementsByTagName("button");
+		ppref= new Array;
+		for(var i=0;i <palette.length ; i++)
+			{
+			ppref.push(palette[i].getAttribute('paletteclr'));
+			}
+		ppref = ppref.join("~")
+		Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService).getBranch("extensions.clrtabs.").setCharPref("ppref",ppref);
+	},
+resetPrefs:function(){
+		var ctPrefBranch = Components.classes["@mozilla.org/preferences-service;1"]
+				.getService(Components.interfaces.nsIPrefBranch).getBranch("extensions.clrtabs.");
+		var children = ctPrefBranch.getChildList("",{});
+		var msg = 'ColorfulTabs Preferences have been reset.\nPlease restart browser.';
+		for (var i=0;i<children.length;i++) {
+			try {
+				if(ctPrefBranch.prefHasUserValue(children[i])) {	//additional check
+					ctPrefBranch.clearUserPref(children[i]);
+					}
+			}
+			catch(e) {
+				colorfulTabs.cl(e);
+				msg = 'Attempted ColorfulTabs Preferences reset.\nErrors have been logged to the console.\nPlease restart browser.';
+			}
+		}
+		alert(msg);
+	},
+}
+]]>
+</script>
+</prefwindow>

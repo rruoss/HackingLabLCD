@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=gdu-smart-healthy
+Exec=/opt/gopenvpn/bin/gopenvpn
+Icon=gnome-panel-launcher
+Name[en_US]=Start VPN icon
+Name=VPN icon

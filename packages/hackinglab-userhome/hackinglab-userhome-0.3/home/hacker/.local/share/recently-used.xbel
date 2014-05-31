@@ -3,96 +3,6 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/hacker/transfer/vmware-view-client-vmware.png" added="2014-04-10T13:28:59Z" modified="2014-04-10T13:28:59Z" visited="2014-04-10T13:28:59Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Panel" exec="&apos;gnome-panel %u&apos;" modified="2014-04-10T13:28:59Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/hacker/transfer/vmware-view.png" added="2014-04-10T13:29:04Z" modified="2014-04-10T13:29:04Z" visited="2014-04-10T13:29:04Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/png"/>
-        <bookmark:applications>
-          <bookmark:application name="Panel" exec="&apos;gnome-panel %u&apos;" modified="2014-04-10T13:29:04Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/hacker/owasp_zap_root_ca.cer" added="2014-04-10T13:48:47Z" modified="2014-04-10T13:49:06Z" visited="2014-04-10T13:48:47Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/pkix-cert"/>
-        <bookmark:applications>
-          <bookmark:application name="Iceweasel" exec="&apos;iceweasel %u&apos;" modified="2014-04-10T13:49:06Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/hacker/owasp_zap_root_ca2.cer" added="2014-04-10T13:57:04Z" modified="2014-04-10T13:57:04Z" visited="2014-04-10T13:57:05Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/pkix-cert"/>
-        <bookmark:applications>
-          <bookmark:application name="nautilus" exec="&apos;/usr/bin/gcr-viewer&apos;" modified="2014-04-10T13:57:04Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/hacker/transfer/lcdbg2.JPG" added="2014-04-10T13:59:09Z" modified="2014-04-15T20:51:44Z" visited="2014-04-10T13:59:09Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/jpeg"/>
-        <bookmark:applications>
-          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2014-04-15T20:51:44Z" count="2"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///usr/share/pixmaps/wsicon32.xpm" added="2014-04-15T20:46:11Z" modified="2014-04-15T20:46:11Z" visited="2014-04-15T20:46:11Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/x-xpixmap"/>
-        <bookmark:applications>
-          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2014-04-15T20:46:11Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/hacker/bookmarks-ivan.json" added="2014-04-24T18:16:57Z" modified="2014-04-25T06:31:25Z" visited="2014-04-24T18:16:57Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/octet-stream"/>
-        <bookmark:applications>
-          <bookmark:application name="Iceweasel" exec="&apos;iceweasel %u&apos;" modified="2014-04-25T06:31:25Z" count="3"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///usr/local/bin" added="2014-04-24T21:44:52Z" modified="2014-04-24T21:44:52Z" visited="2014-04-24T21:44:52Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="inode/directory"/>
-        <bookmark:applications>
-          <bookmark:application name="launchy" exec="&apos;launchy %u&apos;" modified="2014-04-24T21:44:52Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///usr/local/sbin" added="2014-04-24T21:45:01Z" modified="2014-04-24T21:45:01Z" visited="2014-04-24T21:45:01Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="inode/directory"/>
-        <bookmark:applications>
-          <bookmark:application name="launchy" exec="&apos;launchy %u&apos;" modified="2014-04-24T21:45:01Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/hacker/Desktop/LiveCD-Tipps.pdf" added="2014-04-24T21:58:41Z" modified="2014-05-06T12:50:27Z" visited="2014-04-24T21:58:41Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -103,12 +13,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/hacker/Desktop/bookmarks-801.json" added="2014-04-25T06:40:54Z" modified="2014-04-25T06:41:10Z" visited="2014-04-25T06:40:54Z">
+  <bookmark href="file:///usr/share/icons/gnome/48x48/apps/openterm.png" added="2014-05-31T14:45:57Z" modified="2014-05-31T14:45:57Z" visited="2014-05-31T14:45:57Z">
     <info>
       <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/octet-stream"/>
+        <mime:mime-type type="image/png"/>
         <bookmark:applications>
-          <bookmark:application name="Iceweasel" exec="&apos;iceweasel %u&apos;" modified="2014-04-25T06:41:10Z" count="2"/>
+          <bookmark:application name="gnome-desktop-item-edit" exec="&apos;gnome-desktop-item-edit %u&apos;" modified="2014-05-31T14:45:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/icons/hicolor/scalable/apps/gdu-smart-healthy.svg" added="2014-05-31T14:46:58Z" modified="2014-05-31T14:46:58Z" visited="2014-05-31T14:46:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-desktop-item-edit" exec="&apos;gnome-desktop-item-edit %u&apos;" modified="2014-05-31T14:46:58Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

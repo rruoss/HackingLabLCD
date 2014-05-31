@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=openterm
+Exec=sudo gnome-terminal -e "/etc/openvpn/start_openvpn.sh"
+Icon=access
+Name[en_US]=Start VPN client in terminal
+Name=VPN client in terminal

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog
+	id="clrAppPreferences"
+	title="Choose Tab Color"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	buttons="accept,cancel"
+	ondialogaccept="return sendClr(1);"
+	ondialogcancel="return sendClr(0);"
+	onload="setClrpkr();"
+        align="center"
+	>
+<groupbox id="prefclrpkr"> 
+	   <description>Choose a color (double-click to quick select).</description>
+	   <colorpicker type="button" id="clrpkr" palettename="standard" onchange="{ setText(); sendClr(1); acceptDialog(); }" />
+	   <description>OR</description>
+	   <description tooltiptext="e.g. '#FF88CC' OR 'rgb(255,155,75)'.">Enter color as Hex or RGB {like #FF88CC or rgb(255,155,75)}.</description>
+	   <textbox id="clrvalue"   size="19" oninput="setClr();" value="#" />
+</groupbox>
+<script>
+<![CDATA[
+var color;
+function setClrpkr()
+	{
+	document.getElementById('clrpkr').color = window.arguments[0].inn.oldColor; 
+	color = document.getElementById("clrpkr").color;
+	document.getElementById("clrvalue").value = color;
+	}
+
+function setText()
+	{
+	color = document.getElementById("clrpkr").color;
+	document.getElementById("clrvalue").value = color;	
+	window.arguments[0].inn.oldColor = color;
+	}
+
+function setClr()
+	{
+	var txt = document.getElementById("clrvalue").value;
+	document.getElementById("clrpkr").color = txt;
+	setText();
+	}
+
+function sendClr(st)
+	{
+	window.arguments[0].inn.enabled=st;
+	window.arguments[0].out = {oldColor:window.arguments[0].inn.oldColor, enabled:window.arguments[0].inn.enabled };
+	return true;
+	}
+]]>
+</script>
+<script type="application/x-javascript" src="chrome://clrtabs/content/clrtabs.js"/>
+</dialog>

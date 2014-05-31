@@ -1,0 +1,506 @@
+/etc/gdm3/Xsession: Beginning session setup...
+localuser:hacker being added to access control list
+Failed to connect to the VirtualBox kernel service
+Failed to connect to the VirtualBox kernel service
+Failed to connect to the VirtualBox kernel service
+Failed to connect to the VirtualBox kernel service
+gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
+gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
+gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
+gnome-keyring-daemon: insufficient process capabilities, unsecure memory might get used
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-Dr3Cek
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-Dr3Cek/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-Dr3Cek
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-Dr3Cek/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-Dr3Cek
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-Dr3Cek/gpg:0:1
+SSH_AUTH_SOCK=/home/hacker/.cache/keyring-Dr3Cek/ssh
+GNOME_KEYRING_CONTROL=/home/hacker/.cache/keyring-Dr3Cek
+GPG_AGENT_INFO=/home/hacker/.cache/keyring-Dr3Cek/gpg:0:1
+SSH_AUTH_SOCK=/home/hacker/.cache/keyring-Dr3Cek/ssh
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: Failed set DPMS mode: Display is not DPMS capable
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+
+(gnome-panel:3134): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
+
+** (gnome-panel:3134): WARNING **: Unable to parse mouse modifier '(null)'
+
+Initializing tracker-store...
+Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-store.cfg'
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+Initializing tracker-miner-fs...
+vmware-user: could not open /proc/fs/vmblock/dev
+Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-miner-fs.cfg'
+Starting log:
+  File:'/home/hacker/.local/share/tracker/tracker-miner-fs.log'
+Tracker-Message: Setting up monitor for changes to config file:'/home/hacker/.config/tracker/tracker-store.cfg'
+Starting log:
+  File:'/home/hacker/.local/share/tracker/tracker-store.log'
+Initializing nautilus-gdu extension
+** Message: applet now removed from the notification area
+
+(gnome-panel:3134): Gtk-CRITICAL **: gtk_accelerator_parse_with_keycode: assertion `accelerator != NULL' failed
+
+** (gnome-panel:3134): WARNING **: Unable to parse mouse modifier '(null)'
+
+Loading settings in installed mode from /home/hacker
+[1401455544,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+[1401455545,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
+[1401455545,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
+[1401455545,000,gkbd-status.c:gkbd_status_set_current_page_for_group/] 	Page for group 0 is not ready
+=== Updating for primary Configuration ===
+  Clone: false
+  Output: Unknown attached to default
+     status: on
+     width: 1280
+     height: 1024
+     rate: 85
+     primary: true
+     position: 0 0
+CachingBackend: Loading instances from cache
+CachingBackend: Loading <Notes1>
+Unable to open desktop file sudo-1.desktop for panel launcher
+QKeySequence("Ctrl+Space") true 
+No global tempdir found, creating new one.
+Temp directory /tmp/screenlets created.
+Creating new entry for NotesScreenlet in /tmp/screenlets/screenlets.hacker.running
+Loading instances in: /home/hacker/.config/Screenlets/Notes/default/
+File: Notes1.ini
+Unable to open desktop file /usr/share/applications/zaproxy.desktop for panel launcher: No such file or directory
+/home/hacker/.config/Screenlets/Notes/default/Notes1
+LOAD NEW THEME: default
+FOUND: /usr/share/screenlets/Notes/themes/default
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+WARNING - add_default_menuitems and add_menuitems should be set in on_init ,menu values will be displayed incorrectly
+Set options in NotesScreenlet
+LOAD NEW THEME: tango
+FOUND: /usr/share/screenlets/Notes/themes/tango
+Screenlet has been initialized.
+Restored instances from session 'default' ...
+
+(gnome-panel:3134): GLib-GObject-WARNING **: /build/buildd-glib2.0_2.33.12+really2.32.4-5-i386-eISom6/glib2.0-2.33.12+really2.32.4/./gobject/gsignal.c:2459: signal `size_request' is invalid for instance `0x8488b78'
+
+(gnome-settings-daemon:3091): PackageKit-WARNING **: failed to set proxy: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): PackageKit-WARNING **: failed to set root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to set proxies: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetProxy is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to set install root: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: SetRoot is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+** Message: applet now embedded in the notification area
+FoxyProxy settingsDir: /home/hacker/.mozilla/firefox/Browser2/foxyproxy.xml
+FoxyProxy settingsDir: /home/hacker/.mozilla/firefox/Browser1/foxyproxy.xml
+Initializing nautilus-gdu extension
+Shutting down nautilus-gdu extension
+Initializing nautilus-gdu extension
+Shutting down nautilus-gdu extension
+Initializing nautilus-gdu extension
+Shutting down nautilus-gdu extension
+Initializing nautilus-gdu extension
+
+(nautilus:3475): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.VFHOGX': No such file or directory
+
+(nautilus:3475): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+[3492:3492:0530/081517:ERROR:chrome_browser_main_extra_parts_gtk.cc(50)] Startup refusing to run as root.
+[3506:3506:0530/081527:ERROR:chrome_browser_main_extra_parts_gtk.cc(50)] Startup refusing to run as root.
+
+(nautilus:3475): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.OUZMGX': No such file or directory
+
+(nautilus:3475): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+
+(nautilus:3475): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.E19HGX': No such file or directory
+
+(nautilus:3475): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+[3562:3562:0530/081600:ERROR:chrome_browser_main_extra_parts_gtk.cc(50)] Startup refusing to run as root.
+
+(nautilus:3475): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.8J9CGX': No such file or directory
+
+(nautilus:3475): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: state unknown: 0
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: failed to turn the panel on: Display is not DPMS capable
+Searching history for "" 
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: failed to turn the panel off: Display is not DPMS capable
+Searching history for "" 
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: state unknown: 0
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+Searching history for "" 
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: failed to turn the panel on: Display is not DPMS capable
+Searching history for "" 
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: failed to turn the panel off: Display is not DPMS capable
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: failed to turn the panel on: Display is not DPMS capable
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(gnome-settings-daemon:3091): color-plugin-WARNING **: failed to reset xrandr-default gamma tables: gamma size is zero
+Searching history for "" 
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: state unknown: 0
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: failed to turn the panel on: Display is not DPMS capable
+Searching history for "" 
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: failed to turn the panel on: Display is not DPMS capable
+
+** (notification-daemon:3172): WARNING **: "icon_data" hint is deprecated, please use "image_data" instead
+
+(notification-daemon:3172): Gtk-WARNING **: gtk_widget_size_allocate(): attempt to allocate widget with width -23 and height 24
+
+(nautilus:3475): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.PGCLGX': No such file or directory
+
+(nautilus:3475): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+[4900:4900:0530/091432:ERROR:chrome_browser_main_extra_parts_gtk.cc(50)] Startup refusing to run as root.
+
+(nautilus:3475): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.C1GPGX': No such file or directory
+
+(nautilus:3475): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+Shutting down nautilus-gdu extension
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: state unknown: 0
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+Searching history for "" 
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: failed to turn the panel off: Display is not DPMS capable
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: state unknown: 0
+Searching history for "" 
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+
+(gnome-settings-daemon:3091): updates-plugin-WARNING **: failed to get time: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 654, in _message_cb
+    (candidate_method, parent_method) = _method_lookup(self, method_name, interface_name)
+  File "/usr/lib/python2.7/dist-packages/dbus/service.py", line 246, in _method_lookup
+    raise UnknownMethodException('%s is not a valid method of interface %s' % (method_name, dbus_interface))
+UnknownMethodException: org.freedesktop.DBus.Error.UnknownMethod: Unknown method: GetTimeSinceAction is not a valid method of interface org.freedesktop.PackageKit
+
+Searching history for "" 
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: failed to turn the panel on: Display is not DPMS capable
+
+(notification-daemon:3172): Gtk-WARNING **: gtk_widget_size_allocate(): attempt to allocate widget with width -23 and height 24
+Initializing nautilus-gdu extension
+
+(nautilus:5585): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.UFLJGX': No such file or directory
+
+(nautilus:5585): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+
+(file-roller:5592): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.606OGX': No such file or directory
+
+(file-roller:5592): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+
+(file-roller:5592): Gtk-WARNING **: Attempting to store changes into `/root/.local/share/recently-used.xbel', but failed: Failed to create file '/root/.local/share/recently-used.xbel.RQARGX': No such file or directory
+
+(file-roller:5592): Gtk-WARNING **: Attempting to set the permissions of `/root/.local/share/recently-used.xbel', but failed: No such file or directory
+
+** (nautilus:5585): WARNING **: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.gnome.SessionManager" does not exist
+
+(nautilus:5585): GLib-GIO-WARNING **: Missing callback called fullpath = /root/.local/share/recently-used.xbel
+
+Error: Invalid Font Weight
+Shutting down nautilus-gdu extension
+Initializing nautilus-gdu extension
+Shutting down nautilus-gdu extension
+Initializing nautilus-gdu extension
+Shutting down nautilus-gdu extension
+FoxyProxy settingsDir: /home/hacker/.mozilla/firefox/Browser2/foxyproxy.xml
+FoxyProxy settingsDir: /home/hacker/.mozilla/firefox/Browser1/foxyproxy.xml
+Searching history for "" 
+
+(gnome-settings-daemon:3091): power-plugin-WARNING **: failed to turn the panel on: Display is not DPMS capable
+
+(gnome-settings-daemon:3091): Gdk-WARNING **: gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(gnome-fallback-mount-helper:3194): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(update-notifier:3174): GConf-WARNING **: Got Disconnected from DBus.
+
+
+(gnome-panel:3134): GConf-WARNING **: Got Disconnected from DBus.
+
+
+(gnome-panel:3134): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+Received signal:15->'Terminated'
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+(nautilus:3201): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(nautilus:3201): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.12 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+Window manager warning: Fatal IO error 11 (Resource temporarily unavailable) on display ':0'.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+** Message: PID 3204 (we are 3204) sent signal 15, shutting down...
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+gopenvpn: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+(gdu-notification-daemon:3182): Gdk-WARNING **: gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+(gnome-sound-applet:3180): Gdk-WARNING **: gnome-sound-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(bluetooth-applet:3196): Gdk-WARNING **: bluetooth-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(gksu:5816): GLib-CRITICAL **: g_str_has_prefix: assertion `str != NULL' failed
+gnome-session[3029]: Gdk-WARNING: gnome-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+launchy: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+(tracker-miner-fs:3205): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.11 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(tracker-miner-fs:3205): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:3205): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:3205): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+OK
+
+
+Received signal:15->'Terminated'
+OK
+

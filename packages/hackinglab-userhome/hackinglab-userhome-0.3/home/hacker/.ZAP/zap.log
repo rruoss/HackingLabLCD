@@ -1088,3 +1088,61 @@ java.sql.SQLException: invalid database address: jdbc:hsqldb:file:/home/hacker/.
 2014-04-15 22:55:19,770 INFO  ENGINE - dataFileCache commit start
 2014-04-15 22:55:19,772 INFO  ENGINE - Database closed
 2014-04-15 22:55:19,874 INFO  Control - OWASP ZAP 2.3.0.1 terminated.
+2014-05-31 10:35:07,619 INFO  ZAP - OWASP ZAP 2.3.0.1 started.
+2014-05-31 10:35:08,152 INFO  ENGINE - dataFileCache open start
+2014-05-31 10:35:08,164 INFO  ENGINE - dataFileCache open end
+2014-05-31 10:35:08,347 INFO  SSLConnector - Reading supported SSL/TLS protocols...
+2014-05-31 10:35:08,349 INFO  SSLConnector - Using a SSLEngine...
+2014-05-31 10:35:08,511 INFO  SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+2014-05-31 10:35:08,512 INFO  OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+2014-05-31 10:35:08,517 INFO  View - Initialising View
+2014-05-31 10:35:10,382 INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2014-05-31 10:35:10,382 INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2014-05-31 10:35:10,384 INFO  FilterFactory - loaded filter Send ZAP session request ID
+2014-05-31 10:35:11,927 INFO  ExtensionPassiveScan - loaded passive scan rule: Script passive scan rules
+2014-05-31 10:35:11,927 INFO  ExtensionPassiveScan - loaded passive scan rule: Application Error disclosure
+2014-05-31 10:35:11,928 INFO  ExtensionPassiveScan - loaded passive scan rule: Incomplete or no cache-control and pragma HTTPHeader set
+2014-05-31 10:35:11,928 INFO  ExtensionPassiveScan - loaded passive scan rule: Content-Type header missing
+2014-05-31 10:35:11,928 INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie no http-only flag
+2014-05-31 10:35:11,928 INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie without secure flag
+2014-05-31 10:35:11,928 INFO  ExtensionPassiveScan - loaded passive scan rule: Cross-domain JavaScript source file inclusion
+2014-05-31 10:35:11,928 INFO  ExtensionPassiveScan - loaded passive scan rule: IE8's XSS protection filter not disabled
+2014-05-31 10:35:11,928 INFO  ExtensionPassiveScan - loaded passive scan rule: Secure pages including mixed content
+2014-05-31 10:35:11,929 INFO  ExtensionPassiveScan - loaded passive scan rule: Password Autocomplete in browser
+2014-05-31 10:35:11,929 INFO  ExtensionPassiveScan - loaded passive scan rule: Private IP disclosure
+2014-05-31 10:35:11,929 INFO  ExtensionPassiveScan - loaded passive scan rule: Session ID in URL rewrite
+2014-05-31 10:35:11,929 INFO  ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options header missing
+2014-05-31 10:35:11,929 INFO  ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options header not set
+2014-05-31 10:35:12,799 INFO  ExtensionAuthentication - Loaded authentication method types: [Form-based Authentication, HTTP/NTLM Authentication, Manual Authentication, Script-based Authentication]
+2014-05-31 10:35:13,755 INFO  ExtensionSessionManagement - Loaded session management method types: [Cookie-based Session Management, Http Authentication Session Management]
+2014-05-31 10:35:14,116 INFO  ExtensionKeyboard - Initializing keyboard shortcuts
+2014-05-31 10:35:15,319 INFO  PluginFactory - loaded plugin Path Traversal
+2014-05-31 10:35:15,320 INFO  PluginFactory - loaded plugin Remote File Inclusion
+2014-05-31 10:35:15,320 INFO  PluginFactory - loaded plugin Server side include
+2014-05-31 10:35:15,320 INFO  PluginFactory - loaded plugin Cross Site Scripting (Reflected)
+2014-05-31 10:35:15,320 INFO  PluginFactory - loaded plugin Cross Site Scripting (Persistent)
+2014-05-31 10:35:15,320 INFO  PluginFactory - loaded plugin SQL Injection
+2014-05-31 10:35:15,320 INFO  PluginFactory - loaded plugin Server Side Code Injection Plugin
+2014-05-31 10:35:15,320 INFO  PluginFactory - loaded plugin Remote OS Command Injection Plugin
+2014-05-31 10:35:15,320 INFO  PluginFactory - loaded plugin Directory browsing
+2014-05-31 10:35:15,320 INFO  PluginFactory - loaded plugin Secure page browser cache
+2014-05-31 10:35:15,320 INFO  PluginFactory - loaded plugin External redirect
+2014-05-31 10:35:15,321 INFO  PluginFactory - loaded plugin CRLF injection
+2014-05-31 10:35:15,321 INFO  PluginFactory - loaded plugin Parameter tampering
+2014-05-31 10:35:15,321 INFO  PluginFactory - loaded plugin Cross Site Scripting (Persistent) - Prime
+2014-05-31 10:35:15,321 INFO  PluginFactory - loaded plugin Cross Site Scripting (Persistent) - Spider
+2014-05-31 10:35:15,321 INFO  PluginFactory - loaded plugin Script active scan rules
+2014-05-31 10:35:15,410 INFO  Control - New Session
+2014-05-31 10:35:17,105 INFO  ENGINE - dataFileCache commit start
+2014-05-31 10:35:17,107 INFO  ENGINE - Database closed
+2014-05-31 10:35:17,210 INFO  Control - OWASP ZAP 2.3.0.1 terminated.

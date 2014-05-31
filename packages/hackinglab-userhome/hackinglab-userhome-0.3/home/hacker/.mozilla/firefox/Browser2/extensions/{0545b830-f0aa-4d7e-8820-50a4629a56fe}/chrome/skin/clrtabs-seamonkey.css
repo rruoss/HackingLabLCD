@@ -1,0 +1,40 @@
+@import url('chrome://global/skin/');
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/*Color the bottom strip under the tabs to a color; this is modified by the javascript on tab select event*/
+.tabbrowser-strip {
+background-color: transparent !important;
+}
+
+.tabbrowser-tabs:-moz-system-metric(windows-default-theme),.tabbrowser-tabs {
+	-moz-appearance:none !important; 
+	background-color:ActiveBorder;
+	background-image:url('chrome://clrtabs/skin/seamonkey-bg.png');
+	background-repeat:repeat-x !important;
+	background-position:bottom center;
+}
+
+/*
+.tabs-bottom {
+background-color: #888888 ;
+}
+*/
+
+tab {
+-moz-appearance:none !important;
+background-image:url('chrome://clrtabs/skin/seamonkey.png') !important;
+	background-repeat:repeat-x !important;
+}
+
+
+.tabbrowser-tab:not([selected="true"]){
+	/*background-image:url('chrome://clrtabs/skin/tab-passive-bkgnd.png') !important;
+	background-repeat:repeat-x;
+	background-image:url('chrome://navigator/skin/tabbrowser/tab-active-bkgnd.png') !important; */
+}
+
+
+
+.standout { 
+background-image:none !important;
+}

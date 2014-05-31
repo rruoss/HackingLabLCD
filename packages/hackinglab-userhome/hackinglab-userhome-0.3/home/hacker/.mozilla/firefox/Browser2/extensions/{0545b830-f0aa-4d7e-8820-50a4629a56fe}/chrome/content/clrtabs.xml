@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<bindings xmlns="http://www.mozilla.org/xbl"
+         xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<binding id="tabbrowser-tabs">
+		<content>
+			<xul:stack flex="1" class="tabs-stack" id="colorfulTabsStack">
+				<xul:vbox>
+					<xul:spacer flex="2" />
+					<xul:hbox class="tabs-bottom" align="center"  /> 
+				</xul:vbox>				 
+				<children/>				 
+			</xul:stack>			
+		</content>
+	</binding>
+</bindings>

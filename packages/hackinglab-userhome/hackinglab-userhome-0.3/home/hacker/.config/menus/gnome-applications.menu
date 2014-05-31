@@ -36,16 +36,33 @@
 			<Include>
 				<Filename>alacarte-made-6.desktop</Filename>
 			</Include>
+			<AppDir>/home/hacker/.local/share/applications</AppDir>
+			<Include>
+				<Filename>alacarte-made-10.desktop</Filename>
+			</Include>
+			<Include>
+				<Filename>alacarte-made-11.desktop</Filename>
+			</Include>
+			<Include>
+				<Filename>alacarte-made-12.desktop</Filename>
+			</Include>
+			<Include>
+				<Filename>alacarte-made-13.desktop</Filename>
+			</Include>
+			<Include>
+				<Filename>alacarte-made-14.desktop</Filename>
+			</Include>
 			<Layout>
 				<Merge type="menus"/>
 				<Filename>alacarte-made-2.desktop</Filename>
 				<Filename>alacarte-made-3.desktop</Filename>
-				<Filename>alacarte-made-4.desktop</Filename>
-				<Filename>alacarte-made-5.desktop</Filename>
+				<Filename>alacarte-made-10.desktop</Filename>
+				<Filename>alacarte-made-11.desktop</Filename>
+				<Filename>alacarte-made-12.desktop</Filename>
+				<Filename>alacarte-made-13.desktop</Filename>
 				<Merge type="files"/>
 			</Layout>
 		</Menu>
-		<DefaultLayout inline="false"/>
 		<Menu>
 			<Name>alacarte-made-5</Name>
 			<Directory>alacarte-made-5.directory</Directory>
@@ -57,8 +74,45 @@
 				<Merge type="files"/>
 			</Layout>
 		</Menu>
+		<Menu>
+			<Name>alacarte-made-6</Name>
+			<Directory>alacarte-made-6.directory</Directory>
+			<Include>
+				<Filename>alacarte-made-8.desktop</Filename>
+			</Include>
+			<Include>
+				<Filename>alacarte-made-9.desktop</Filename>
+			</Include>
+			<Layout>
+				<Merge type="menus"/>
+				<Filename>alacarte-made-8.desktop</Filename>
+				<Merge type="files"/>
+			</Layout>
+		</Menu>
+		<DefaultLayout inline="false"/>
+		<Menu>
+			<Name>alacarte-made-7</Name>
+			<Directory>alacarte-made-7.directory</Directory>
+			<Include>
+				<Filename>alacarte-made-16.desktop</Filename>
+			</Include>
+			<Include>
+				<Filename>alacarte-made-17.desktop</Filename>
+			</Include>
+			<Layout>
+				<Merge type="menus"/>
+				<Filename>alacarte-made-16.desktop</Filename>
+				<Merge type="files"/>
+			</Layout>
+		</Menu>
+		<Include>
+			<Filename>alacarte-made-15.desktop</Filename>
+		</Include>
 		<Layout>
 			<Merge type="menus"/>
+			<Menuname>alacarte-made-7</Menuname>
+			<Menuname>alacarte-made-6</Menuname>
+			<Menuname>alacarte-made-5</Menuname>
 			<Menuname>alacarte-made-4</Menuname>
 			<Merge type="files"/>
 		</Layout>
