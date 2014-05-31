@@ -1,0 +1,9 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: hackinglab-version
+Depends: hacking-lab-tools
+Version: 8.04a
+Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
+Description: hackinglab-version
+Files: version.txt /opt/
