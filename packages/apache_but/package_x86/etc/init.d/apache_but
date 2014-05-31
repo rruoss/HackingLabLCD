@@ -6,7 +6,7 @@
 
 case "$1" in
 'start')
-        # echo "STARTING REVERSE PROXY" 
+        # echo "STARTING APACHE_BUT" 
 	#/etc/init.d/apache2 stop
 
 	HL_ETH=`/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
@@ -31,12 +31,21 @@ case "$1" in
         ;;
 
 'stop')
-        # echo "STOPPING REVERSE PROX"
+        # echo "STOPPING APACHE_BUT"
         /opt/apache_but/httpd/bin/apachectl -k stop
         ;;
 
+'clean')
+        # echo "RESTARTING APACHE_BUT"
+        /opt/apache_but/httpd/bin/apachectl -k stop
+        cp /dev/null /opt/apache_but/httpd/logs/access_log
+        cp /dev/null /opt/apache_but/httpd/logs/error_log
+        /opt/apache_but/httpd/bin/apachectl -k start
+        ;;
+
+
 *)
-        echo "Usage: $0 { start | stop }"
+        echo "Usage: $0 { start | stop | clean }"
         exit 1
         ;;
 esac
