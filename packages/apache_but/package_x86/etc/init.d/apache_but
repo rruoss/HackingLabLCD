@@ -6,9 +6,7 @@
 
 case "$1" in
 'start')
-        # echo "STARTING APACHE_BUT" 
-	#/etc/init.d/apache2 stop
-
+        echo "STARTING APACHE_BUT" 
 	HL_ETH=`/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
 	HL_TUN=`/sbin/ifconfig tun0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
 	HL_WLAN=`/sbin/ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
@@ -28,24 +26,42 @@ case "$1" in
 
 	grep ^Listen /opt/apache_but/httpd/conf/httpd.conf
 	/opt/apache_but/httpd/bin/apachectl -k start
+        echo "SHOW IP where the web server is listening" 
+	/home/hacker/.scripts/list-ip.sh
+	sleep 5;
         ;;
 
 'stop')
-        # echo "STOPPING APACHE_BUT"
+        echo "STOPPING APACHE_BUT"
         /opt/apache_but/httpd/bin/apachectl -k stop
+	sleep 5;
         ;;
 
+'restart')
+        echo "RESTART APACHE_BUT"
+        /opt/apache_but/httpd/bin/apachectl -k stop
+	sleep 1
+        /opt/apache_but/httpd/bin/apachectl -k start
+        echo "SHOW IP where the web server is listening"
+        /home/hacker/.scripts/list-ip.sh
+        sleep 5;
+        ;;
+
+
 'clean')
-        # echo "RESTARTING APACHE_BUT"
+        echo "RESTARTING & CLEAN LOG FILES OF APACHE_BUT"
         /opt/apache_but/httpd/bin/apachectl -k stop
         cp /dev/null /opt/apache_but/httpd/logs/access_log
         cp /dev/null /opt/apache_but/httpd/logs/error_log
         /opt/apache_but/httpd/bin/apachectl -k start
+        echo "SHOW IP where the web server is listening"
+        /home/hacker/.scripts/list-ip.sh
+        sleep 5;
         ;;
 
 
 *)
-        echo "Usage: $0 { start | stop | clean }"
+        echo "Usage: $0 { start | stop | restart | clean }"
         exit 1
         ;;
 esac
