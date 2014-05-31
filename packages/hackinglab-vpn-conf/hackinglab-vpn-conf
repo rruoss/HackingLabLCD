@@ -3,14 +3,16 @@ Priority: optional
 Standards-Version: 3.9.2
 Package: hackinglab-vpn-conf
 Depends: openvpn, gopenvpn, hackinglab-gopenvpn
-Version: 2.2g
+Version: 2.2h
 Maintainer: Lukas Reschke <lukas.reschke@csnc.ch>
 Description: Hackinglab VPN config and related scripts
 Files: ca.crt /etc/openvpn
  HackingLab.ovpn /etc/openvpn
  up.sh /etc/openvpn
  down.sh /etc/openvpn
+ start_openvpn.sh /etc/openvpn
 File: postinst
  #!/bin/sh -e
  chmod a+x /etc/openvpn/up.sh
  chmod a+x /etc/openvpn/down.sh
+ chmod a+x /etc/openvpn/start_openvpn.sh
