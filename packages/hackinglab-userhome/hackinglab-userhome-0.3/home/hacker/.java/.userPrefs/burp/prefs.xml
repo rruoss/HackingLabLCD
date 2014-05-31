@@ -273,47 +273,46 @@
   <entry key="free.suite.hostresolverrule0" value="**empty**"/>
   <entry key="free.suite.hotkey0" value="131328.130.82."/>
   <entry key="free.suite.hotkey1" value="131584.130.73."/>
-  <entry key="free.suite.hotkey10" value="265984.195.65."/>
-  <entry key="free.suite.hotkey11" value="266240.130.45."/>
-  <entry key="free.suite.hotkey12" value="266496.130.61."/>
-  <entry key="free.suite.hotkey13" value="393472.130.88."/>
-  <entry key="free.suite.hotkey14" value="393728.130.67."/>
-  <entry key="free.suite.hotkey15" value="393984.130.86."/>
-  <entry key="free.suite.hotkey16" value="394240.130.90."/>
-  <entry key="free.suite.hotkey17" value="394496.130.89."/>
-  <entry key="free.suite.hotkey18" value="394752.130.65."/>
-  <entry key="free.suite.hotkey19" value="395008.130.83."/>
+  <entry key="free.suite.hotkey10" value="266240.130.45."/>
+  <entry key="free.suite.hotkey11" value="266496.130.61."/>
+  <entry key="free.suite.hotkey12" value="393472.130.88."/>
+  <entry key="free.suite.hotkey13" value="393728.130.67."/>
+  <entry key="free.suite.hotkey14" value="393984.130.86."/>
+  <entry key="free.suite.hotkey15" value="394240.130.90."/>
+  <entry key="free.suite.hotkey16" value="394496.130.89."/>
+  <entry key="free.suite.hotkey17" value="394752.130.65."/>
+  <entry key="free.suite.hotkey18" value="395008.130.83."/>
+  <entry key="free.suite.hotkey19" value="395040.130.44."/>
   <entry key="free.suite.hotkey2" value="262400.130.70."/>
-  <entry key="free.suite.hotkey20" value="395040.130.44."/>
-  <entry key="free.suite.hotkey21" value="395072.130.46."/>
-  <entry key="free.suite.hotkey22" value="395520.195.85."/>
-  <entry key="free.suite.hotkey23" value="395776.130.85."/>
-  <entry key="free.suite.hotkey24" value="396544.195.72."/>
-  <entry key="free.suite.hotkey25" value="396800.130.72."/>
-  <entry key="free.suite.hotkey26" value="397824.195.66."/>
-  <entry key="free.suite.hotkey27" value="398080.130.66."/>
-  <entry key="free.suite.hotkey28" value="399360.130.8."/>
-  <entry key="free.suite.hotkey29" value="399616.130.127."/>
+  <entry key="free.suite.hotkey20" value="395072.130.46."/>
+  <entry key="free.suite.hotkey21" value="395520.195.85."/>
+  <entry key="free.suite.hotkey22" value="395776.130.85."/>
+  <entry key="free.suite.hotkey23" value="396544.195.72."/>
+  <entry key="free.suite.hotkey24" value="396800.130.72."/>
+  <entry key="free.suite.hotkey25" value="397824.195.66."/>
+  <entry key="free.suite.hotkey26" value="398080.130.66."/>
+  <entry key="free.suite.hotkey27" value="399360.130.8."/>
+  <entry key="free.suite.hotkey28" value="399616.130.127."/>
+  <entry key="free.suite.hotkey29" value="399872.130.68."/>
   <entry key="free.suite.hotkey3" value="262912.130.84."/>
-  <entry key="free.suite.hotkey30" value="399872.130.68."/>
-  <entry key="free.suite.hotkey31" value="400128.130.37."/>
-  <entry key="free.suite.hotkey32" value="400384.195.37."/>
-  <entry key="free.suite.hotkey33" value="400640.130.39."/>
-  <entry key="free.suite.hotkey34" value="400896.195.39."/>
-  <entry key="free.suite.hotkey35" value="401152.130.38."/>
-  <entry key="free.suite.hotkey36" value="401408.195.38."/>
-  <entry key="free.suite.hotkey37" value="401664.130.40."/>
-  <entry key="free.suite.hotkey38" value="401920.195.40."/>
-  <entry key="free.suite.hotkey39" value="402176.130.36."/>
+  <entry key="free.suite.hotkey30" value="400128.130.37."/>
+  <entry key="free.suite.hotkey31" value="400384.195.37."/>
+  <entry key="free.suite.hotkey32" value="400640.130.39."/>
+  <entry key="free.suite.hotkey33" value="400896.195.39."/>
+  <entry key="free.suite.hotkey34" value="401152.130.38."/>
+  <entry key="free.suite.hotkey35" value="401408.195.38."/>
+  <entry key="free.suite.hotkey36" value="401664.130.40."/>
+  <entry key="free.suite.hotkey37" value="401920.195.40."/>
+  <entry key="free.suite.hotkey38" value="402176.130.36."/>
+  <entry key="free.suite.hotkey39" value="402432.195.36."/>
   <entry key="free.suite.hotkey4" value="263424.195.84."/>
-  <entry key="free.suite.hotkey40" value="402432.195.36."/>
-  <entry key="free.suite.hotkey41" value="402688.130.35."/>
-  <entry key="free.suite.hotkey42" value="402944.195.35."/>
+  <entry key="free.suite.hotkey40" value="402688.130.35."/>
+  <entry key="free.suite.hotkey41" value="402944.195.35."/>
   <entry key="free.suite.hotkey5" value="263680.195.80."/>
-  <entry key="free.suite.hotkey6" value="264192.195.83."/>
-  <entry key="free.suite.hotkey7" value="264448.195.73."/>
-  <entry key="free.suite.hotkey8" value="264704.195.82."/>
-  <entry key="free.suite.hotkey9" value="265728.195.79."/>
+  <entry key="free.suite.hotkey6" value="264448.195.73."/>
+  <entry key="free.suite.hotkey7" value="264704.195.82."/>
+  <entry key="free.suite.hotkey8" value="265728.195.79."/>
+  <entry key="free.suite.hotkey9" value="265984.195.65."/>
   <entry key="free.suite.installationId" value="aa32d7184efbee801f0f"/>
   <entry key="free.suite.macro0" value="**empty**"/>
   <entry key="free.suite.messageFont" value="Monospaced"/>

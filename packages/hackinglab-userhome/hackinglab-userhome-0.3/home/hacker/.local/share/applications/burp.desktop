@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Burp Suite
+Icon=/usr/share/applications/burp.ico
+Exec=java -jar /usr/bin/burpsuite
+Terminal=false
+Categories=GNOME;Network;WebSec;
+Encoding=UTF-8

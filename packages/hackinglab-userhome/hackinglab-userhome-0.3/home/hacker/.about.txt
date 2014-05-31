@@ -1,11 +1,19 @@
 
-
 	Hacking-Lab is a remote security lab infrastructure
 
 	* hosting more than 300 security challenges
 	* security training infrastructure
 	* since 2007
-	* V1223
+
+	Release Information
+
+	* Package hackinglab-userhome: 1.3
+	* Release date: June 1, 2014
+
+
+	Feedback
+
+	* e1@hacking-lab.com
 
 	
 

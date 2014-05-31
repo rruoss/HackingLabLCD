@@ -26,26 +26,31 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	:wq
+""1	LINE	0
+	
 "2	LINE	0
+	:wq
+"3	LINE	0
 	#PS1='[\w/] '
-""-	CHAR	0
-	 
+"-	CHAR	0
+	V
 
 # File marks:
-'0  1  127  ~/.scripts/list-ip.sh
-'1  10  0  ~/.about.txt
-'2  12  0  ~/Desktop/ZAP.desktop
-'3  4  0  ~/.screenrc
-'4  1  2  ~/.screenrc
-'5  4  0  ~/.bashrc
-'6  16  0  ~/.bashrc
+'0  1  0  ~/.about.txt
+'1  18  0  ~/.about.txt
+'2  1  127  ~/.scripts/list-ip.sh
+'3  13  0  ~/.about.txt
+'4  12  0  ~/Desktop/ZAP.desktop
+'5  4  0  ~/.screenrc
+'6  1  2  ~/.screenrc
+'7  4  0  ~/.bashrc
+'8  16  0  ~/.bashrc
 
 # Jumplist (newest first):
--'  1  127  ~/.scripts/list-ip.sh
--'  10  0  ~/.about.txt
 -'  1  0  ~/.about.txt
+-'  18  0  ~/.about.txt
+-'  1  127  ~/.scripts/list-ip.sh
+-'  13  0  ~/.about.txt
 -'  12  0  ~/Desktop/ZAP.desktop
 -'  1  0  ~/Desktop/ZAP.desktop
 -'  4  0  ~/.screenrc
@@ -139,9 +144,21 @@
 -'  13  0  ~/.bashrc
 -'  5  0  ~/.bashrc
 -'  17  0  ~/.bashrc
--'  14  0  ~/.bashrc
 
 # History of marks within files (newest to oldest):
+
+> ~/.about.txt
+	"	1	0
+	^	18	0
+	.	1	0
+	+	1	49
+	+	1	0
+	+	12	1
+	+	10	40
+	+	11	28
+	+	8	20
+	+	17	0
+	+	1	0
 
 > ~/.scripts/list-ip.sh
 	"	1	127
@@ -151,14 +168,6 @@
 	+	1	144
 	+	1	5
 	+	1	127
-
-> ~/.about.txt
-	"	10	0
-	^	10	0
-	.	9	1
-	+	1	49
-	+	1	0
-	+	9	1
 
 > ~/Desktop/ZAP.desktop
 	"	12	0
