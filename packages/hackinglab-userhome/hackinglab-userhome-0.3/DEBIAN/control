@@ -1,9 +1,9 @@
 Package: hackinglab-userhome
 Priority: optional
 Section: misc
-Version: 1.3
+Version: 1.4
 Architecture: i386
 Maintainer: Philipp Promeuschel <philipp.promeuschel@csnc.ch>
-Depends: openvpn, gopenvpn, hackinglab-gopenvpn, hackinglab-vpn-conf, hackinglab-wallpaper
+Depends: openvpn, gopenvpn, hackinglab-gopenvpn, hackinglab-vpn-conf, hackinglab-wallpaper, hackinglab-tools
 Description: Default /home Directory for HackingLab Live CD
 
