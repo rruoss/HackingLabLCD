@@ -127,9 +127,13 @@
 		<Include>
 			<Filename>alacarte-made-1.desktop</Filename>
 		</Include>
+		<Include>
+			<Filename>alacarte-made-21.desktop</Filename>
+		</Include>
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>alacarte-made.desktop</Filename>
+			<Filename>alacarte-made-1.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>
 	</Menu>
