@@ -2,8 +2,8 @@ Section: misc
 Priority: optional
 Standards-Version: 3.9.2
 Package: hackinglab-livecd-version
-Depends: hacking-lab-tools
-Version: 8.04a
+Depends: hackinglab-tools
+Version: 8.04b
 Maintainer: Ivan Buetler <ivan.buetler@csnc.ch>
 Description: Hackinglab VPN LiveCD version package
 Files: lcd-version.txt /opt
