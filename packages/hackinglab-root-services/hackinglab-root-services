@@ -3,12 +3,15 @@ Priority: optional
 Standards-Version: 3.9.2
 Package: hackinglab-root-services
 Depends: hackinglab-tools, hackinglab-userhome
-Version: 1.1
+Version: 1.2b
 Maintainer: Ivan Buetler <ivan.buetler@csnc.ch>
 Description: Hackinglab VPN config and related scripts
-Files: hackinglab-disable-services.sh /opt/
+File: preinst
+ #!/bin/sh -e
+ mkdir -p /opt/hackinglab-scripts/
+Files: hackinglab-disable-services.sh /opt/hackinglab-scripts/
 File: postinst
  #!/bin/sh -e
- chmod a+x /opt/hackinglab-disable-services.sh
- /opt/hackinglab-disable-services.sh
+ chmod a+x /opt/hackinglab-scripts/hackinglab-disable-services.sh
+ /opt/hackinglab-scripts/hackinglab-disable-services.sh
 
