@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://emptycachebutton/skin/style.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://emptycachebutton/locale/about.dtd">
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&about.title;">
+	<box id="ecb-header">
+		<text value="Empty Cache Button" />
+	</box>
+	<box id="ecb-quote" orient="vertical" align="center">
+		<text value="&about.quote;" />
+	</box>
+</window>

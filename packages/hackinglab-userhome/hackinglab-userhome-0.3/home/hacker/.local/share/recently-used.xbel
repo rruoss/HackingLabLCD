@@ -3,12 +3,13 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/hacker/Desktop/LiveCD-Tipps.pdf" added="2014-04-24T21:58:41Z" modified="2014-05-06T12:50:27Z" visited="2014-04-24T21:58:41Z">
+  <bookmark href="file:///home/hacker/Desktop/LiveCD-Tipps.pdf" added="2014-04-24T21:58:41Z" modified="2014-06-02T07:44:46Z" visited="2014-04-24T21:58:41Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/pdf"/>
         <bookmark:applications>
-          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2014-05-06T12:50:27Z" count="4"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2014-06-02T07:44:46Z" count="5"/>
+          <bookmark:application name="Iceweasel" exec="&apos;iceweasel %u&apos;" modified="2014-06-02T07:40:23Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

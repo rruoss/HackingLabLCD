@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults total_results="135">
+          <addon id="1881">
+  <name>Cache Status</name>
+  <type id="1">Extension</type>
+  <guid>cache@status.org</guid>
+  <slug>cache-status</slug>
+  <version>0.8.3</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="2006">
+      <name>Jason Purdy</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/jasonpurdy/?src=api</link>
+    </author><author id="5429276">
+      <name>Andy Portmen</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/AndyPortmen/?src=api</link>
+    </author>      </authors>
+  <summary>Easy cache status &amp;amp; management from status...</summary>
+  <description>This add-on adds a customizable presence to your browser window&#39;s statusbar that gives you up-to-date information on your browser&#39;s cache usage, both RAM and the hard drive. The presence also has a right-click context menu, where you can easily clear your browser&#39;s cache. It can also automatically clean your cache when it reaches a specified level, through its Options.
+
+************************************************************************************************* 
+&lt;b&gt;Note: If you don&#39;t like the new addressbar look in version 0.8.1, install version 0.8.3 from:&lt;/b&gt;
+&lt;a rel=&#34;nofollow&#34; href=&#34;https://addons.mozilla.org/en-us/firefox/addon/cache-status/versions/&#34;&gt;https://addons.mozilla.org/en-us/firefox/addon/cache-status/versions/&lt;/a&gt;
+The icon will appear in the statusbar if it is available (restart required).
+
+If you are using &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/70b297e190e542a04e5fef847153f1d4b01f13d6399d6ac266ab769de77934be/%28https%3A//addons.mozilla.org/en-US/firefox/addon/classicthemerestorer&#34;&gt;Classic Theme Restorer add-on&lt;/a&gt;, you need to go to options and check the option to force UI placement in the statusbar.
+*************************************************************************************************</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1881-64.png?modified=1400659100</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1881-32.png?modified=1400659100</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>33.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="200" height="165">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/134/134318.png?src=api&amp;modified=1397749573
+      </full>
+      <thumbnail type="" width="182" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/134/134318.png?src=api&amp;modified=1397749573
+      </thumbnail></preview><preview position="1">
+      <full type="" width="700" height="481">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/134/134320.png?src=api&amp;modified=1397749573
+      </full>
+      <thumbnail type="" width="200" height="137">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/134/134320.png?src=api&amp;modified=1397749573
+      </thumbnail></preview><preview position="2">
+      <full type="" width="353" height="180">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/134/134324.png?src=api&amp;modified=1397749573
+      </full>
+      <thumbnail type="" width="200" height="102">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/134/134324.png?src=api&amp;modified=1397749573
+      </thumbnail><caption>Context menu</caption></preview><preview position="3">
+      <full type="" width="284" height="251">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/134/134322.png?src=api&amp;modified=1397749573
+      </full>
+      <thumbnail type="" width="170" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/134/134322.png?src=api&amp;modified=1397749573
+      </thumbnail><caption>Options</caption></preview><preview position="4">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/3/3897.png?src=api&amp;modified=1397749573
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/3/3897.png?src=api&amp;modified=1397749573
+      </thumbnail><caption>Cache Status Extension in Action</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/cache-status/?src=api</learnmore><install hash="sha256:7214fed04ba34dd76fd46e97e0e467f1062c5154893bc7a43cd01c154c8a0bb4"
+    os="ALL"
+    size="39803">https://addons.mozilla.org/firefox/downloads/file/259704/cache_status-0.8.3-fx.xpi?src=api</install>
+  <install hash="sha256:49e683161dc381676947b073d03094f8364a3e2c96e501e3fb934016e85e5b11" os=""
+             size="38460"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/256560/cache_status-0.8.2b3-fx.xpi?src=api
+    </install>
+    <developer_comments>Two new things:
+ * 0.7.4 has been uploaded and will be fully compatible w/ 3.0
+ * New Google Code Repository:
+    - Download the source code, play around, offer patches
+    - Issue bug reports
+    - Wiki&#39;fy your Cache Status KB
+
+This utility extension monitors your cache statistics for both memory and disk devices, pulling the numbers straight from the same place that &#39;about:cache&#39; does.
+
+You can also clear your cache by right-clicking on the statusbar panel and selecting the right option.
+
+NOTE: This extension does not have any influence on or from Firefox&#39;s own memory consumption in your OS.  The reported statistics are entirely independent.
+
+NOTE2: A fresh profile usually doesn&#39;t have the RAM &#34;maximum&#34; capacity (stored in the browser.cache.memory.capacity preference), so you may see it blank.  If so and if you set it to something, it will forever create that maximum, barring some prefs.js hacking of your own.  Firefox does some sort of dynamic calculation if this isn&#39;t set, so use that with caution.  In a future version, I may add a &#39;delete&#39; button to the settings to restore it to &#34;factory settings.&#34;  You can also put in &#34;-1&#34; to give Firefox back the &#34;reins.&#34;
+
+More Info: &lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/d6f61bad1b7f77ba64c1a8e4670bbc1625efe7aa391e53c0faa53d986d58910f/http%3A//kb.mozillazine.org/Browser.cache.memory.capacity&#34;&gt;http://kb.mozillazine.org/Browser.cache.memory.capacity&lt;/a&gt;
+
+Please submit bug reports at the Google Code Repo:
+
+&lt;a rel=&#34;nofollow&#34; href=&#34;http://outgoing.mozilla.org/v1/5917cdcbec1283be2b8d4914ae9537d235367be26dee0fa1d9d93ee1155a3378/http%3A//code.google.com/p/cachestatus/issues/list&#34;&gt;http://code.google.com/p/cachestatus/issues/list&lt;/a&gt;
+
+Some comments talk about it not working - please try it with a fresh profile.  If that doesn&#39;t work or you need help with that, contact me.  If it does work, then it&#39;s most likely a conflict with one of your other extensions or themes.  If you shoot me an email, I can help you figure it out.
+
+Thank you for checking it out!</developer_comments>
+    <reviews num="103">
+      https://addons.mozilla.org/en-US/firefox/addon/cache-status/reviews/?src=api
+    </reviews>
+    <total_downloads>716639</total_downloads>
+    <weekly_downloads>863</weekly_downloads>
+    <daily_users>24143</daily_users>
+    <created epoch="1137691858">
+      2006-01-19T17:30:58Z
+    </created>
+    <last_updated epoch="1400697753">
+      2014-05-21T18:42:33Z
+    </last_updated>
+    <homepage>http://add0n.com/cache-status.html</homepage>
+    <support>https://github.com/purdy/cachestatus-firefox</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="106194">
+  <name>Empty Cache Button</name>
+  <type id="1">Extension</type>
+  <guid>{4cc4a13b-94a6-7568-370d-5f9de54a9c7f}</guid>
+  <slug>empty-cache-button</slug>
+  <version>2.6</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5240908">
+      <name>mvm</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/vmslo/?src=api</link>
+    </author>      </authors>
+  <summary>Cache clearing made easy. One click.</summary>
+  <description>&lt;em&gt;Empty Cache Button adds a toolbar button for easier cache clearing.&lt;/em&gt;
+
+&lt;b&gt;Features&lt;/b&gt;
+- One button, four types of cache (Memory, Disk, Offline, Favicon)
+- Optional notification on success &lt;i&gt;(Mac users need Growl)&lt;/i&gt;
+- Optional auto reload of active or all tabs
+- Optional automatic cache cleaning
+- Keyboard shortcut: F9</description><license>
+    <name>GNU Lesser General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/106/106194-64.png?modified=1399414828</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/106/106194-32.png?modified=1399414828</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>31.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="280" height="210">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/111/111065.png?src=api&amp;modified=1380095880
+      </full>
+      <thumbnail type="" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/111/111065.png?src=api&amp;modified=1380095880
+      </thumbnail></preview><preview position="1">
+      <full type="" width="380" height="285">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/111/111067.png?src=api&amp;modified=1380095880
+      </full>
+      <thumbnail type="" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/111/111067.png?src=api&amp;modified=1380095880
+      </thumbnail></preview><preview position="2">
+      <full type="" width="533" height="400">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/111/111066.png?src=api&amp;modified=1380095880
+      </full>
+      <thumbnail type="" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/111/111066.png?src=api&amp;modified=1380095880
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/empty-cache-button/?src=api</learnmore><install hash="sha256:8c15ec3c54927f627c792b07ed562b9ad3e65aaf12c64eb2a7b4023c171ea9b5"
+    os="ALL"
+    size="22803">https://addons.mozilla.org/firefox/downloads/file/256522/empty_cache_button-2.6-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/empty-cache-button/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="2.00">
+            $2.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/empty-cache-button/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="51">
+      https://addons.mozilla.org/en-US/firefox/addon/empty-cache-button/reviews/?src=api
+    </reviews>
+    <total_downloads>503300</total_downloads>
+    <weekly_downloads>2852</weekly_downloads>
+    <daily_users>60504</daily_users>
+    <created epoch="1269137405">
+      2010-03-21T02:10:05Z
+    </created>
+    <last_updated epoch="1399411608">
+      2014-05-06T21:26:48Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>1</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="1801">
+  <name>Clear Cache Button</name>
+  <type id="1">Extension</type>
+  <guid>{563e4790-7e70-11da-a72b-0800200c9a66}</guid>
+  <slug>clear-cache-button</slug>
+  <version>0.9f</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="9196">
+      <name>Chris Holtz</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/chris-holtz/?src=api</link>
+    </author>      </authors>
+  <summary>Adds a clear cache toolbar button. After installing the extension, find the clear cache button in the toolbar customization...</summary>
+  <description>Adds a clear cache toolbar button. After installing the extension, find the clear cache button in the toolbar customization panel.</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1801-64.png?modified=1314078907</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1801-32.png?modified=1314078907</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="298" height="218">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/3/3719.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="146">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/3/3719.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>The clear cache button can be found on the customization panel and dragged onto the toolbar.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/clear-cache-button/?src=api</learnmore><install hash="sha256:02c5908354a3380aa580da9188f0373d4f9173c89e8790044828e60077708b6e"
+    os="ALL"
+    size="10240">https://addons.mozilla.org/firefox/downloads/file/129233/clear_cache_button-0.9f-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/clear-cache-button/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="6.99">
+            $6.99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/clear-cache-button/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>The clear cache button now open source under the GPL v.3 license. The source code can be found at github: &lt;a href=&#34;http://outgoing.mozilla.org/v1/64455a80d08e880a547d2f030b7c84f9f776b1ac/http%3A//github.com/choltz/clear-cache-button&#34;&gt;http://github.com/choltz/clear-cache-button&lt;/a&gt;
+
+This extension will not directly add the clear cache button to your toolbar. Rather, it will add the button to the toolbar customization panel. Open this dialog to find the clear cache button and then drag it onto the toolbar.</developer_comments>
+    <reviews num="111">
+      https://addons.mozilla.org/en-US/firefox/addon/clear-cache-button/reviews/?src=api
+    </reviews>
+    <total_downloads>849656</total_downloads>
+    <weekly_downloads>878</weekly_downloads>
+    <daily_users>34740</daily_users>
+    <created epoch="1136577284">
+      2006-01-06T19:54:44Z
+    </created>
+    <last_updated epoch="1314078892">
+      2011-08-23T05:54:52Z
+    </last_updated>
+    <homepage>http://chrisholtz.com/clearcachebutton</homepage>
+    <support>http://chrisholtz.com/clearcachebutton</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="5914">
+  <name>DNS Cache</name>
+  <type id="1">Extension</type>
+  <guid>dnscache@dominik.jungowski</guid>
+  <slug>dns-cache</slug>
+  <version>1.7</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="329616">
+      <name>djungowski</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/djungowski/?src=api</link>
+    </author>      </authors>
+  <summary>Allows you to disable and enable or manually flush the DNS Cache of Firefox</summary>
+  <description>After the installation, there&#39;s a new button in the Add-On Bar of Firefox that allows you to enable and disable the DNS cache by a simple double click. Right click opens a contextmenu which allows you to also flush the DNS cache manually.
+
+If you prefer to have a button in the navigation/main panel, that&#39;s the way to go:
+Just right click on your main panel and select &#34;Arrange&#34;, now you should see a new icon for the DNS Cache, which you can easily drag and drop to where you would like to have it</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/5/5914-64.png?modified=1300317184</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/5/5914-32.png?modified=1300317184</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>4.0.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="286" height="90">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/54/54964.png?src=api&amp;modified=1299938128
+      </full>
+      <thumbnail type="" width="200" height="62">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/54/54964.png?src=api&amp;modified=1299938128
+      </thumbnail><caption>DNS Cache Icon (caching disabled) in the Add-On Bar with opened context menu.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/dns-cache/?src=api</learnmore><install hash="sha256:b325fa4be88df851b4c39bae72694e71cbbfaac5830580ce23d48793e1988dee"
+    os="ALL"
+    size="15360">https://addons.mozilla.org/firefox/downloads/file/114268/dns_cache-1.7-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="24">
+      https://addons.mozilla.org/en-US/firefox/addon/dns-cache/reviews/?src=api
+    </reviews>
+    <total_downloads>136633</total_downloads>
+    <weekly_downloads>255</weekly_downloads>
+    <daily_users>6474</daily_users>
+    <created epoch="1193233027">
+      2007-10-24T13:37:07Z
+    </created>
+    <last_updated epoch="1300317165">
+      2011-03-16T23:12:45Z
+    </last_updated>
+    <homepage>http://www.phpdevblog.net</homepage>
+    <support>http://www.phpdevblog.net</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="5761">
+  <name>Textarea Cache</name>
+  <type id="1">Extension</type>
+  <guid>{578e7caa-210f-4967-a0d3-88fe5b59a39f}</guid>
+  <slug>textarea-cache</slug>
+  <version>0.9.3.2</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="9095">
+      <name>Hemiola SUN</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/hemiola-sun/?src=api</link>
+    </author>      </authors>
+  <summary>Save automatically the content in Textarea.</summary>
+  <description>This extension will save automatically the content in textarea or WYSIWYG editor when user is typing. User can recover the saved texts in the cache window, even the tab or the window is closed unexpectedly.
+
+It would be useful to have the Textarea Cache button on the toolbar. Please open the toolbar context menu (for example right-click on the toolbar for Windows and Linux), and click &#34;customize&#34;, then drag the Textarea Cache button onto the toolbar. The button is grayscale when the cache is empty. When you start to type something on a textarea, the button will become colorful. Click the button will open the Textarea Cache Window. You can also open the Option Window by clicking the small arrow next to the button.
+
+If you prefer a small icon on the add-on bar (on the bottom of Firefox window, you need to turn it on by pressing ctrl-/), you can check the &#34;Show statusbar icon when texts are saved in the cache&#34; option in the option window.
+
+If you prefer a small icon on the add-on bar, but you want to customize its position, please drag the Textarea Cache toolbar button onto the add-on bar.
+
+For people who need password protect:
+&#34;Lazarus: Form Recovery&#34; is your better choice. see:
+&lt;a rel=&#34;nofollow&#34; href=&#34;https://addons.mozilla.org/firefox/addon/lazarus-form-recovery/&#34;&gt;https://addons.mozilla.org/firefox/addon/lazarus-form-recovery/&lt;/a&gt;</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/5/5761-64.png?modified=1396601603</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/5/5761-32.png?modified=1396601603</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>14.0</min_version>
+      <max_version>31.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="700" height="424">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/40/40054.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="121">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/40/40054.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Textarea Cache 0.6 Screenshot</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/textarea-cache/?src=api</learnmore><install hash="sha256:b3d2f3fe1a66d6b220a1ed03ef0b25b2e58b92b10dcaaa83d0ff0198fd83bd09"
+    os="ALL"
+    size="55933">https://addons.mozilla.org/firefox/downloads/file/258470/textarea_cache-0.9.3.2-fx.xpi?src=api</install>
+  <install hash="sha256:d7a08ce20550858866e30b3bf2d4f58c006eb7bea6778097fcce2fc6d1d0a090" os=""
+             size="55828"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/257942/textarea_cache-0.9.3b-fx.xpi?src=api
+    </install>
+    <developer_comments>If you want to report bugs or give me some suggestions, please go to:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/5b102006aff899b19fee1d3a665b561632ae9b2f/http%3A//hemiolapei.free.fr/extensions/index.php/support/en&#34; rel=&#34;nofollow&#34;&gt;http://hemiolapei.free.fr/extensions/index.php/support/en&lt;/a&gt;</developer_comments>
+    <reviews num="126">
+      https://addons.mozilla.org/en-US/firefox/addon/textarea-cache/reviews/?src=api
+    </reviews>
+    <total_downloads>310406</total_downloads>
+    <weekly_downloads>333</weekly_downloads>
+    <daily_users>15317</daily_users>
+    <created epoch="1190822732">
+      2007-09-26T16:05:32Z
+    </created>
+    <last_updated epoch="1399984181">
+      2014-05-13T12:29:41Z
+    </last_updated>
+    <homepage>https://addons.mozilla.org/en-US/firefox/addon/textarea-cache/</homepage>
+    <support>http://hemiolapei.free.fr/extensions/index.php/support/en</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="481458">
+  <name>Clear File Cache</name>
+  <type id="1">Extension</type>
+  <guid>jid1-BbTB68eOv9snFw@jetpack</guid>
+  <slug>clear-file-cache</slug>
+  <version>1.0</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="6110569">
+      <name>backy0175</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/backy0175/?src=api</link>
+    </author>      </authors>
+  <summary>Clear file cache easy and quickly from Tools Menu</summary>
+  <description>This addon provide a simple and quick way to clear file cache from Tool Menu.
+
+Maybe my other addon &#34;Remove All Cookies&#34; will help you.
+&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/remove-all-cookies/&#34; rel=&#34;nofollow&#34;&gt;https://addons.mozilla.org/firefox/addon/remove-all-cookies/&lt;/a&gt;
+
+
+[Call for volunteers]
+This addon can handle multiple languages. But &#34;English&#34; and &#34;Japanese&#34; supported only at this moment.
+If you can translate &#34;Clear File Cache&#34; and access key &#34;C&#34; into your language.
+It&#39;s very helpful for many users in the world.
+Please entry your translation at Google Drive Form below.
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/5cacbf3f6eceb1ecb759d4f72c07607a8b32b723e6ee0f74a0dfcd330c4475b9/https%3A//docs.google.com/forms/d/1opBaciYrUloRW8DuXh2XfX98DNVsPs5Tl-G5cp9qPQg/viewform&#34; rel=&#34;nofollow&#34;&gt;https://docs.google.com/forms/d/1opBaciYrUloRW8DuXh2XfX98DNVsPs5Tl-G5cp9qPQg/viewform&lt;/a&gt;
+I&#39;m really appreciate for your help.</description><license>
+    <name>GNU Lesser General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>21.0</min_version>
+      <max_version>30.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="531" height="225">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/123/123851.png?src=api&amp;modified=1390437441
+      </full>
+      <thumbnail type="" width="200" height="85">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/123/123851.png?src=api&amp;modified=1390437441
+      </thumbnail></preview><preview position="1">
+      <full type="" width="443" height="235">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/123/123852.png?src=api&amp;modified=1390437441
+      </full>
+      <thumbnail type="" width="200" height="106">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/123/123852.png?src=api&amp;modified=1390437441
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/clear-file-cache/?src=api</learnmore><install hash="sha256:0c693de12da2e048ba463a88332d6b855bf6960e63982571ce2bb9dd2d7dd531"
+    os="ALL"
+    size="12980">https://addons.mozilla.org/firefox/downloads/file/240541/clear_file_cache-1.0-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/clear-file-cache/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="1.00">
+            $1.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/clear-file-cache/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="1">
+      https://addons.mozilla.org/en-US/firefox/addon/clear-file-cache/reviews/?src=api
+    </reviews>
+    <total_downloads>7591</total_downloads>
+    <weekly_downloads>92</weekly_downloads>
+    <daily_users>1542</daily_users>
+    <created epoch="1390437237">
+      2014-01-23T00:33:57Z
+    </created>
+    <last_updated epoch="1390771941">
+      2014-01-26T21:32:21Z
+    </last_updated>
+    <homepage></homepage>
+    <support>https://groups.google.com/forum/?hl=en&amp;fromgroups#!forum/backy-software-support</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="977">
+  <name>Passive Cache</name>
+  <type id="1">Extension</type>
+  <guid>{959615e6-98ef-4c26-9ce0-27b7ed3defa4}</guid>
+  <slug>passive-cache</slug>
+  <version>1.3b</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="3687">
+      <name>Brian Baskin</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/brian-baskin/?src=api</link>
+    </author>      </authors>
+  <summary>Passive Cache uses Google&#39;s text-only cache service and Archive.org Wayback Machine to display historical versions of a specified web link.  This add-on allows for the viewing of a page, or site, while avoiding active connections to the target site.</summary>
+  <description>Passive Cache uses Google&#39;s text-only cache service and &lt;a href=&#34;http://outgoing.mozilla.org/v1/e409be11adaa6b26d35662fe8aa6dff4a456789f0861394ddcec2983a9c47ee2/http%3A//Archive.org&#34; rel=&#34;nofollow&#34;&gt;Archive.org&lt;/a&gt; Wayback Machine to display historical versions of a specified web link.  This add-on allows for the viewing of a page, or site, while avoiding active connections to the target site.
+
+Upon installation, the extension provides additional menu items when you right-click upon a web link. You can then select either a Google Cache query or an &lt;a href=&#34;http://outgoing.mozilla.org/v1/e409be11adaa6b26d35662fe8aa6dff4a456789f0861394ddcec2983a9c47ee2/http%3A//Archive.org&#34; rel=&#34;nofollow&#34;&gt;Archive.org&lt;/a&gt; query.
+
+This product was developed while training online investigation techniques to law enforcement, as it greatly met their needs. It has since found a home with users from all walks of life.
+
+Note that &lt;a href=&#34;http://outgoing.mozilla.org/v1/a65ec8c7427838a3ee2cd85f79e9547b61dd9aa1c60d0dab266f2ae8144382f8/http%3A//archive.org&#34; rel=&#34;nofollow&#34;&gt;archive.org&lt;/a&gt; may still push users to images from the actual site.  Additionally, this will not block any JavaScript within the cached page from pinging back.
+
+Do you like my extension?  Does it provide a suitable purpose for you or your organization?  Have you run across bugs with it?  Can it be improved in any ways?  Leave a review and let me know!</description>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.5</min_version>
+      <max_version>27.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/passive-cache/?src=api</learnmore><install hash="sha256:a5e7af587999d3a8c79ab2ee3be9cf578e4f6044c10c4fa8045b80bbe105a83d"
+    os="ALL"
+    size="5120">https://addons.mozilla.org/firefox/downloads/file/120400/passive_cache-1.3b-fx.xpi?src=api</install>
+  <developer_comments>1.3b :: Rewritten to eliminate global namespace pollution issue.
+1.3 :: Adds support for Firefox 3.6+ and 4.0+. Fixes URL issues with new variables Google passes. Updates to &lt;a href=&#34;http://outgoing.mozilla.org/v1/efa9717c136cbf95c94bd63ef15127712d206615/http%3A//Archive.org&#34; rel=&#34;nofollow&#34;&gt;Archive.org&lt;/a&gt;&#39;s new Wayback site.
+1.2 :: Fixes a few URL decoding bugs and is compatible with Firefox 3.0 betas.</developer_comments>
+    <reviews num="3">
+      https://addons.mozilla.org/en-US/firefox/addon/passive-cache/reviews/?src=api
+    </reviews>
+    <total_downloads>49648</total_downloads>
+    <weekly_downloads>49</weekly_downloads>
+    <daily_users>1037</daily_users>
+    <created epoch="1121440533">
+      2005-07-15T15:15:33Z
+    </created>
+    <last_updated epoch="1307147748">
+      2011-06-04T00:35:48Z
+    </last_updated>
+    <homepage>http://www.thebaskins.com/</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="1700">
+  <name>CacheIt!</name>
+  <type id="1">Extension</type>
+  <guid>{98449521-9320-4257-aa35-9e1a39c8cbe0}</guid>
+  <slug>cacheit</slug>
+  <version>2.0.3</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="6341">
+      <name>Selby Kendrick</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/selbyk/?src=api</link>
+    </author>      </authors>
+  <summary>Quickly view or copy the URL to a cached version of any wesbite using Google, Coral CDN, or The Way-Back Machine. Allows you to access websites that have crashed or have shut down. Cacheit! can also be useful for bypassing internet filters. Enjoy. :)</summary>
+  <description>Quick access to a cached version of any wesbite using Google, Coral CDN, or The Way-Back Machine. Allows you to access websites that have crashed or have shut down. Cacheit! can also be very useful for bypassing internet filters. Feature requests and critiques are appreciated. Thank you for using Cacheit! : )</description><license>
+    <name>MIT/X11 License</name>
+    <url>http://www.opensource.org/licenses/mit-license.php</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1700-64.png?modified=1394490321</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1700-32.png?modified=1394490321</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>30.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="467" height="421">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/56/56389.png?src=api&amp;modified=1302423494
+      </full>
+      <thumbnail type="" width="166" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/56/56389.png?src=api&amp;modified=1302423494
+      </thumbnail></preview><preview position="1">
+      <full type="" width="700" height="312">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/56/56390.png?src=api&amp;modified=1302423494
+      </full>
+      <thumbnail type="" width="200" height="89">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/56/56390.png?src=api&amp;modified=1302423494
+      </thumbnail></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/cacheit/?src=api</learnmore><install hash="sha256:dc11863faedc931d7ad344c596a5e5f738f972c7071e3ee3865987b07b8d4ccb"
+    os="ALL"
+    size="30720">https://addons.mozilla.org/firefox/downloads/file/117425/cacheit-2.0.3-fx.xpi?src=api</install>
+  <developer_comments>The current version of CacheIt! supports Coral CDN, Google Cache, and The Way-back Machine. I plan on adding more in the near future to beef Cacheit! up a bit. If you know of other easily assessible cache providers, find any bugs, or have any suggestions, you can e-mail me at [selby selbyk com].</developer_comments>
+    <reviews num="6">
+      https://addons.mozilla.org/en-US/firefox/addon/cacheit/reviews/?src=api
+    </reviews>
+    <total_downloads>79556</total_downloads>
+    <weekly_downloads>56</weekly_downloads>
+    <daily_users>1761</daily_users>
+    <created epoch="1134848975">
+      2005-12-17T19:49:35Z
+    </created>
+    <last_updated epoch="1302631454">
+      2011-04-12T18:04:14Z
+    </last_updated>
+    <homepage>http://selby.io/</homepage>
+    <support>http://selby.io/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="10822">
+  <name>Clear Cache</name>
+  <type id="1">Extension</type>
+  <guid>clearcache@michel.de.almeida</guid>
+  <slug>clearcache</slug>
+  <version>1.4</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4202863">
+      <name>TenSoja</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/tensoja/?src=api</link>
+    </author>      </authors>
+  <summary>Clear Cache was develop to make it easy the web development, just pressing the keyboard shortcut F9 or or using a button that can be configured via the toolbar: view menu &amp;gt; toolbar &amp;gt; customize...
+
+F9 Fever! ;)</summary>
+  <description>Clear the cache by pressing a single key.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/10/10822-64.png?modified=1299187024</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/10/10822-32.png?modified=1299187024</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>30.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="1">
+      <full type="image/png" width="183" height="135">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/29/29836.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="183" height="135">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/29/29836.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Clear Cache</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/clearcache/?src=api</learnmore><install hash="sha256:a968fd761051cfa018bc90bbaf9efcaef5362359639af2025772a8f5bb3c93ea"
+    os="ALL"
+    size="33024">https://addons.mozilla.org/firefox/downloads/file/237442/clear_cache-1.4-fx.xpi?src=api</install>
+  <developer_comments>If you clear cache was useful write a review telling how it helped. :D</developer_comments>
+    <reviews num="17">
+      https://addons.mozilla.org/en-US/firefox/addon/clearcache/reviews/?src=api
+    </reviews>
+    <total_downloads>125405</total_downloads>
+    <weekly_downloads>514</weekly_downloads>
+    <daily_users>11308</daily_users>
+    <created epoch="1235077052">
+      2009-02-19T20:57:32Z
+    </created>
+    <last_updated epoch="1387477895">
+      2013-12-19T18:31:35Z
+    </last_updated>
+    <homepage>http://www.webflush.com.br</homepage>
+    <support>http://www.webflush.com.br</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="470185">
+  <name>CacheViewer2</name>
+  <type id="1">Extension</type>
+  <guid>cacheview2@scriptkitz.ml</guid>
+  <slug>cacheviewer2</slug>
+  <version>1.6</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="10356365">
+      <name>scriptkitz</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/scriptkitz/?src=api</link>
+    </author>      </authors>
+  <summary>Allows searching, sorting and saving of cache files. 
+This is a custom upgrade for Firefox of the original CacheViewer add-on by benki. 
+New features have been added.
+
+The biggest support, please leave a message and 5 star!
+
+enjoy!</summary>
+  <description>Allows searching, sorting and saving of cache files. 
+This is a custom upgrade for Firefox of the original CacheViewer add-on by benki. 
+New features have been added.
+
+enjoy!</description><license>
+    <name>Mozilla Public License, version 2.0</name>
+    <url>http://www.mozilla.org/MPL/2.0/</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/470/470185-64.png?modified=1399188319</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/470/470185-32.png?modified=1399188319</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>14.0</min_version>
+      <max_version>30.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="480">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/117/117642.png?src=api&amp;modified=1385978799
+      </full>
+      <thumbnail type="" width="200" height="137">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/117/117642.png?src=api&amp;modified=1385978799
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/cacheviewer2/?src=api</learnmore><install hash="sha256:e4989af6027dacd1f779f0bb41a16c0559533e62912d481ffcf278662e638103"
+    os="ALL"
+    size="92397">https://addons.mozilla.org/firefox/downloads/file/255376/cacheviewer2-1.6-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/cacheviewer2/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="0.90">
+            $0.90
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/cacheviewer2/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>Allows searching, sorting and saving of cache files. 
+This is a custom upgrade for Firefox of the original CacheViewer add-on by benki. 
+New features have been added.
+
+enjoy!</developer_comments>
+    <reviews num="16">
+      https://addons.mozilla.org/en-US/firefox/addon/cacheviewer2/reviews/?src=api
+    </reviews>
+    <total_downloads>38216</total_downloads>
+    <weekly_downloads>754</weekly_downloads>
+    <daily_users>9535</daily_users>
+    <created epoch="1383302031">
+      2013-11-01T10:33:51Z
+    </created>
+    <last_updated epoch="1398989013">
+      2014-05-02T00:03:33Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="10338">
+  <name>CacheToggle</name>
+  <type id="1">Extension</type>
+  <guid>cachetoggle@pau.santesmasses.net</guid>
+  <slug>cachetoggle</slug>
+  <version>0.6</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="2145869">
+      <name>Pau Santesmasses</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/pau-santesmasses/?src=api</link>
+    </author>      </authors>
+  <summary>Disable (and optionally clear) the browser cache with the flick of a switch.</summary>
+  <description>CacheToggle lets you enable and disable the browser cache by flicking a switch on the status bar. When you&#39;re developing or debugging JavaScript and CSS, you need to be able to see your changes right away, by disabling the cache in Firefox. But that&#39;s not all: you need to *know* if the cache is disabled or not. CacheToggle means never having to wonder if your files are stale!</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>30.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/28/28739.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/28/28739.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/cachetoggle/?src=api</learnmore><install hash="sha256:983be89c877421e4eee16a971ee6203b64719ff5e0f67776d8f98a68545dd390"
+    os="ALL"
+    size="9216">https://addons.mozilla.org/firefox/downloads/file/109033/cachetoggle-0.6-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="24">
+      https://addons.mozilla.org/en-US/firefox/addon/cachetoggle/reviews/?src=api
+    </reviews>
+    <total_downloads>33507</total_downloads>
+    <weekly_downloads>138</weekly_downloads>
+    <daily_users>3746</daily_users>
+    <created epoch="1231723283">
+      2009-01-12T01:21:23Z
+    </created>
+    <last_updated epoch="1296668208">
+      2011-02-02T17:36:48Z
+    </last_updated>
+    <homepage>http://pau.santesmasses.net/cachetoggle</homepage>
+    <support>http://pau.santesmasses.net/cachetoggle</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="312843">
+  <name>Web Cache View Plus</name>
+  <type id="1">Extension</type>
+  <guid>web@cache.view.plus</guid>
+  <slug>web-cache-view-plus</slug>
+  <version>1.9m5</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5742707">
+      <name>mikhail_s</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mikhail_s/?src=api</link>
+    </author>      </authors>
+  <summary>This addon allow you to restore web page from web cache (Google, Coral or WA)</summary>
+  <description>This addon allows you to restore page from web cache (Google, Coral or WA), e.g. in case page is not avaliable at the moment.
+This version of &#34;Web Cache View&#34; has some compability with Bartab.
+Web Cache View Plus displays various internet caches of an open tab or right-clicked link via the right-click context menu. Useful for dealing with dead pages/broken links and getting around proxies.
+
+Это дополнение позволяет Вам восстанавливать страницы из известных интернет кэшей (Google, Coral or WA) в случае например, если страница в данный момент недоступна.
+Эта версия имеет некоторый уровень совместимости с дополнением Bartab.
+Достаточно просто открыть ссылку через соответствующий пункт контекстного меню.</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/media//img/addon-icons/security-64.png</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/media//img/addon-icons/security-32.png</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.1</min_version>
+      <max_version>2.17.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.6</min_version>
+      <max_version>30.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/web-cache-view-plus/?src=api</learnmore><install hash="sha256:bff388b5eeb927058e6122e433dda4bf94145e628b9a7130e39e69c6c9ce8bbe"
+    os="ALL"
+    size="3974">https://addons.mozilla.org/firefox/downloads/file/188456/web_cache_view_plus-1.9m5-sm.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="5">
+      https://addons.mozilla.org/en-US/firefox/addon/web-cache-view-plus/reviews/?src=api
+    </reviews>
+    <total_downloads>20501</total_downloads>
+    <weekly_downloads>73</weekly_downloads>
+    <daily_users>2130</daily_users>
+    <created epoch="1304789649">
+      2011-05-07T17:34:09Z
+    </created>
+    <last_updated epoch="1360533785">
+      2013-02-10T22:03:05Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="256186">
+  <name>CacheMachine</name>
+  <type id="1">Extension</type>
+  <guid>searchinobi@gmail.com</guid>
+  <slug>cachemachine</slug>
+  <version>1.94</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5543089">
+      <name>searchinobi</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/searchinobi/?src=api</link>
+    </author>      </authors>
+  <summary>Reduce your online footprint when searching the web. Read webpages without visiting the site itself: load any URL from the caches of Google, Yahoo! Or Bing. Image loading is automatically disabled.</summary>
+  <description>There may be times when you want to see what is on a webpage without actually visiting that site itself. 
+
+This extension allows you to right-click on any webpage link and choose to load it from either the Google, Yahoo! or Bing cache. In the case of Google, the pages are pulled from the text-only cache but for Bing and Yahoo! (who don&#39;t have a text-only cache) image downloading is temporarily disabled in Firefox. This ensures that, as far a possible, you do not make any requests for data from the actual site that originally hosted the webpage.
+
+Other right-click menu items are available to allow you to type a URL in directly and have that loaded from the search engines cache in the same way.   
+
+Things to remember:
+&lt;ol&gt;&lt;li&gt; The cached pages may not be the latest version of that page. It will be as recent as the last visit of the search engine&#39;s bot to the website.&lt;/li&gt;&lt;li&gt; Yahoo! often uses Bing&#39;s cache so the results may be the same&lt;/li&gt;&lt;li&gt;Not every page on the web will be cached &lt;/li&gt; &lt;li&gt; As of Feb 2011, Bing seems to be caching far fewer websites (or at least is making less of them readily available).  Cachemachine will generate an warning message box if your page is not found in a cache &lt;/li&gt;&lt;/ol&gt;</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/256/256186-64.png?modified=1323860804</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/256/256186-32.png?modified=1323860804</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>27.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="700" height="355">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/51/51099.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="101">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/51/51099.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Right-click on a link in a webpage and select the CacheMachine context menu. Then choose which search engine&#39;s cache you wish to try.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/cachemachine/?src=api</learnmore><install hash="sha256:754cd544c9438ae52633bb4b083dcc3c072e18b4bfc71c0e2500418701c6baab"
+    os="ALL"
+    size="6144">https://addons.mozilla.org/firefox/downloads/file/115185/cachemachine-1.94-fx.xpi?src=api</install>
+  <developer_comments>This is the first release. Please let me know of any bugs or suggestions for improvements.</developer_comments>
+    <reviews num="2">
+      https://addons.mozilla.org/en-US/firefox/addon/cachemachine/reviews/?src=api
+    </reviews>
+    <total_downloads>8156</total_downloads>
+    <weekly_downloads>23</weekly_downloads>
+    <daily_users>381</daily_users>
+    <created epoch="1290200470">
+      2010-11-19T21:01:10Z
+    </created>
+    <last_updated epoch="1301022044">
+      2011-03-25T03:00:44Z
+    </last_updated>
+    <homepage>www.webcamshield.co.uk</homepage>
+    <support>http://www.webcamshield.co.uk</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="4389">
+  <name>rCache Collector</name>
+  <type id="1">Extension</type>
+  <guid>firefox@rcache.com</guid>
+  <slug>rcache-collector</slug>
+  <version>0.1.3.3</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="98738">
+      <name>David Dahl</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/david-dahl/?src=api</link>
+    </author>      </authors>
+  <summary>Web Scraper for rCache.com...</summary>
+  <description>Web Scraper for rCache.com
+
+About rCache:
+
+rCache is that always-there place to store data that you want to refer back to. Bookmarks and saving web page data to your computer&#39;s disk are unwieldy and slow processes. Your data is stored on your hard disk, and tends to be unorganized.
+
+rCache frees you from this, by giving you your own research repository online - where you can store articles, blog postings, documents and images. Tagging and full-text keyword searching is a snap.
+You can store data that you may want to cite in your research, white paper, article or your own blog posting.
+</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>15.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="1">
+      <full type="image/png" width="504" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/19/19559.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="144" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/19/19559.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>rCache Collector</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/rcache-collector/?src=api</learnmore><install hash="sha256:59bc19c0a956fbd38810c784546e58a0d2e11b7b20171afe56384847ebd31123"
+    os="ALL"
+    size="98304">https://addons.mozilla.org/firefox/downloads/file/57275/rcache_collector-0.1.3.3-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="1">
+      https://addons.mozilla.org/en-US/firefox/addon/rcache-collector/reviews/?src=api
+    </reviews>
+    <total_downloads>12347</total_downloads>
+    <weekly_downloads>2</weekly_downloads>
+    <daily_users>129</daily_users>
+    <created epoch="1169761768">
+      2007-01-25T21:49:28Z
+    </created>
+    <last_updated epoch="1246519404">
+      2009-07-02T07:23:24Z
+    </last_updated>
+    <homepage>https://collect.rcache.com/about/</homepage>
+    <support>http://www.rcache.com/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="13694">
+  <name>Gcache+</name>
+  <type id="1">Extension</type>
+  <guid>gcache@gcacheplus.com</guid>
+  <slug>gcache-13694</slug>
+  <version>1.6</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4794950">
+      <name>Kristof Polleunis</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/kristof-polleunis4794950/?src=api</link>
+    </author>      </authors>
+  <summary>Displays a Google cached version of the web page.</summary>
+  <description>Gcache+ enables you to view a Google cached version of the page you are visiting or the Google cached version of a link.  This is particularly useful if that page or link is temporary unavailable for some reason and you need access to the content of that page.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/13/13694-64.png?modified=1306858839</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/13/13694-32.png?modified=1306858839</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>27.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="700" height="359">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/35/35750.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="102">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/35/35750.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Gcache allows you to access this cached page with: 
+a simple mouse-click 
+keycombination: 
+(CTRL+SHIFT+ALT+G) on Windows</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/gcache-13694/?src=api</learnmore><install hash="sha256:66e9bdf90c861c1cd82de4b904730ddf814e8e6ecb22d2c37bf80ea82e9cd302"
+    os="ALL"
+    size="24576">https://addons.mozilla.org/firefox/downloads/file/112933/gcache-1.6-fx-mac.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="8">
+      https://addons.mozilla.org/en-US/firefox/addon/gcache-13694/reviews/?src=api
+    </reviews>
+    <total_downloads>29999</total_downloads>
+    <weekly_downloads>67</weekly_downloads>
+    <daily_users>2224</daily_users>
+    <created epoch="1250238329">
+      2009-08-14T08:25:29Z
+    </created>
+    <last_updated epoch="1306857894">
+      2011-05-31T16:04:54Z
+    </last_updated>
+    <homepage>http://gcacheplus.com</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="409964">
+  <name>Clear Console</name>
+  <type id="1">Extension</type>
+  <guid>clearConsole@penzil.com</guid>
+  <slug>clear-console</slug>
+  <version>1.10</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="6111533">
+      <name>Rejah Rehim A A</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/Rejah/?src=api</link>
+    </author><author id="6111539">
+      <name>Sreenath Sasikumar</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/sreenathsasikumar/?src=api</link>
+    </author><author id="6125274">
+      <name>QBurst</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/QBurst/?src=api</link>
+    </author>      </authors>
+  <summary>One click to clear your cache, cookies, history, html5/local storage, http logins, all of them or restart your browser with/without notifications.</summary>
+  <description>Clear Console addon provides options to clear your cookies, cache, history, html5/local storage, http logins, all of them or restart your browser in a single click
+
+The addon also provides options to 
+- enable/disable notifications
+- set preferences upon closing the browser</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/409/409964-64.png?modified=1384238844</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/409/409964-32.png?modified=1384238844</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>30.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="328" height="258">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/109/109917.png?src=api&amp;modified=1375977600
+      </full>
+      <thumbnail type="" width="191" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/109/109917.png?src=api&amp;modified=1375977600
+      </thumbnail><caption>Toolbar button</caption></preview><preview position="1">
+      <full type="" width="284" height="305">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/109/109918.png?src=api&amp;modified=1375977600
+      </full>
+      <thumbnail type="" width="140" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/109/109918.png?src=api&amp;modified=1375977600
+      </thumbnail><caption>Clear console settings</caption></preview><preview position="2">
+      <full type="" width="320" height="362">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/83/83284.png?src=api&amp;modified=1375977600
+      </full>
+      <thumbnail type="" width="133" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/83/83284.png?src=api&amp;modified=1375977600
+      </thumbnail><caption>Options</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/clear-console/?src=api</learnmore><install hash="sha256:cd8e82a6598403bd04081aa93cdeb18f14aed0daa1fc9b575d853a5523852778"
+    os="ALL"
+    size="59886">https://addons.mozilla.org/firefox/downloads/file/219084/clear_console-1.10-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="49">
+      https://addons.mozilla.org/en-US/firefox/addon/clear-console/reviews/?src=api
+    </reviews>
+    <total_downloads>446634</total_downloads>
+    <weekly_downloads>2994</weekly_downloads>
+    <daily_users>44252</daily_users>
+    <created epoch="1353994375">
+      2012-11-27T05:32:55Z
+    </created>
+    <last_updated epoch="1374613386">
+      2013-07-23T21:03:06Z
+    </last_updated>
+    <homepage>http://penzil-clearconsole.blogspot.com</homepage>
+    <support></support>
+    <featured>1</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="4622">
+  <name>Secure Sanitizer</name>
+  <type id="1">Extension</type>
+  <guid>{7e69e900-c32e-11db-8314-0800200c9a66}</guid>
+  <slug>secure-sanitizer</slug>
+  <version>0.5.0</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="114887">
+      <name>Fabio Santagostino</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/fabio-santagostino/?src=api</link>
+    </author>      </authors>
+  <summary>Secure version of Firefox sanitizer. It wipes cache in a secure way.</summary>
+  <description>Allows secure cleaning of cache, preventing cache recovery. 
+Different file wiping techniques are implemented: 
+1) filesystem simple deletion;
+2) random data overwriting;
+3) 3 steps &#34;US DoD 5220&#34; method.
+Secure wiping can be activated by usual &#34;Clear Private Data&#34; dialog box, or by a shortcut button in navigation bar.
+
+NB: Firefox 3.5+ don&#39;t use sanitizer object on shutdown anymore. That&#39;s why I recommend the use of &#34;AskForSanitize&#34; extension when using my &#34;Secure Sanitizer&#34;.
+NB: FireFox 11.0 disables disk cache when &#39;Clear private data at shutdown&#39; is enabled, but it doesn&#39;t inform you about that. &#34;AskForSanitize&#34; warns for this when you enable &#39;Clear private data at shutdown&#39;, so you can make your choice. 
+Of course, if you choose to disable disk cache, &#34;Secure Sanitizer&#34; has nothing to wipe :-)</description><license>
+    <name>GNU General Public License, version 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/4/4622-64.png?modified=1333547854</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/4/4622-32.png?modified=1333547854</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="1">
+      <full type="image/png" width="335" height="341">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/12/12636.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/12/12636.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Clear Private Data in progress</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/secure-sanitizer/?src=api</learnmore><install hash="sha256:f67ebc0205dc0154b3e82a06d583ef0dfa4df7bbfbb7efb04a420aaf56a459e9"
+    os="ALL"
+    size="20480">https://addons.mozilla.org/firefox/downloads/file/147424/secure_sanitizer-0.5.0-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="30">
+      https://addons.mozilla.org/en-US/firefox/addon/secure-sanitizer/reviews/?src=api
+    </reviews>
+    <total_downloads>60638</total_downloads>
+    <weekly_downloads>206</weekly_downloads>
+    <daily_users>3220</daily_users>
+    <created epoch="1173370189">
+      2007-03-08T16:09:49Z
+    </created>
+    <last_updated epoch="1332525717">
+      2012-03-23T18:01:57Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="3404">
+  <name>Save Images</name>
+  <type id="1">Extension</type>
+  <guid>LDSI_plashcor@gmail.com</guid>
+  <slug>save-images</slug>
+  <version>1.0.2</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="45531">
+      <name>Lumox</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/lumox/?src=api</link>
+    </author>      </authors>
+  <summary>Save Images saves the images from the current tab page, from the cache, to a specified location, with either the images original file name or a file name that you specify. The size and types of images saved may be chosen, with options if...</summary>
+  <description>Save Images saves the images from the current tab page, from the cache, to a specified location, with either the images original file name or a file name that you specify. The size, dimensions and types of images saved may be chosen, with options if the file size is unknown or if duplicate files are found. Images may be either saved from the current tab, left or right of the current tab or from all tabs. Also, all or selected links or image links in the current page can be opened in a new tab or multiple tabs. There are shortcut keys for some of the menu options.
+
+Save Images can be accessed from either the Firefox Tools menu, the context menu (right click in page) or from a button placed on a toolbar (recommended - requires placement by user). Clicking the button will save the images using the Option &#34;Default Save Action&#34;. Click the arrow next to the button to display a menu for more options.</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/3/3404-64.png?modified=1395733487</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/3/3404-32.png?modified=1395733487</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0a1pre</min_version>
+      <max_version>2.27.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>18.0</min_version>
+      <max_version>31.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="510" height="464">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/132/132018.png?src=api&amp;modified=1395733753
+      </full>
+      <thumbnail type="" width="165" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/132/132018.png?src=api&amp;modified=1395733753
+      </thumbnail><caption>Save Images Options Filters tab</caption></preview><preview position="1">
+      <full type="" width="510" height="493">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/132/132024.png?src=api&amp;modified=1395733752
+      </full>
+      <thumbnail type="" width="155" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/132/132024.png?src=api&amp;modified=1395733752
+      </thumbnail><caption>Save Images Options Save-&gt;Folders tab</caption></preview><preview position="2">
+      <full type="" width="510" height="493">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/132/132022.png?src=api&amp;modified=1395733753
+      </full>
+      <thumbnail type="" width="155" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/132/132022.png?src=api&amp;modified=1395733753
+      </thumbnail><caption>Save Images Options Save-&gt;File Names tab</caption></preview><preview position="3">
+      <full type="" width="510" height="464">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/132/132020.png?src=api&amp;modified=1395733752
+      </full>
+      <thumbnail type="" width="165" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/132/132020.png?src=api&amp;modified=1395733752
+      </thumbnail><caption>Save Images Options General tab</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/save-images/?src=api</learnmore><install hash="sha256:451e20a8d292ab6ac7f8c536061a065574c7935b12d8aaa18e7263038ca42eeb"
+    os="ALL"
+    size="129451">https://addons.mozilla.org/firefox/downloads/file/251774/save_images-1.0.2-sm+fx.xpi?src=api</install>
+  <developer_comments>v0.6.8
+- Fixed bug in Select Items dialog box where items were not checked correctly if searched for by phrase and there were more items than could be viewed all at once
+- Removed adding &#34;img_&#34; to image name if image had no name
+- Fixed bug where Folder list and FN list were not saving unicode characters
+- Added back &#34;Open Save Images Options Dialog Box before saving&#34; in Linux
+
+&lt;b&gt;Mac Users:&lt;/b&gt; Some Mac users with the latest Snow Leopard OS are able to use &#34;Save Images&#34;, while others are having problems. Unfortunately, I am not able to do any testing on a Mac and so am unable to resolve any problems Mac users are having.
+
+Please report any bugs to plashcor@gmail.com, stating what operating system you use, Firefox version, any screen shots of your settings and the problem you have.</developer_comments>
+    <reviews num="234">
+      https://addons.mozilla.org/en-US/firefox/addon/save-images/reviews/?src=api
+    </reviews>
+    <total_downloads>1037189</total_downloads>
+    <weekly_downloads>2124</weekly_downloads>
+    <daily_users>46489</daily_users>
+    <created epoch="1158604438">
+      2006-09-18T18:33:58Z
+    </created>
+    <last_updated epoch="1396322855">
+      2014-04-01T03:27:35Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="364867">
+  <name>Ad-blocker for Gmail</name>
+  <type id="1">Extension</type>
+  <guid>jid0-AocRXUCRsLTCYvn6bgJERnwfuqw@jetpack</guid>
+  <slug>ad-blocker-for-gmail</slug>
+  <version>2.8.3</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="6117315">
+      <name>Alexandre</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/AlexRedSox/?src=api</link>
+    </author>      </authors>
+  <summary>Hide ads in Gmail, and more cool stuff, simply with CSS.</summary>
+  <description>This extension allows you to:
+&lt;ul&gt;&lt;li&gt;Hide Gmail ads on the right, so that the message takes up the entire width of the screen (even in a new window).&lt;/li&gt;&lt;li&gt;Hide the ads that appear below the message.&lt;/li&gt;&lt;li&gt;Hide the useless links that appear at the bottom of the page, and only show the useful ones.&lt;/li&gt;&lt;li&gt;Hide the &#34;Invite a friend&#34; box on the left.&lt;/li&gt;&lt;li&gt;Decrease the width of the &#34;Compose mail&#34; textarea (plain text only) to behave like it used to in older versions of Gmail (plain text textarea used to be the same width as the fake textarea displayed at the bottom of an email before you click on it to reply).&lt;/li&gt;&lt;/ul&gt;
+See &lt;a href=&#34;http://outgoing.mozilla.org/v1/20e643be9d755ee1d5a131236fe9d059d499678f/http%3A//doiop.com/gmailads&#34; rel=&#34;nofollow&#34;&gt;http://doiop.com/gmailads&lt;/a&gt; for more information (in French).
+
+Some things to keep in mind:
+&lt;ol&gt;&lt;li&gt;You will need to reload Gmail after you install this addon.&lt;/li&gt;&lt;li&gt;When Gmail&#39;s code changes, I try to update this extension as soon as possible. However, it can take up to 5 days for the automatic update to trigger, because any new version of this extension needs to be reviewed by the Firefox team first. But if there is an update, you can still get it manually before the review happens. Simply go to this page and get the latest version: &lt;a href=&#34;http://addons.mozilla.org/firefox/addon/ad-blocker-for-gmail/versions&#34; rel=&#34;nofollow&#34;&gt;http://addons.mozilla.org/firefox/addon/ad-blocker-for-gmail/versions&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;The best way to know when an update is available is to subscribe to the RSS feed on &lt;a href=&#34;http://outgoing.mozilla.org/v1/20e643be9d755ee1d5a131236fe9d059d499678f/http%3A//doiop.com/gmailads&#34; rel=&#34;nofollow&#34;&gt;http://doiop.com/gmailads&lt;/a&gt;.&lt;/li&gt;&lt;/ol&gt;
+Looking for the Google Chrome extension? &lt;a href=&#34;http://outgoing.mozilla.org/v1/455716745a9f0d7f5336e77a5f069bf65b5a6dea/http%3A//chrome.google.com/webstore/detail/coibnogmjcpbccgjofoiklnfpbbjbapo&#34; rel=&#34;nofollow&#34;&gt;http://chrome.google.com/webstore/detail/coibnogmjcpbccgjofoiklnfpbbjbapo&lt;/a&gt;</description>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/364/364867-64.png?modified=1353849119</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/364/364867-32.png?modified=1353849119</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>19.0</min_version>
+      <max_version>30.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="437">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/68/68300.png?src=api&amp;modified=1330610570
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/68/68300.png?src=api&amp;modified=1330610570
+      </thumbnail><caption>The ads that usually appear on the right of the email are now hidden, and the message takes up the entire space available. Only the useful information is shown at the bottom of the page.</caption></preview><preview position="1">
+      <full type="" width="606" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/68/68296.png?src=api&amp;modified=1330610570
+      </full>
+      <thumbnail type="" width="173" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/68/68296.png?src=api&amp;modified=1330610570
+      </thumbnail><caption>Ads are also hidden when the message is open in a new window.</caption></preview><preview position="2">
+      <full type="" width="671" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/68/68255.png?src=api&amp;modified=1330610570
+      </full>
+      <thumbnail type="" width="191" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/68/68255.png?src=api&amp;modified=1330610570
+      </thumbnail><caption>The width of a new plain-text email is decreased to 60%, to behave like it used to in older versions of Gmail.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/ad-blocker-for-gmail/?src=api</learnmore><install hash="sha256:e02567b1ecc6a60ea4c50f344537feb4401241be11bf85d1c99286f66f0d0a83"
+    os="ALL"
+    size="169613">https://addons.mozilla.org/firefox/downloads/file/212858/ad_blocker_for_gmail-2.8.3-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="13">
+      https://addons.mozilla.org/en-US/firefox/addon/ad-blocker-for-gmail/reviews/?src=api
+    </reviews>
+    <total_downloads>157762</total_downloads>
+    <weekly_downloads>1126</weekly_downloads>
+    <daily_users>19252</daily_users>
+    <created epoch="1330521528">
+      2012-02-29T13:18:48Z
+    </created>
+    <last_updated epoch="1370947568">
+      2013-06-11T10:46:08Z
+    </last_updated>
+    <homepage>http://doiop.com/gmailads</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="11261">
+  <name>Website History</name>
+  <type id="1">Extension</type>
+  <guid>websitehistory@kezze.dk</guid>
+  <slug>website-history</slug>
+  <version>0.9.9</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="123931">
+      <name>kezze</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/kezze/?src=api</link>
+    </author>      </authors>
+  <summary>An add-on that allows the user to quickly access cached websites. This is in particular useful when visiting web sites that were removed.</summary>
+  <description>An add-on that allows the user to quickly access cached websites. This is in particular useful when visiting web sites that were removed.</description>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11261-64.png?modified=1315224382</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11261-32.png?modified=1315224382</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>30.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/30/30892.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/30/30892.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Visit Wayback Machine and Google Cache in just one click</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/website-history/?src=api</learnmore><install hash="sha256:41d22c8d9eb73934657feeeee1a7572dbd78922e6fde023d1db554881fff6a47"
+    os="ALL"
+    size="7168">https://addons.mozilla.org/firefox/downloads/file/113572/website_history-0.9.9-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="3">
+      https://addons.mozilla.org/en-US/firefox/addon/website-history/reviews/?src=api
+    </reviews>
+    <total_downloads>6983</total_downloads>
+    <weekly_downloads>17</weekly_downloads>
+    <daily_users>311</daily_users>
+    <created epoch="1238162156">
+      2009-03-27T13:55:56Z
+    </created>
+    <last_updated epoch="1299692499">
+      2011-03-09T17:41:39Z
+    </last_updated>
+    <homepage>http://kristianrisagerlarsen.dk/tools/website-history/</homepage>
+    <support>http://kristianrisagerlarsen.dk/tools/website-history/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="546">
+  <name>Reload Tab On Double-Click</name>
+  <type id="1">Extension</type>
+  <guid>{aede9b05-c23c-479b-a90e-9146ed62d377}</guid>
+  <slug>reload-tab-on-double-click</slug>
+  <version>1.2.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="584">
+      <name>hail2u</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/hail2u/?src=api</link>
+    </author>      </authors>
+  <summary>Reload tab when double-clicking on tab (skip cache with SHIFT key).</summary>
+  <description>Reload tab when double-clicking on tab (skip cache with SHIFT key).</description><license>
+    <name>MIT/X11 License</name>
+    <url>http://www.opensource.org/licenses/mit-license.php</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>11.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/reload-tab-on-double-click/?src=api</learnmore><install hash="sha256:b055dfc95c9e13a88abd669cf01794d0efd44daa9305cb8566a306d40a081fed"
+    os="ALL"
+    size="2048">https://addons.mozilla.org/firefox/downloads/file/116098/reload_tab_on_double_click-1.2.1-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="29">
+      https://addons.mozilla.org/en-US/firefox/addon/reload-tab-on-double-click/reviews/?src=api
+    </reviews>
+    <total_downloads>95343</total_downloads>
+    <weekly_downloads>85</weekly_downloads>
+    <daily_users>2446</daily_users>
+    <created epoch="1113864854">
+      2005-04-18T22:54:14Z
+    </created>
+    <last_updated epoch="1301444527">
+      2011-03-30T00:22:07Z
+    </last_updated>
+    <homepage>http://hail2u.github.com/firefox-addons.html#reload-tab-on-dblclick</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="7408">
+  <name>DNS Flusher</name>
+  <type id="1">Extension</type>
+  <guid>{7d575baa-b543-11dc-8314-0800200c9a66}</guid>
+  <slug>dns-flusher</slug>
+  <version>3.0.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="640121">
+      <name>Marco Tulio</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/marco-tulio/?src=api</link>
+    </author>      </authors>
+  <summary>A Mozilla Firefox add-on that provides a easy way to reload the browser DNS cache.
+It&#39;s commonly used by developers that uses the Hosts File to force a domain name resolution to a specific IP.</summary>
+  <description>DNS Flusher is a extension for reload changes made on hosts file. When you change your hosts file, the browser does not load the changes, you need restart it for the changes takes effect. With this extension,you only need to click on the IP showed in the status bar and the DNS will be flushed.
+
+Learn more about it here: &lt;a href=&#34;http://outgoing.mozilla.org/v1/f9cf7219cb0e7da64addf6405d43e79ede5f575a2408d4829277e249db7d2c82/http%3A//www.coders.com.br/dns-flusher&#34; rel=&#34;nofollow&#34;&gt;http://www.coders.com.br/dns-flusher&lt;/a&gt;
+
+Great with Change Hosts: &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/change-hosts&#34; rel=&#34;nofollow&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/change-hosts&lt;/a&gt;</description><license>
+    <name>License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/7/7408-64.png?modified=1389564427</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/7/7408-32.png?modified=1389564427</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>20.0</min_version>
+      <max_version>30.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="460" height="200">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/121/121504.png?src=api&amp;modified=1388527668
+      </full>
+      <thumbnail type="" width="200" height="87">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/121/121504.png?src=api&amp;modified=1388527668
+      </thumbnail></preview><preview position="1">
+      <full type="" width="460" height="200">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/121/121505.png?src=api&amp;modified=1388527668
+      </full>
+      <thumbnail type="" width="200" height="87">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/121/121505.png?src=api&amp;modified=1388527668
+      </thumbnail></preview><preview position="2">
+      <full type="" width="460" height="200">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/121/121507.png?src=api&amp;modified=1388527668
+      </full>
+      <thumbnail type="" width="200" height="87">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/121/121507.png?src=api&amp;modified=1388527668
+      </thumbnail></preview><preview position="3">
+      <full type="" width="460" height="200">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/121/121506.png?src=api&amp;modified=1388527668
+      </full>
+      <thumbnail type="" width="200" height="87">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/121/121506.png?src=api&amp;modified=1388527668
+      </thumbnail></preview><preview position="4">
+      <full type="" width="269" height="233">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/121/121503.png?src=api&amp;modified=1388527668
+      </full>
+      <thumbnail type="" width="173" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/121/121503.png?src=api&amp;modified=1388527668
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/dns-flusher/?src=api</learnmore><install hash="sha256:310588cf7ce3efca525277c19bb93ff35e72bf107fee7bbf3fc1ee4046812c5c"
+    os="ALL"
+    size="19899">https://addons.mozilla.org/firefox/downloads/file/239015/dns_flusher-3.0.1-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/dns-flusher/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="2.99">
+            $2.99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/dns-flusher/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="46">
+      https://addons.mozilla.org/en-US/firefox/addon/dns-flusher/reviews/?src=api
+    </reviews>
+    <total_downloads>218840</total_downloads>
+    <weekly_downloads>762</weekly_downloads>
+    <daily_users>16237</daily_users>
+    <created epoch="1211897352">
+      2008-05-27T14:09:12Z
+    </created>
+    <last_updated epoch="1389281498">
+      2014-01-09T15:31:38Z
+    </last_updated>
+    <homepage>http://www.coders.com.br/dns-flusher</homepage>
+    <support>http://www.coders.com.br/dns-flusher</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+    </searchresults>

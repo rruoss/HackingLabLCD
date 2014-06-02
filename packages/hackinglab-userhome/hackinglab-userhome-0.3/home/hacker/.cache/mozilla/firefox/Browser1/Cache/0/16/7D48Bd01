@@ -1,0 +1,2265 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<title>Compass Security AG - FileBox</title>
+<meta http-equiv="Content-Type" content="text/html" />
+<link rel="shortcut icon" href="./config/filebox.ico">
+<link rel="stylesheet" type="text/css" href="./CssAction.do?m=-753510706">
+
+
+
+	<link type="text/css" href="./script/css/smoothness/jquery-ui-1.8.2.custom.css" rel="stylesheet" />	
+	<script src="./script/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script src="./script/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script>
+	<script src="./script/jquery.tablesorter.min.js" type="text/javascript"></script>
+
+	<script src="./script/csnc.js" type="text/javascript" charset="utf-8"></script>
+	<style type="text/css">
+			body{ font: 62.5% "Trebuchet MS", sans-serif; }
+			.demoHeaders { margin-top: 2em; }
+			#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+			#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+			ul#icons {margin: 0; padding: 0;}
+			ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+			ul#icons span.ui-icon {float: left; margin: 0 4px;}
+	</style>	
+	
+	<!-- Popup Facebox: -->
+	<link href="script/help/facebox.css" media="screen" rel="stylesheet" type="text/css"/>
+	<script src="script/help/facebox.js" type="text/javascript"></script>  
+	
+	
+	
+		
+	<script type="text/javascript" >
+							
+		$(document).ready(function(){
+			init();		
+			
+			$('a[rel*=help]').facebox();
+		});
+		
+		function init(){
+			 $("#internefileboxen").tablesorter();
+			 $("#externefileboxen").tablesorter();
+			 $("#fileboxremove").hide();
+			 $("#fileboxdelete").hide();
+			 $("#newFileBoxText").keyup(filterFileBoxName);
+					
+				 $(function(){
+					$('#fbdeletedialog').dialog({
+						autoOpen: false,
+						width: 300,
+						modal: true,
+						buttons: {
+							"No" : function() { 
+								$(this).dialog("close"); 
+							},
+							"Yes": function() { 
+								$(this).dialog("close");
+								callDeleteMyFileBox();
+							} 
+						}
+					});
+				});
+				$(function(){			
+					$('#fbremovedialog').dialog({
+						autoOpen: false,
+						width: 300,
+						modal: true,
+						buttons: {
+							"No": function() { 
+								$(this).dialog("close"); 
+							},
+							"Yes": function() { 
+								$(this).dialog("close");
+								callRemoveMeFromFileBox();
+							} 
+						}
+					});
+				});
+			
+		}
+				
+		function deleteMyFileBox( fbId){
+			$("#action_fb").html(fbId);
+			$('#fbdeletedialog').dialog('open');
+   		}
+   		function callDeleteMyFileBox(){
+   			var fbId=$("#action_fb").html();
+	 		var param="";
+			param="reqCode=delete&ID="+fbId+"&x=Kqk9fGU5kWi1sP6H";
+			var html = $.ajax({
+   			type: "POST",
+   			url: "UnsubscribeDeleteFileBoxAction.do",
+   			async: false,
+   			data: param}).responseText;
+   			$("#content").html(html);
+   			init();
+   		}
+		
+		
+		function removeMeFromFileBox(fbId){
+			$("#action_fb").html(fbId);
+			$('#fbremovedialog').dialog('open');
+		}
+		function callRemoveMeFromFileBox(fbId){
+			var fbId=$("#action_fb").html();
+	 		var param="";
+	 		param="reqCode=unsubscribe&ID="+fbId+"&x=Kqk9fGU5kWi1sP6H";
+			var html = $.ajax({
+   				type: "POST",
+   				url: "UnsubscribeDeleteFileBoxAction.do",
+   				async: false,
+   				data: param}).responseText;
+   			$("#content").html(html);
+			init();
+		}
+		
+		function filterFileBoxName(e){
+			var text=$("#newFileBoxText").val();
+			var text2=filterInvalidChar(text);
+			if (text!=text2){
+				$("#newFileBoxText").val(text2);
+				//set cursor at last position
+			}
+		};
+	</script>
+
+	
+	
+</head>
+<body>
+<div id="wrapper">
+<div style="visibility: hidden;"><a name="top"></a></div>
+<div class="imagehead1"><img src="./LogoAction.do?m=-753510706" border="0"></div>
+<div class="imagehead2">
+
+<table width="100%" height="20" border="0">
+	<tr>
+		<td>&nbsp;&nbsp;
+			 
+					<a href="/upload/" class="imagehead2Active">Upload</a>
+			
+			
+					<a href="./AdminInitAction.do" class="imagehead2">Admin</a>
+			
+			
+					<a href="/enterprise/" class="imagehead2">Enterprise</a>
+			
+		</td>
+		<td ><div class="loggedin"><img src="./config/icons/user.png" border="0">&nbsp;Logged in as: Ivan Bütler</div></td>
+	</tr>
+</table>
+</div>
+
+<div class="main">
+<table class="main" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td class="navleft">
+		<table cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td class="menu">
+				<div class="top_separator"></div>
+				<ul class="navleft">
+					<li class="navleft"><a class="navlefthome" href="./index.do">Home </a></li>
+					<li class="navleft"><a class="navleft" href="./index.do">FileBoxes </a></li>
+						
+					<li class="navleft"><a class="navleft" href="./EditFastExchangeTextModelAction.do?reqCode=inspect&cleanData=true">Manage Templates </a></li>
+						
+						
+					<li class="navleft"><a class="navleft"
+						href="./PublicStatusAction.do">Public User </a></li>
+						
+					<li class="navleft"><a class="navleft"
+						href="./UserPasswordAction.do?reqCode=edit">Change Password </a></li>
+					
+					<li class="navleft"><a class="navleft" href="./Help.do">Help </a></li>
+					<li class="navleft"><a class="navleft"
+						href="./LogoutAction.do">Logout </a></li>
+				</ul>
+				</td>
+			</tr>
+			<tr>
+				<td height="99" background="./config/stern.png"></td>
+			</tr>
+		</table>
+		</td>
+		<td class="content">
+				<div id="content">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- INTERNE FILEBOXEN START-->
+<table width="100%">
+    <tr>
+    	<td> <h2>Internal FileBoxes:</h2></td>
+    	<td style="text-align:right;">
+    	
+     	<a href="/upload/HelpDialog.do?page=UserPage1" rel="help" title="Click here to get help for the current page.">
+			<img src="config/icons/information.png" border="0" style="margin:5px;"/>
+		</a>
+    </td>
+    </tr>
+</table>
+
+	<table class="type1" id="internefileboxen">
+	<thead>
+	<tr class="type1">
+		<th class="type1sort"> FileBox Name</th>
+		<th class="type1sort"> Description</th>
+		<th class="type1sort" width="60"> Files</th>
+	
+	
+		<th class="type1"> Upload Notification</th>
+	
+	<th class="type1"></th>
+	</tr>
+	</thead>
+	<tbody>
+		
+	<tr>
+	<td class="type1">
+					<!-- for sort order 81726 Novartis - PROactive -->
+					<a  href="/upload/FileBoxAction.do?ID=5" class="type1" title="4549 - michael.fisler@csnc.ch">
+					
+					<img src="./config/icons/package_link.png" border="0" title="">
+					
+					
+					81726 Novartis - PROactive
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	5
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=5&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=5&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(5)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order 81727 Web Security Assessment -->
+					<a  href="/upload/FileBoxAction.do?ID=6" class="type1" title="4550 - michael.fisler@csnc.ch">
+					
+					<img src="./config/icons/package_link.png" border="0" title="">
+					
+					
+					81727 Web Security Assessment
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	2
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=6&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=6&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(6)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order [ivan.buetler@csnc.ch] -->
+					<a  href="/upload/FileBoxAction.do?ID=7" class="type1" title="1868 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/inbox.png" border="0" title="Inbox">	
+					
+					
+					[ivan.buetler@csnc.ch]
+					
+					</a>
+	</td>
+	<td class="type1" title="Inbox">
+	
+	Inbox
+	
+	</td>
+	<td class="type1">
+	
+	1
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+					<img src="./config/icons/email.png" border="0">&nbsp;enabled
+			
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=7&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Disable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Disable sms notification">&nbsp;enabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+		
+			&nbsp;&nbsp;
+		
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order [Secure Download Link] -->
+					<a  href="/upload/FileBoxAction.do?ID=8" class="type1" title="5184 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					[Secure Download Link]
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	0
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=8&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=8&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(8)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(8)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order Buetler-Privat -->
+					<a  href="/upload/FileBoxAction.do?ID=10" class="type1" title="531 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					Buetler-Privat
+					
+					</a>
+	</td>
+	<td class="type1" title="Buetler-Privat">
+	
+	Buetler-Privat
+	
+	</td>
+	<td class="type1">
+	
+	13
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=10&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Disable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Disable e-mail notification">&nbsp;enabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=10&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(10)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(10)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order Buetler_Recovery -->
+					<a  href="/upload/FileBoxAction.do?ID=11" class="type1" title="5289 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					Buetler_Recovery
+					
+					</a>
+	</td>
+	<td class="type1" title="Buetler_Recovery">
+	
+	Buetler_Recovery
+	
+	</td>
+	<td class="type1">
+	
+	3
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=11&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=11&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(11)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(11)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order Buetler_Transfer -->
+					<a  href="/upload/FileBoxAction.do?ID=12" class="type1" title="5225 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					Buetler_Transfer
+					
+					</a>
+	</td>
+	<td class="type1" title="Buetler_Transfer">
+	
+	Buetler_Transfer
+	
+	</td>
+	<td class="type1">
+	
+	3
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=12&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=12&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(12)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(12)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order Compass Feedback -->
+					<a  href="/upload/FileBoxAction.do?ID=13" class="type1" title="62">
+					
+					<img src="./config/icons/package_link.png" border="0" title="">
+					
+					
+					Compass Feedback
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	</td>
+	
+		<td class="type1">
+			
+		</td>
+	
+	<td class="type1">
+		
+		
+			&nbsp;&nbsp;
+		
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order FileBox-Artikel -->
+					<a  href="/upload/FileBoxAction.do?ID=16" class="type1" title="818">
+					
+					<img src="./config/icons/package_link.png" border="0" title="">
+					
+					
+					FileBox-Artikel
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	3
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=16&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=16&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+		
+			&nbsp;&nbsp;
+		
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order FileBox-Manuals -->
+					<a  href="/upload/FileBoxAction.do?ID=17" class="type1" title="806">
+					
+					<img src="./config/icons/package_link.png" border="0" title="">
+					
+					
+					FileBox-Manuals
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	2
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=17&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=17&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+		
+			&nbsp;&nbsp;
+		
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order FileBox-Service -->
+					<a  href="/upload/FileBoxAction.do?ID=18" class="type1" title="61">
+					
+					<img src="./config/icons/package_link.png" border="0" title="">
+					
+					
+					FileBox-Service
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	6
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=18&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=18&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+		
+			&nbsp;&nbsp;
+		
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order Graphics_Compass -->
+					<a  href="/upload/FileBoxAction.do?ID=19" class="type1" title="1816 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					Graphics_Compass
+					
+					</a>
+	</td>
+	<td class="type1" title="Graphics_Compass">
+	
+	Graphics_Compass
+	
+	</td>
+	<td class="type1">
+	
+	8
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=19&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Disable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Disable e-mail notification">&nbsp;enabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=19&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(19)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(19)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order Hacking-Lab -->
+					<a  href="/upload/FileBoxAction.do?ID=21" class="type1" title="326 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					Hacking-Lab
+					
+					</a>
+	</td>
+	<td class="type1" title="Hacking-Lab">
+	
+	Hacking-Lab
+	
+	</td>
+	<td class="type1">
+	
+	5
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=21&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=21&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(21)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(21)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order PartnerRe Data Fraud -->
+					<a  href="/upload/FileBoxAction.do?ID=22" class="type1" title="4938 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					PartnerRe Data Fraud
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	0
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=22&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=22&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(22)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(22)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order Revitrust -->
+					<a  href="/upload/FileBoxAction.do?ID=24" class="type1" title="1397">
+					
+					<img src="./config/icons/package_link.png" border="0" title="">
+					
+					
+					Revitrust
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	19
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=24&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=24&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(24)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order SCS4 -->
+					<a  href="/upload/FileBoxAction.do?ID=26" class="type1" title="3588 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					SCS4
+					
+					</a>
+	</td>
+	<td class="type1" title="SCS4">
+	
+	SCS4
+	
+	</td>
+	<td class="type1">
+	
+	1
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=26&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=26&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(26)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(26)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order test123 -->
+					<a  href="/upload/FileBoxAction.do?ID=27" class="type1" title="5563 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					test123
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	0
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=27&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=27&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(27)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(27)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order test123 -->
+					<a  href="/upload/FileBoxAction.do?ID=28" class="type1" title="5564 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					test123
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	0
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=28&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=28&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(28)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(28)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order tkb -->
+					<a  href="/upload/FileBoxAction.do?ID=29" class="type1" title="196">
+					
+					<img src="./config/icons/package_link.png" border="0" title="">
+					
+					
+					tkb
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	58
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=29&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=29&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(29)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order translations -->
+					<a  href="/upload/FileBoxAction.do?ID=30" class="type1" title="458">
+					
+					<img src="./config/icons/package_link.png" border="0" title="">
+					
+					
+					translations
+					
+					</a>
+	</td>
+	<td class="type1" title="">
+	
+	
+	
+	</td>
+	<td class="type1">
+	
+	0
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=30&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=30&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(30)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="type1">
+					<!-- for sort order VR -->
+					<a  href="/upload/FileBoxAction.do?ID=33" class="type1" title="337 - ivan.buetler@csnc.ch">
+					
+							<img src="./config/icons/package_green.png" border="0" title="">
+						
+					
+					VR
+					
+					</a>
+	</td>
+	<td class="type1" title="VR">
+	
+	VR
+	
+	</td>
+	<td class="type1">
+	
+	34
+	
+	</td>
+	
+		<td class="type1">
+			
+			<table>
+			<tr >
+			<td width="80">	
+			
+				<a  href="ToggleSubscription.do?ID=33&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+					<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			
+			<td width="80">
+			
+				<a  href="ToggleSubscription.do?ID=33&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+					<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+				</a>
+				
+			</td>
+			</tr>
+			</table>
+				
+		</td>
+	
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(33)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+		
+			&nbsp;&nbsp;
+		
+		
+			<a  href="javascript:deleteMyFileBox(33)" class="type1" title="Delete this filebox">
+				<img src="./config/icons/delete.png" border="0" title="Delete this filebox">
+			</a>
+		
+	</td>
+	</tr>
+	
+	
+	</tbody>
+	</table>
+
+<!-- INTERNE FILEBOXEN END-->
+
+<!-- FileBoxManager: Add/Remove START-->
+
+<form id="createBoxForm" action="./CreateMyFileBoxAction.do" method="post" >
+				<table>
+					<tr>
+					    <td>
+					    		Create new FileBox:
+					     </td>
+					     <td >
+					    		<input id="newFileBoxText" name="name" size="25" type="text"/>
+					    		<input name="x" type="hidden" value="Kqk9fGU5kWi1sP6H"/>
+					     </td>
+					     <td >
+					    		<input name="createFoldeButton" type="submit" value="Create"/>
+					     </td>
+				     </tr>
+			     </table>
+</form>
+
+<!-- FileBoxManager: Add/Remove END-->
+
+
+
+
+
+<!-- EXTERNE FILEBOXEN START-->
+
+<table width="100%">
+    <tr>
+    	<td> <h2>External FileBoxes:</h2></td>
+    	<td style="text-align:right;">
+    	
+     	<a href="/upload/HelpDialog.do?page=UserPage2" rel="help" title="Click here to get help for the current page.">
+			<img src="config/icons/information.png" border="0" style="margin:5px;"/>
+		</a>
+    </td>
+    </tr>
+</table>
+<table class="type1" id="externefileboxen">
+<thead class="type1">
+<tr class="type1">
+	<th class="type1sort"> FileBox Name</th>
+	<th class="type1sort"> Description</th>
+	<th class="type1sort" width="60"> Files</th>
+
+
+	<th class="type1"> Upload Notification</th>
+
+	<th class="type1"></th>
+</tr>
+</thead>
+<tbody class="type1">
+	
+
+<tr>
+<td class="type1">
+
+<!-- for sort order 08.06.2010 -->
+<a  href="/upload/FileBoxAction.do?ID=1"  title="1321 - GESEC" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+08.06.2010
+
+</a>
+</td>
+<td class="type1" title="1 x 25 Advisories">
+
+1 x 25 Advisories
+
+</td>
+<td class="type1">
+
+18
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=1&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=1&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(1)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order 15.04.2010 -->
+<a  href="/upload/FileBoxAction.do?ID=2"  title="1249 - GESEC" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+15.04.2010
+
+</a>
+</td>
+<td class="type1" title="2 x 25 Advisories">
+
+2 x 25 Advisories
+
+</td>
+<td class="type1">
+
+46
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=2&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=2&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(2)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order 15.11.2009 -->
+<a  href="/upload/FileBoxAction.do?ID=3"  title="1086 - GESEC" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+15.11.2009
+
+</a>
+</td>
+<td class="type1" title="1 x 25 Advisories">
+
+1 x 25 Advisories
+
+</td>
+<td class="type1">
+
+31
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=3&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Disable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Disable e-mail notification">&nbsp;enabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=3&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(3)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order 15.12.2009 -->
+<a  href="/upload/FileBoxAction.do?ID=4"  title="1136 - GESEC" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+15.12.2009
+
+</a>
+</td>
+<td class="type1" title="1 x 25 Advisories">
+
+1 x 25 Advisories
+
+</td>
+<td class="type1">
+
+29
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=4&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Disable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Disable e-mail notification">&nbsp;enabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=4&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(4)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order BamS_Febr2012 -->
+<a  href="/upload/FileBoxAction.do?ID=9"  title="3043 - karolina.hornke@axelspringer.de" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+BamS_Febr2012
+
+</a>
+</td>
+<td class="type1" title="">
+
+
+
+</td>
+<td class="type1">
+
+2
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=9&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=9&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(9)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order COMPASS_CARMAO -->
+<a  href="/upload/FileBoxAction.do?ID=14"  title="1066 - ulrich.heun@carmao.de" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+COMPASS_CARMAO
+
+</a>
+</td>
+<td class="type1" title="Austausch mit COMPASS">
+
+Austausch mit COMPAS...
+
+</td>
+<td class="type1">
+
+0
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=14&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=14&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order FB_compass_handy -->
+<a  href="/upload/FileBoxAction.do?ID=15"  title="3000 - karolina.hornke@axelspringer.de" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+FB_compass_handy
+
+</a>
+</td>
+<td class="type1" title="">
+
+
+
+</td>
+<td class="type1">
+
+0
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=15&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=15&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+			<a  href="javascript:removeMeFromFileBox(15)" class="type1" title="Remove me from this filebox">
+				<img src="./config/icons/remove.png" border="0" title="Remove me from this filebox">
+			</a>
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order Gruendung -->
+<a  href="/upload/FileBoxAction.do?ID=20"  title="3747 - president@swisscyberstorm.com" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+Gruendung
+
+</a>
+</td>
+<td class="type1" title="">
+
+
+
+</td>
+<td class="type1">
+
+13
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=20&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=20&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order Reglemente -->
+<a  href="/upload/FileBoxAction.do?ID=23"  title="3749 - president@swisscyberstorm.com" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+Reglemente
+
+</a>
+</td>
+<td class="type1" title="">
+
+
+
+</td>
+<td class="type1">
+
+0
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=23&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=23&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order SCS4 -->
+<a  href="/upload/FileBoxAction.do?ID=25"  title="3750 - president@swisscyberstorm.com" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+SCS4
+
+</a>
+</td>
+<td class="type1" title="">
+
+
+
+</td>
+<td class="type1">
+
+12
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=25&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=25&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order Upload -->
+<a  href="/upload/FileBoxAction.do?ID=31"  title="3919 - president@swisscyberstorm.com" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+Upload
+
+</a>
+</td>
+<td class="type1" title="Public Upload">
+
+Public Upload
+
+</td>
+<td class="type1">
+
+0
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=31&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=31&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+	</td>
+</tr>
+
+
+<tr>
+<td class="type1">
+
+<!-- for sort order Vorstands Protokolle -->
+<a  href="/upload/FileBoxAction.do?ID=32"  title="3748 - president@swisscyberstorm.com" class="type1">
+<img src="./config/icons/package_link.png" border="0" title="subscribe">
+
+Vorstands Protokolle
+
+</a>
+</td>
+<td class="type1" title="">
+
+
+
+</td>
+<td class="type1">
+
+2
+
+</td>
+
+
+	<td class="type1">
+		
+		<table>
+		<tr >
+		<td width="80">	
+		
+			<a  href="ToggleSubscription.do?ID=32&deliveryagent=E-Mail&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable e-mail notification">
+				<img src="./config/icons/email.png" border="0" title="Enable e-mail notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		
+		<td width="80">
+		
+			<a  href="ToggleSubscription.do?ID=32&deliveryagent=SMS&x=Kqk9fGU5kWi1sP6H" class="type1" title="Enable sms notification">
+				<img src="./config/icons/phone.png" border="0" title="Enable sms notification">&nbsp;disabled
+			</a>
+			
+		</td>
+		</tr>
+		</table>
+			
+	</td>
+
+	<td class="type1">
+		
+	</td>
+</tr>
+
+</tbody>
+</table>
+<!-- EXTERNE FILEBOXEN END-->
+<!-- FileBoxManager: Add/Remove START-->
+
+
+
+
+<br/><br/>
+
+
+<div id="fbdeletedialog" title="Delete FileBox?">
+	<p>Do you really want to delete this FileBox and all contained files?</p>
+</div>
+<div id="fbremovedialog" title="Remove from FileBox?">
+	<p>Do you really want to remove you from this FileBox?</p>
+</div>
+<div style="display: none;" id="action_fb"></div>
+				</div>
+		</td>
+	</tr>
+</table>
+</div>
+</div>
+</body>
+</html>
