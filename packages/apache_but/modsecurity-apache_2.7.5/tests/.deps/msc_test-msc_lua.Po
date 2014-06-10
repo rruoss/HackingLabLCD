@@ -1,1 +1,0 @@
-msc_test-msc_lua.o: ../apache2/msc_lua.c

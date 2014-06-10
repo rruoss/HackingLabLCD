@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Start Server
+Exec=gksu /etc/init.d/apache_but start
+Terminal=false
+Type=Application
+Actions=
+Categories=X-LandingPage;

@@ -1,0 +1,19 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/opt/apache_but/httpd/" \
+"--enable-substitute" \
+"--enable-sed" \
+"--enable-ssl" \
+"--enable-proxy" \
+"--enable-expires" \
+"--enable-remoteip" \
+"--enable-rewrite" \
+"--enable-so" \
+"--enable-log-forensic" \
+"--with-apr=/opt/apache_but/apr-1.5.0/" \
+"--with-apr-util=/opt/apache_but/apr-util-1.5.3/" \
+"--with-pcre=/opt/apache_but/pcre-8.35/" \
+"$@"

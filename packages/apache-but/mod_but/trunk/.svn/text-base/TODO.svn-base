@@ -1,0 +1,52 @@
+$Id$
+
+ROE's mostly inofficial big list of possibly open tasks
+=======================================================
+
+PRI 1:
+
+[ ]  Make shared memory segment size user configurable in the config file.
+     May require a cleanup of the configuration code (PRI 3) in order to
+     be able to pull in the config values before inizializing SHM.
+
+PRI 2:
+
+[ ]  Make mutex locking more fine-grained in order to have parallelism in
+     mod_but request processing.  Introduce per-slot locked flag which can
+     be enabled while a process is working with a session.  The global mutex
+     does not have to be held during the full duration of the request.
+
+[ ]  Status query: ShmUsage, NumberOfSessions, SessionSize, SessionDump.
+     Watch out for security issues.  Make configurable, by default on a
+     localhost reachable vhost/location only.
+
+[ ]  Improve "SHM full" behaviour:
+     Help prevent session allocation denial of service attacks using short
+     timeout for unused sessions, medium timeout for unauthenticated sessions,
+     long timeout for authenticated sessions.
+     -> timeouts for sessions (delete unused sessions)
+     -> automatic renew / default bad-session-url is renew-url
+
+[ ]  Consider redirect_on_auth_flag for replacement with something
+     like (session required && logged in && orig_url set).
+
+[ ]  Review behaviour with UTF-8 and verify full UTF-8 safety.
+
+[ ]  Improve cookie store:
+     Delete cookies based on expire time in the past, proper domain and path
+     handling
+
+[ ]  DLS stuff: Test, fix and verify more complex setups like auth levels,
+     stepup login servers and such things.
+
+PRI 3:
+
+[ ]  Refactor configuration and configuration defaults.
+
+[ ]  Make default URL configurable.
+
+[ ]  Login if already logged in results in undesired request to /logged_in
+     passed through to backend.  We should handle multiple logins more
+     gracefully.
+     -> solution the same as /renew behaviour.
+

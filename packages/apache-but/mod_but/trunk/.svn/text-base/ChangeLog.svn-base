@@ -1,0 +1,98 @@
+$Id$
+
+Changes since 3.2:
+- Fixed a non-exploitable crash when free URLs were requested and no
+  session was present.  As a result, the new session handling API
+  received a stricter error checking. [SECURITY] [ROE]
+- Added mutex based locking.  We now hold a mutex while executing
+  the access control and output filter hooks.  This should prevent
+  the shared memory backed session store to corrupt during parallel
+  access from multiple processes and threads. [ROE]
+- RMM code removed from SHM code.  RMM is not needed given the way
+  the session store is implemented currently. [ROE]
+- Session handling now has a unified API.  SHM handling is abstracted
+  out.  This will allow to replace the SHM handling at a later stage
+  without having to change a lot of code. [ROE]
+- Unified firsturl and orig_url into session->url, saving 100 bytes
+  per session context. [ROE]
+- Big removal of unused or obsolete features which made progress more
+  difficult than necessary.  The following configuration options have
+  changed for some reason:
+  - MOD_BUT_SESSION_TIMEOUT renamed to MOD_BUT_SESSION_HARD_TIMEOUT
+  - MOD_BUT_SESSION_HACKING_ATTEMPT_URL removed
+  - MOD_BUT_SESSION_INACTIVITY_TIMEOUT_URL removed
+  - MOD_BUT_SESSION_TIMEOUT_HISTORY removed
+  The session history was removed along with the history store, giving
+  mod_but a much lower memory and CPU fingerprint.  There is no longer
+  any differentiation between hard and soft timeout URLs (which was
+  buggy previously anyway).
+  This also fixes a bug where a full history SHM would cause deleted
+  sessions to be not cleared properly. [ROE]
+- Rewrite much of the cookie store code and rename the storage structs
+  to sane names (cookie_t and session_history_t). [ROE]
+- Log the unique id (mod_unique_id) along with every log line and
+  remove obsolete log lines only there for separating requests. [ROE]
+- A lot of cleanups of various code abusing the request notes for
+  parameter passing.  Request notes are now only used where necessary,
+  namely to pass data from auth hook to output filter hook. [ROE]
+- Cleanup of response cookie filtering code, part 1.  Reduced the abuse
+  of request notes for error signalling out of table iterations.  More
+  cleanups needed here. [ROE]
+- Fixed session VirtualHosting; session name is now also compared when
+  looking up a session in the session store. [SECURITY] [ROE]
+- Fixed endless redirection loop if first URL contained ?__cookie_try=1,
+  which was introduced when fixing CR/LF injection in 3.2.  Fixed by
+  stripping off __cookie_try=1 when storing the first URL to visit in
+  the session. [ROE]
+- Elimiated another unnecessary instance of apr_int64_t. [ROE]
+
+Changes in 3.2 (2008-05-30):
+- The session renew URL is now automatically also a free URL.  It is no
+  longer necessary to list /renew in the free URL regular expression. [ROE]
+- Fixed the logon required configuration option to be implemented as a
+  boolean flag, not a string. [ROE]
+- Fixed free cookie bug.  Free cookies were not passed to the backend if
+  there were no cookies in the cookie store.  Free cookies are always
+  passed to the backend now. [ROE]
+- Cleanup of request cookie filtering code.  We only filter Cookie headers
+  now, remove Cookie headers only once, and are generally much more
+  efficient than before. [ROE]
+- Cleanup of __cookie_try parsing code.  New version is a lot faster since
+  it does not look for __cookie_try multiple times and does not store any
+  data in the r->notes table. [ROE]
+- Replaced CR/LF injection detection with proper output encoding to fix all
+  CR/LF injection holes in mod_but.  We still prohibit redirections to URLs
+  containing raw CR or LF as a second line of defense. [SECURITY] [ROE]
+- Fixed CR/LF detection code to fix more injection holes (__cookie_try=1,2
+  and only CR or LF). [SECURITY] [ROE]
+- Do not waste entropy when generating session IDs.  Changed from a custom
+  session ID encoding scheme to one based on the APR Base64 routines. [ROE]
+- Fix bogus 64 bit integer use by using standard atoi() for string to
+  integer conversion.  Removed all 64 bit integer use. [ROE]
+- SSL test hack migrated to ap_http_method(r)/ap_http_scheme(r).  It is now
+  no longer necessary to set the SSL environment vars for mod_but to figure
+  out whether to redirect to http:// or https:// URLs. [ROE]
+- Refactored the logging code.  Introduced more concise log helpers and made
+  mod_but much less verbose.  Only use CRIT for errors or really critical
+  messages.  Debugging goes to INFO.  This may need some more work. [ROE]
+- Consolidated redirections to new redirect_to_relurl(). [ROE]
+- Refactored the regular expression matching code to use new
+  mod_but_regexp_match() and friends, and also fixed associated error
+  condition handling throughout the code. [ROE]
+- Fixed many return DECLINED to HTTP_INTERNAL_SERVER_ERROR in an attempt to
+  fail closed, not fail open. [SECURITY] [ROE]
+- Replaced a lot of magic value based error handling with proper, APR
+  integrated apr_status_t based error handling; also found countless error
+  handling bugs, duplicated error handling, wrong return values and other
+  error handling related problems, such as strings casted to int and passed
+  as apr_status_t. [ROE]
+- Disable the output filter if mod_but is disabled.  Fixes problems with
+  virtual hosting, where only some virtual hosts have mod_but enabled. [ROE]
+- Moved mod_replace to it's own directory, since it is not built as
+  part of mod_but. [ROE]
+- Replaced VERSION.txt with this ChangeLog file. [ROE]
+
+Changes in 3.1 (2008-02-07):
+- Fixed some return values. [BUT]
+- Harmonized error messages. [BUT]
+

@@ -1,0 +1,38 @@
+[Wed Oct 30 16:38:01.730038 2013] [proxy_balancer:emerg] [pid 19142:tid 140210209879872] AH01177: Failed to lookup provider 'shm' for 'slotmem': is mod_slotmem_shm loaded??
+[Wed Oct 30 16:38:01.730121 2013] [:emerg] [pid 19142:tid 140210209879872] AH00020: Configuration Failed, exiting
+[Wed Oct 30 16:53:28.632132 2013] [lbmethod_heartbeat:notice] [pid 26588:tid 140589903898432] AH02282: No slotmem from mod_heartmonitor
+[Wed Oct 30 16:53:28.650361 2013] [mpm_event:notice] [pid 26588:tid 140589903898432] AH00489: Apache/2.4.6 (Unix) configured -- resuming normal operations
+[Wed Oct 30 16:53:28.650434 2013] [core:notice] [pid 26588:tid 140589903898432] AH00094: Command line: '/opt/apache_but/httpd//bin/httpd'
+[Wed Oct 30 16:53:32.804324 2013] [mpm_event:notice] [pid 26588:tid 140589903898432] AH00491: caught SIGTERM, shutting down
+[Wed Oct 30 16:53:36.227612 2013] [lbmethod_heartbeat:notice] [pid 26761:tid 139888466659136] AH02282: No slotmem from mod_heartmonitor
+[Wed Oct 30 16:53:36.230923 2013] [mpm_event:notice] [pid 26761:tid 139888466659136] AH00489: Apache/2.4.6 (Unix) configured -- resuming normal operations
+[Wed Oct 30 16:53:36.230992 2013] [core:notice] [pid 26761:tid 139888466659136] AH00094: Command line: '/opt/apache_but/httpd//bin/httpd'
+[Wed Oct 30 16:53:38.675347 2013] [mpm_event:notice] [pid 26761:tid 139888466659136] AH00491: caught SIGTERM, shutting down
+[Wed Oct 30 16:53:42.569986 2013] [lbmethod_heartbeat:notice] [pid 26925:tid 139923973117760] AH02282: No slotmem from mod_heartmonitor
+[Wed Oct 30 16:53:42.571149 2013] [mpm_event:notice] [pid 26925:tid 139923973117760] AH00489: Apache/2.4.6 (Unix) configured -- resuming normal operations
+[Wed Oct 30 16:53:42.571244 2013] [core:notice] [pid 26925:tid 139923973117760] AH00094: Command line: '/opt/apache_but/httpd//bin/httpd'
+[Tue Apr 15 08:31:29.417156 2014] [lbmethod_heartbeat:notice] [pid 13322:tid 3075385024] AH02282: No slotmem from mod_heartmonitor
+[Tue Apr 15 08:31:29.417568 2014] [core:warn] [pid 13322:tid 3075385024] AH00098: pid file /opt/apache_but/httpd/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 15 08:31:29.417964 2014] [mpm_event:notice] [pid 13322:tid 3075385024] AH00489: Apache/2.4.9 (Unix) configured -- resuming normal operations
+[Tue Apr 15 08:31:29.417988 2014] [core:notice] [pid 13322:tid 3075385024] AH00094: Command line: '/opt/apache_but/httpd//bin/httpd'
+[Tue Apr 15 08:31:38.105962 2014] [mpm_event:notice] [pid 13322:tid 3075385024] AH00491: caught SIGTERM, shutting down
+[Tue Apr 15 08:31:40.630229 2014] [lbmethod_heartbeat:notice] [pid 13442:tid 3075217088] AH02282: No slotmem from mod_heartmonitor
+[Tue Apr 15 08:31:40.631018 2014] [mpm_event:notice] [pid 13442:tid 3075217088] AH00489: Apache/2.4.9 (Unix) configured -- resuming normal operations
+[Tue Apr 15 08:31:40.631049 2014] [core:notice] [pid 13442:tid 3075217088] AH00094: Command line: '/opt/apache_but/httpd//bin/httpd'
+[Tue Apr 15 08:31:44.791107 2014] [mpm_event:notice] [pid 13442:tid 3075217088] AH00491: caught SIGTERM, shutting down
+[Tue Apr 15 08:54:43.063913 2014] [lbmethod_heartbeat:notice] [pid 21807:tid 3075851968] AH02282: No slotmem from mod_heartmonitor
+[Tue Apr 15 08:54:43.064494 2014] [mpm_event:notice] [pid 21807:tid 3075851968] AH00489: Apache/2.4.9 (Unix) configured -- resuming normal operations
+[Tue Apr 15 08:54:43.064517 2014] [core:notice] [pid 21807:tid 3075851968] AH00094: Command line: '/opt/apache_but/httpd//bin/httpd'
+[Tue Apr 15 08:54:45.566993 2014] [mpm_event:notice] [pid 21807:tid 3075851968] AH00491: caught SIGTERM, shutting down
+[Tue Apr 15 08:54:49.203843 2014] [lbmethod_heartbeat:notice] [pid 21930:tid 3075831488] AH02282: No slotmem from mod_heartmonitor
+[Tue Apr 15 08:54:49.204539 2014] [mpm_event:notice] [pid 21930:tid 3075831488] AH00489: Apache/2.4.9 (Unix) configured -- resuming normal operations
+[Tue Apr 15 08:54:49.204566 2014] [core:notice] [pid 21930:tid 3075831488] AH00094: Command line: '/opt/apache_but/httpd//bin/httpd'
+[Tue Apr 15 08:55:42.486890 2014] [mpm_event:notice] [pid 21930:tid 3075831488] AH00491: caught SIGTERM, shutting down
+[Tue Apr 15 08:55:44.447227 2014] [lbmethod_heartbeat:notice] [pid 22057:tid 3075512000] AH02282: No slotmem from mod_heartmonitor
+[Tue Apr 15 08:55:44.447820 2014] [mpm_event:notice] [pid 22057:tid 3075512000] AH00489: Apache/2.4.9 (Unix) configured -- resuming normal operations
+[Tue Apr 15 08:55:44.447858 2014] [core:notice] [pid 22057:tid 3075512000] AH00094: Command line: '/opt/apache_but/httpd//bin/httpd'
+[Tue Apr 15 08:56:22.661422 2014] [mpm_event:notice] [pid 22057:tid 3075512000] AH00491: caught SIGTERM, shutting down
+[Tue Apr 15 09:17:44.966097 2014] [lbmethod_heartbeat:notice] [pid 22225:tid 3075155648] AH02282: No slotmem from mod_heartmonitor
+[Tue Apr 15 09:17:44.966614 2014] [mpm_event:notice] [pid 22225:tid 3075155648] AH00489: Apache/2.4.9 (Unix) configured -- resuming normal operations
+[Tue Apr 15 09:17:44.966638 2014] [core:notice] [pid 22225:tid 3075155648] AH00094: Command line: '/opt/apache_but/httpd//bin/httpd'
+[Tue Apr 15 09:17:54.584917 2014] [mpm_event:notice] [pid 22225:tid 3075155648] AH00491: caught SIGTERM, shutting down

@@ -1,0 +1,6 @@
+mod_replace is not in any way part of mod_but.  mod_replace was
+changed to compile with Apache 2.2.X, because it is an important
+part of the Compass reverse proxy infrastructure.
+
+Compile with
+# apxs -c -i mod_replace.c

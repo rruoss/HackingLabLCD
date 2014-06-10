@@ -1,0 +1,53 @@
+$Id$
+
+Changes in 3.2 (2008-05-30):
+- The session renew URL is now automatically also a free URL.  It is no
+  longer necessary to list /renew in the free URL regular expression. [ROE]
+- Fixed the logon required configuration option to be implemented as a
+  boolean flag, not a string. [ROE]
+- Fixed free cookie bug.  Free cookies were not passed to the backend if
+  there were no cookies in the cookie store.  Free cookies are always
+  passed to the backend now. [ROE]
+- Cleanup of request cookie filtering code.  We only filter Cookie headers
+  now, remove Cookie headers only once, and are generally much more
+  efficient than before. [ROE]
+- Cleanup of __cookie_try parsing code.  New version is a lot faster since
+  it does not look for __cookie_try multiple times and does not store any
+  data in the r->notes table. [ROE]
+- Replaced CR/LF injection detection with proper output encoding to fix all
+  CR/LF injection holes in mod_but.  If attack detection is desired, use
+  mod_security; otherwise we make it impossible to use applications behind
+  mod_but which use CR/LF in multiline form submissions legitimately.
+- Fixed CR/LF detection code to fix more injection holes (__cookie_try=1,2
+  and only CR or LF). [SECURITY] [ROE]
+- Do not waste entropy when generating session IDs.  Changed from a custom
+  session ID encoding scheme to one based on the APR Base64 routines. [ROE]
+- Fix bogus 64 bit integer use by using standard atoi() for string to
+  integer conversion.  Removed all 64 bit integer use. [ROE]
+- SSL test hack migrated to ap_http_method(r)/ap_http_scheme(r).  It is now
+  no longer necessary to set the SSL environment vars for mod_but to figure
+  out whether to redirect to http:// or https:// URLs. [ROE]
+- Refactored the logging code.  Introduced more concise log helpers and made
+  mod_but much less verbose.  Only use CRIT for errors or really critical
+  messages.  Debugging goes to INFO.  This may need some more work. [ROE]
+- Consolidated redirections to new redirect_to_relurl(). [ROE]
+- Refactored the regular expression matching code to use new
+  mod_but_regexp_match() and friends, and also fixed associated error
+  condition handling throughout the code. [ROE]
+- Fixed many return DECLINED to HTTP_INTERNAL_SERVER_ERROR in an attempt to
+  fail closed, not fail open. [SECURITY] [ROE]
+- Replaced a lot of magic value based error handling with proper, APR
+  integrated apr_status_t based error handling; also found countless error
+  handling bugs, duplicated error handling, wrong return values and other
+  error handling related problems, such as strings casted to int and passed
+  as apr_status_t. [ROE]
+- Disable the output filter if mod_but is disabled.  Fixes problems with
+  virtual hosting, where only some virtual hosts have mod_but enabled. [ROE]
+- Moved mod_replace to it's own directory, since it is not built as
+  part of mod_but. [ROE]
+- Replaced VERSION.txt with this ChangeLog file. [ROE]
+
+Changes in 3.1 (2008-02-07):
+- Fixed some return values. [BUT]
+- Harmonized error messages. [BUT]
+

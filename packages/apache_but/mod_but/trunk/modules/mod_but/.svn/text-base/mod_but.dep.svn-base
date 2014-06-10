@@ -1,8 +1,0 @@
-# Microsoft Developer Studio Generated Dependency File, included by mod_but.mak
-
-!IF  "$(CFG)" == "mod_but - Win32 Release"
-
-!ELSEIF  "$(CFG)" == "mod_but - Win32 Debug"
-
-!ENDIF 
-

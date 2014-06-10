@@ -1,0 +1,29 @@
+=====================================================
+	mod_but Installation:
+
+	November 11, 2006
+=====================================================
+
+Please refer to the PDF file for a complete installation guide.
+
+
+
+This description only includes a HowTo for compiling mod_but as DSO with Unix
+=============================================================================
+Do the following:
+
+	a) cd into the modules/mod_but directory; Edit Makefile to point the variable APXS to your real location
+	b) Edit the Makefile to configure APXSFLAGS (-c = compile, -i = install, -a = modify httpd.conf) 
+	c) type "make" in modules/mod_but directory
+	
+If you don't like the Makefile, you can do everything by hand. Use the Makefile as reference. 
+
+Regards, 
+
+	Ivan Buetler
+	e1@but.ch
+	www.but.ch
+
+=====================================================
+"Never say never, but BUT forever" - 21.11.2006 - BUT
+=====================================================
